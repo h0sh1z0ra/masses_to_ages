@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Capelleveen2025a.md",
+                "file": "Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capelleveen2025a"
+              "title": "Questions"
             }
           }
         ],
@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.78564453125
+    "width": 373.6428527832031,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,8 +228,10 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "55c95fda9d10d8d2",
+  "active": "ae8680ec081580b6",
   "lastOpenFiles": [
+    "FYP Rundown.md",
+    "References/Capelleveen2025a.md",
     "fyp-notes/species_config.ini",
     "fyp-notes/multinest/ev.dat",
     "fyp-notes/multinest/post_equal_weights.dat",
@@ -239,7 +242,6 @@
     "fyp-notes/multinest/IS.ptprob",
     "fyp-notes/multinest/IS.points",
     "fyp-notes/multinest/live.points",
-    "fyp-notes/multinest/IS.iterinfo",
     "fyp-notes/README.md",
     "copilot/projects/FYP/project.md",
     "copilot/skills/obsidian-cli/SKILL.md",
@@ -257,7 +259,6 @@
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "References/Capelleveen2025.md",
-    "References/Capelleveen2025a.md",
     "References/Forestini1994.md",
     "References/Bowler2020.md",
     "References/Ginski2020.md",
