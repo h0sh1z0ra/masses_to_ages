@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions.md",
+                "file": "List of Stars with Dynamical Mass Found.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "List of Stars with Dynamical Mass Found"
             }
           }
         ],
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "75ad47b18be5335f",
@@ -230,7 +231,9 @@
   },
   "active": "ae8680ec081580b6",
   "lastOpenFiles": [
+    "2026-10-08.md",
     "FYP Rundown.md",
+    "Questions.md",
     "References/Capelleveen2025a.md",
     "fyp-notes/species_config.ini",
     "fyp-notes/multinest/ev.dat",
@@ -264,8 +267,6 @@
     "References/Ginski2020.md",
     "Lecture Notes/PH422 Lecture 4.md",
     "Untitled.md",
-    "References/Kuffmeier2026.md",
-    "Second Reader Meeting Outline.md",
     "Untitled.canvas"
   ]
 }
