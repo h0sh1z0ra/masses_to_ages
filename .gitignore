@@ -1,2 +1,4 @@
 data/
 *.hdf5
+*.ini
+*.Identifier
