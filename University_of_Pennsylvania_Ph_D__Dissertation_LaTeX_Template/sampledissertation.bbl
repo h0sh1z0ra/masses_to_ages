@@ -1,0 +1,29 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Heard(2020)]{heard_charles_2020}
+Stephen~B. Heard.
+\newblock \emph{Charles {Darwin}'s {Barnacle} and {David} {Bowie}'s {Spider}: {How} {Scientific} {Names} {Celebrate} {Adventurers}, {Heroes}, and {Even} a {Few} {Scoundrels}}.
+\newblock Yale University Press, 2020.
+
+\bibitem[Lake(1979)]{lake_white_1979}
+David~J. Lake.
+\newblock The {White} {Sphinx} and the {Whitened} {Lemur}: {Images} of {Death} in ``{The} {Time} {Machine}'' ({Le} {Sphinx} blanc et le lémure blanchi, images de la mort dans ``la {Machine} à remonter le temps'').
+\newblock \emph{Science Fiction Studies}, 6\penalty0 (1):\penalty0 77--84, 1979.
+\newblock URL \url{http://www.jstor.org/stable/4239225}.
+
+\bibitem[McGoogan(2020)]{mcgoogan_chasing_2020}
+Keriann McGoogan.
+\newblock \emph{Chasing {Lemurs}: {My} {Journey} into the {Heart} of {Madagascar}}.
+\newblock Prometheus Books, Lanham, MD, 2020.
+
+\bibitem[Wright(2014)]{wright_for_2014}
+Patricia~C. Wright.
+\newblock \emph{For the {Love} of {Lemurs}: {My} {Life} in the {Wilds} of {Madagascar}}.
+\newblock Lantern Books, New York, 2014.
+
+\end{thebibliography}
