@@ -1,29 +1,62 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Heard(2020)]{heard_charles_2020}
-Stephen~B. Heard.
-\newblock \emph{Charles {Darwin}'s {Barnacle} and {David} {Bowie}'s {Spider}: {How} {Scientific} {Names} {Celebrate} {Adventurers}, {Heroes}, and {Even} a {Few} {Scoundrels}}.
-\newblock Yale University Press, 2020.
+\bibitem[Bodenheimer and Pollack(1986)]{Bodenheimer1986}
+Peter Bodenheimer and James~B. Pollack.
+\newblock Calculations of the accretion and evolution of giant planets: {{The}} effects of solid cores.
+\newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 391--408, September 1986.
+\newblock ISSN 00191035.
+\newblock \doi{10.1016/0019-1035(86)90122-3}.
 
-\bibitem[Lake(1979)]{lake_white_1979}
-David~J. Lake.
-\newblock The {White} {Sphinx} and the {Whitened} {Lemur}: {Images} of {Death} in ``{The} {Time} {Machine}'' ({Le} {Sphinx} blanc et le lémure blanchi, images de la mort dans ``la {Machine} à remonter le temps'').
-\newblock \emph{Science Fiction Studies}, 6\penalty0 (1):\penalty0 77--84, 1979.
-\newblock URL \url{http://www.jstor.org/stable/4239225}.
+\bibitem[Dr{\k a}{\.z}kowska et~al.(2023)Dr{\k a}{\.z}kowska, Bitsch, Lambrechts, Mulders, Harsono, Vazan, Liu, Ormel, Kretke, and Morbidelli]{Drazkowska2023}
+J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
+\newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
 
-\bibitem[McGoogan(2020)]{mcgoogan_chasing_2020}
-Keriann McGoogan.
-\newblock \emph{Chasing {Lemurs}: {My} {Journey} into the {Heart} of {Madagascar}}.
-\newblock Prometheus Books, Lanham, MD, 2020.
+\bibitem[Mizuno(1980)]{Mizuno1980}
+H.~Mizuno.
+\newblock Formation of the {{Giant Planets}}.
+\newblock \emph{Progress of Theoretical Physics}, 64\penalty0 (2):\penalty0 544--557, August 1980.
+\newblock ISSN 0033-068X, 1347-4081.
+\newblock \doi{10.1143/PTP.64.544}.
 
-\bibitem[Wright(2014)]{wright_for_2014}
-Patricia~C. Wright.
-\newblock \emph{For the {Love} of {Lemurs}: {My} {Life} in the {Wilds} of {Madagascar}}.
-\newblock Lantern Books, New York, 2014.
+\bibitem[Mizuno et~al.(1978)Mizuno, Nakazawa, and Hayashi]{Mizuno1978}
+H.~Mizuno, K.~Nakazawa, and C.~Hayashi.
+\newblock Instability of a {{Gaseous Envelope Surrounding}} a {{Planetary Core}} and {{Formation}} of {{Giant Planets}}.
+\newblock \emph{Progress of Theoretical Physics}, 60\penalty0 (3):\penalty0 699--710, September 1978.
+\newblock ISSN 0033-068X, 1347-4081.
+\newblock \doi{10.1143/PTP.60.699}.
+
+\bibitem[Podolak et~al.(1988)Podolak, Pollack, and Reynolds]{Podolak1988}
+Morris Podolak, James~B. Pollack, and Ray~T. Reynolds.
+\newblock Interactions of planetesimals with protoplanetary atmospheres.
+\newblock \emph{Icarus}, 73\penalty0 (1):\penalty0 163--179, January 1988.
+\newblock ISSN 00191035.
+\newblock \doi{10.1016/0019-1035(88)90090-5}.
+
+\bibitem[Pollack et~al.(1986)Pollack, Podolak, Bodenheimer, and Christofferson]{Pollack1986}
+James~B. Pollack, Morris Podolak, Peter Bodenheimer, and Bruce Christofferson.
+\newblock Planetesimal dissolution in the envelopes of the forming, giant planets.
+\newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 409--443, 1986.
+\newblock ISSN 0019-1035.
+\newblock \doi{https://doi.org/10.1016/0019-1035(86)90123-5}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/0019103586901235}.
+
+\bibitem[Pollack et~al.(1996)Pollack, Hubickyj, Bodenheimer, Lissauer, Podolak, and Greenzweig]{Pollack1996}
+James~B. Pollack, Olenka Hubickyj, Peter Bodenheimer, Jack~J. Lissauer, Morris Podolak, and Yuval Greenzweig.
+\newblock Formation of the {{Giant Planets}} by {{Concurrent Accretion}} of {{Solids}} and {{Gas}}.
+\newblock \emph{Icarus}, 124\penalty0 (1):\penalty0 62--85, November 1996.
+\newblock ISSN 00191035.
+\newblock \doi{10.1006/icar.1996.0190}.
+
+\bibitem[Safronov and Zvjagina(1969)]{Safronov1969}
+V.S. Safronov and E.V. Zvjagina.
+\newblock Relative sizes of the largest bodies during the accumulation of planets.
+\newblock \emph{Icarus}, 10\penalty0 (1):\penalty0 109--115, January 1969.
+\newblock ISSN 00191035.
+\newblock \doi{10.1016/0019-1035(69)90013-X}.
 
 \end{thebibliography}

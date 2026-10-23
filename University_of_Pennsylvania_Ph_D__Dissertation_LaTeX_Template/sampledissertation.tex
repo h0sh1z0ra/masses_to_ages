@@ -14,6 +14,7 @@
 % Citation and bibliography commands. Edit as needed.
 \usepackage[nonamebreak,round]{natbib}
 \bibliographystyle{plainnat}
+% \defcitealias{Bodenheimer1986}{BP86}
 %-------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,33 +105,106 @@
 %\makepreface % If applicable, uncomment this line to insert the optional preface. If you do, you will also need to edit line 70.
 %-------------------------------------------
 
-%%%%% MAIN TEXT %%%%%
+%%%%% MAIN TEXT %%%%%so
 \begin{mainf} % The main body of your dissertation starts below this line
 \chapter{Introduction}
-\subsection{Formation Mechanisms}
-\subsubsection{Core Accretion}
-The widely-accepted model for core accretion (CA hereon) comes from Pollack et al. 1996. A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. This dust undergoes random motion, and eventually dust particles may collide and clump together. The repetition of this process, named planetesimal accretion, eventually leads to pebbles, then boulders, plentesimals, then a planetary core massive enough to start accreting gas from the disk, which eventually leads to runaway gas accretion (citation). All in all, this process' timescale is on the scale of Myr, which is significant because if a planet is found to be significantly younger than its host star, and its separation to its host star is small ($\leq$50 AU), it is possible the planet was formed through CA.
+\section{Formation Mechanisms}
+\subsection{Core Accretion}
+The widely-accepted model for core accretion (CA hereon) comes from \citealp{Pollack1996}. A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. 
+This dust undergoes random motion, and eventually dust particles may collide and clump together. The repetition of this process eventually leads to pebbles (dust coagulation, \citealp{Drazkowska2023}), 
+then boulders, plentesimals, then finally, through planetesimal accretion (\citealp{Safronov1969}), a planetary core massive enough to start accreting gas from the disk, which eventually leads to runaway gas accretion 
+(\citealp{Mizuno1980}, \citealp{Bodenheimer1986}, \citealp{Pollack1996}). 
+All in all, this process' timescale is on the scale of Myr (\citealp{Pollack1996}), which is significant because a planet formed in this way would be sizeably younger than its host star; planets formed through CA
+are also what this project aims to find.
 
-This process occurs closer to the centre of the disk than gravitational instability, the other widely-accepted formation pathway, detailed in the next section. Note that this process is not necessarily linear; most pebbles actually don't evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, scattering-barrier and others that are beyond the scope of this project but are detailed in Drazkowska et al. 2023.
+This process occurs closer to the centre of the disk than gravitational instability, the other widely-accepted formation pathway, detailed in the next section. 
+Note that this process is not necessarily linear; most pebbles actually don't evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, 
+drift-barrier and others that are beyond the scope of this project but are detailed in Drazkowska et al. 2023.
 
-There were problems with older models of planet formation. Pollack et al. 1996 highlights previous developments that addressed the following:
-\begin{itemize}
-\item They couldn't explain why the giant planets had similar high-Z masses (high atomic number) and core masses 
-\item They couldn't explain the high-presence of high-Z materials in the atmospheres of the giants
-\end{itemize}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{fig3drazkowska2023.png}
+\caption{Fig. 3 from Drazkowska2023. This figure provides a general scale for the stages of CA.} \label{fig:fig3drazkowska2023}
+\end{center}
+\end{figure}
 
-Mizuno et al. 1978 and Mizuno 1980 proposed the "core instability" (CI hereon) model based on the giant planets (Jupiter, Saturn, Uranus, Neptune). The details of the model are not significant (but can be found in Mizuno et al. 1980) but they showed low-Z mass envelopes (accreted gas phase) grew exponentially with increasing core mass (contains high-Z materials, formed from planetismal accretion), 
-with the low-Z mass eventually equalling the high-Z mass when the core reaches a certain critical mass; Mizuno reports $M_{crit} \sim 10M_\oplus$, which would correspond to the end of the planetesimal accretion phase. Gas accretion would occur soon hereafter. Mizuno's models' critical core mass threshold was insensitive to varying distance, which explained why the high-Z masses (core masses) of the giants were similar and on the scale of $10M_\oplus$ to $30_\oplus$.
 
-Bodenheimer and Pollack 1986 (BP86) used different evolutionary tracks of Mizuno's models and found planetesimal accretion is actually time-invariant for a given track. They did vary the accretion rate for different tracks though. BP86 reports that the rate of gas accretion exceeds planetesimal accretion at some mass they called critical mass, corresponding to Mizuno's critical mass. Pollack 1996 calls it "crossover mass" $M_{cross}$. They report the same distance-insensitivity as Mizuno but find that $M_{cross}$ is a bit higher, at $10M_\oplus$ to $30M_\oplus$. $M_{cross}$ is essentially the harbinger of runaway gas accretion.
+% There were problems with older models of planet formation. \citealp{Pollack1996} highlights previous developments that addressed the following:
+% \begin{itemize}
+% \item They couldn't explain why the giant planets had similar high-Z masses (high atomic number) and core masses 
+% \item They couldn't explain the high-presence of high-Z materials in the atmospheres of the giants
+% \end{itemize}
 
-Pollack et al. 1986 and Podolack et al. 1988 examined planetesimal accretion, specifically how massive the envelope of the forming planet must be before planetesimals stop contributing to the core mass, and is instead shorn apart by the gravtiational force of the planetary core and dissolves into the outer envelope. They find this happens when the envelope mass is a few percent of $M_\oplus$. This dissolution enriches the high-Z content of the envelope (since planetesimals are respnsible for the high-Z mass in the core).
 
-However, this model couldn't explain why Uranus and Neptune's low-Z mass was only about 10\%-20\% the high-Z mass; this implies the planets wouldn't have had enough mass to reach $M_{cross}$, yet their core masses are similar to Jupiter and Saturn. Pollack et al. 1996's model aims to remedy tihs.
+Previous models that \citealp{Pollack1996} model built upon include \citealp{Mizuno1978} and \citealp{Mizuno1980} of core instability, \citealp{Bodenheimer1986}'s investigations into Mizuno's models,\newline
+\citealp{Pollack1986} and \citealp{Podolak1988} examinations into planetesimal accretion, among others.
 
-Pollack et al. 1996 Arranged neatly, the phases are as follows:
-\begin{enumerate}
-    \item 
+In short, a critical mass before runaway gas accretion occurs is found to be $\sim 10M_\oplus$ (\citealp{Mizuno1980}), later $\sim 10M_\oplus - 30M_\oplus$ (BP86), and also when the heavy-element mass
+and the gas mass of the planet would equal; after this critical mass is reached, runaway gas accretion occurs. However, observations of the giant planets also revealed that Neptune and Uranus had compositions such that, 
+in these models, their mass fractions were comprised of too little gas mass, so they'd have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
+will be found in the outline below.
+
+% Mizuno et al. 1978 and Mizuno 1980 proposed the "core instability" (CI hereon) model based on the giant planets (Jupiter, Saturn, Uranus, Neptune). 
+% The details of the model are not significant (but can be found in Mizuno et al. 1980) but they showed low-Z mass envelopes (accreted gas phase) grew exponentially with increasing core mass 
+% (contains high-Z materials, formed from planetismal accretion), 
+% with the low-Z mass eventually equalling the high-Z mass when the core reaches a certain critical mass; Mizuno reports $M_{crit} \sim 10M_\oplus$, 
+% which would correspond to the end of the planetesimal accretion phase. Gas accretion would occur soon hereafter. Mizuno's models' critical core mass threshold was insensitive to varying distance, 
+% which explained why the high-Z masses (core masses) of the giants were similar and on the scale of $10M_\oplus$ to $30_\oplus$.
+
+% Bodenheimer and Pollack 1986 (BP86) used different evolutionary tracks of Mizuno's models and assumed planetesimal accretion is actually time-invariant for a given track, 
+% and varied it for different tracks. BP86 reports that the rate of gas accretion exceeds planetesimal accretion at some mass they called critical mass, corresponding to Mizuno's critical mass. 
+% Pollack 1996 calls it "crossover mass" $M_{cross}$. They report the same distance-insensitivity as Mizuno but find that $M_{cross}$ is a bit higher, 
+% at $10M_\oplus$ to $30M_\oplus$. $M_{cross}$ is essentially the harbinger of runaway gas accretion.
+
+% Pollack et al. 1986 and Podolak et al. 1988 examined planetesimal accretion, specifically how massive the envelope of the forming planet must be before planetesimals stop contributing to the core mass, 
+% and is instead shorn apart by the gravtiational force of the planetary core and dissolves into the outer envelope. They find this happens when the envelope mass is a few percent of $M_\oplus$. 
+% This dissolution enriches the high-Z content of the envelope (since planetesimals are respnsible for the high-Z mass in the core).
+
+
+% However, this model couldn't explain why Uranus and Neptune's low-Z mass was only about 10\%-20\% the high-Z mass; 
+% this implies the planets wouldn't have had enough mass to reach $M_{cross}$, yet their core masses are similar to Jupiter and Saturn. 
+% \citealp{Pollack1996}'s model aimed to remedy this.
+
+Arranged neatly, the model of \citealp{Pollack1996} is split into three phases: during phase 1, planetesimal accretion exceeds gas accretion rate;
+they're initially many orders of magnitude apart, with planetesimal accretion rate being the greater value. Overtime, the two rates become comparable:
+after $\sim 10^5$ years, they are comparable and planetesimal accretion rate begins declining sharply. Meanwhile, gas accretion rate keeps growing.
+This phase denotes a runaway planetesimal accretion, separate from the runaway gas accretion, and it finishes when a protoplanet has emptied
+its feeding zone of planetesimals. However, the feeding zone grows as the planet's total mass increases, introducing new planetesimals (\citealp{Pollack1996}) 
+
+Phase 2 is a novel phase introduced in this model, that denotes a long, liminal phase where both accretion rates are relatively time-invariant, now with
+gas accretion rate exceeding planetesimal accretion rate. This phase spans the bulk of the aforementioned Myr timescale, with Pollack's simulations of Jupiter
+lasting $\sim7 Myr$. Finally, phase 3 denotes the runaway gas accretion, where both accretion rates (with gas still far exceeding planetesimal) start rapidly
+increasing again.
+
+Fig 1c of \citealp{Pollack1996} is particluarly relevant to this project: during phase 3, the luminosity grows rapidly to a stage that we can image directly.
+Once it reaches a maximum luminosity, it will cool down for the rest of its lifetime (since planets have no mechanisms that illuminate them);
+this cooling is what this project will utilise to infer the age from the luminosity and dynamical masses.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics{fig1cpollack1996.png}
+\caption{Fig 1c of \citealp{Pollack1996}. The initial rise corresponds to the runaway planetesimal accretion of phase 1; the long
+plateau corresponds to the transitionary phase 2; the sharp increasing corresponds to both accretion rates rapidly increasing (and the runaway gas accretion)
+in phase 3} \label{fig:lum_pollack1996}
+\end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{Getting Started}
 The template requires TeX Live 2022 and is optimized for pdfLaTeX and the LaTeX editor Overleaf. Other LaTeX editing programs may require you to compile the document more than once. To claim your free Overleaf Pro account, go to the \underline{\href{https://www.overleaf.com/edu/upenn}{Penn Libraries Overleaf Portal}} and click on the green ``Log in through your institution'' button.
@@ -247,8 +321,8 @@ Please watch this \underline{\href{https://mediaspace.library.upenn.edu/media/La
 \section{Default Template Settings}
 The commands written in sampledissertation.tex load the natbib package in its preamble and reference the bibliographic entries stored in bibliography.bib.
 
-This is an example inline citation \citep{heard_charles_2020}. 
-If you want to cite two publications in one place like \citep{mcgoogan_chasing_2020,wright_for_2014}, write one citation command. You can add a prenote or postnote \citep[p.~78]{lake_white_1979} to a citation.
+This is an example inline citation \citealp{heard_charles_2020}. 
+If you want to cite two publications in one place like \citealp{mcgoogan_chasing_2020,wright_for_2014}, write one citation command. You can add a prenote or postnote \citealp[p.~78]{lake_white_1979} to a citation.
 
 \section{Customization}
 Citation and bibliography formatting commands are written in the main .tex file for your convenience. You can edit the relevant code in the .tex file to produce citation and bibliography styles appropriate for your field. If you wish to make significant to changes to the structure of the bibliography, you may need to edit the bibliof environment defined in upennstyle.sty.

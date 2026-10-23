@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sampledissertation.aux
+The style file: plainnat.bst
+Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "heard_charles_2020"
+Warning--I didn't find a database entry for "mcgoogan_chasing_2020"
+Warning--I didn't find a database entry for "wright_for_2014"
+Warning--I didn't find a database entry for "lake_white_1979"
+You've used 8 entries,
+            2773 wiz_defined-function locations,
+            665 strings with 6785 characters,
+and the built_in function-call counts, 4497 in all, are:
+= -- 414
+> -- 301
+< -- 3
++ -- 101
+- -- 93
+* -- 429
+:= -- 714
+add.period$ -- 38
+call.type$ -- 8
+change.case$ -- 55
+chr.to.int$ -- 8
+cite$ -- 16
+duplicate$ -- 160
+empty$ -- 316
+format.name$ -- 105
+if$ -- 914
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 62
+num.names$ -- 32
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 181
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 88
+warning$ -- 0
+while$ -- 37
+width$ -- 0
+write$ -- 138
+(There were 4 warnings)
