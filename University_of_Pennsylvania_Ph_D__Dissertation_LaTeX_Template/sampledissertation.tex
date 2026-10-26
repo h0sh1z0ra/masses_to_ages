@@ -108,6 +108,26 @@
 %%%%% MAIN TEXT %%%%%so
 \begin{mainf} % The main body of your dissertation starts below this line
 \chapter{Introduction}
+\section{Motivation}
+Determining the age of a planet helps us ascertain the formation delay of the planet, by comparing it to the age of the parent star. We can also test our current formation models, and compare it to the expected disk lifetime (a few Myr, \citealp{Strom1993}, \citealp{Manara2023}):
+if the ages of planets are often younger than the disk lifetimes, then it suggests that disks are being replenished, perhaps through late infall (\citealp{Kuffmeier2026}). In addition, it helps constrain evolutionary models,
+assuming we have the planet's mass and luminosity. Normally, we infer a mass estimate from the luminosity and age, while assuming coevality; if we have all 3, we could constrain our evolutionary models accurately enough to determine if 
+the cooling tracks we have are correct.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics{su_aurigae.png}
+\caption{The SU Aurigae system. The majority of this photo comprises of wispy arms, which \citealp{Ginski2021} theorise
+is material from the surrounding medium replenishing the material in the disk.} \label{fig:su_aurigae}
+\end{center}
+\end{figure}
+
+One of the major caveats to our current models are that planets and their parent stars are not exactly coeval (\citealp{Bowler2016a}). 
+Planets can span anywhere from the full stellar age, to 10 Myr younger, depending on the formation mechanism; top-down mechanisms would be close to coeval, while bottom-up mechanisms would leave a discrepancy of a few Myr.
+Furthermore, depending on the formation mechanism, it could lead to different inferred masses: take for example the young, planetary-mass companion
+2M1207-3932 b of the TW Hydrae Association. Assuming coevality, its hot-start mass is $\sim 5 M_{Jup}$. But, if the formation is delayed by 8 Myr, then
+the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}).
+
 \section{Formation Mechanisms}
 \subsection{Core Accretion}
 The widely-accepted model for core accretion (CA hereon) comes from \citealp{Pollack1996}. A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. 
@@ -189,87 +209,22 @@ in phase 3} \label{fig:lum_pollack1996}
 \end{center}
 \end{figure}
 
+\subsection{Gravitational Instability}
 
+\subsection{A Note on Cloud Fragmentation and Brown Dwarfs}
+Cloud fragmentation is traditionally a mechanism that forms stars; however, the floor of the mass of objects it can form seems to reach well into the planetary-mass range (\citealp{Whitworth2006a}).
+However, there is substantial evidence that it does not form traditional planets, but that it forms planetary-mass brown dwarfs. Though, the formation tracks for brown dwarfs also remain contested:
+many studies find that their masses can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet (\citealp{Chabrier2014}).
 
+\section{Imaging}
+\section{Evolutionary Models}
+Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. Hot-start start with high entropy retain high entropy after formation, resulting in a
+large initial radius and luminosity (\citealp{Bowler2016a}, \citealp{Bussmann2026}). Cold-start  models Older papers associate cold-start models with core accretion,
+and hot-start models with disk instability. However, there is a bit more nuance: core accretion can also produce warm or hot initial conditions
 
+\chapter{Methodology}
+This project makes use of the species Python package (\citealp{Stolker2020}). The cooling-curve inversion uses a 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Getting Started}
-The template requires TeX Live 2022 and is optimized for pdfLaTeX and the LaTeX editor Overleaf. Other LaTeX editing programs may require you to compile the document more than once. To claim your free Overleaf Pro account, go to the \underline{\href{https://www.overleaf.com/edu/upenn}{Penn Libraries Overleaf Portal}} and click on the green ``Log in through your institution'' button.
-
-Click \underline{\href{https://www.overleaf.com/contact}{here}} if you have a question about Overleaf, and they'll make sure it reaches the right person. Click \underline{\href{https://www.overleaf.com/help/18-how-do-i-use-overleaf}{here}} for their help page to learn how to use Overleaf and LaTeX. See Chapter~\ref{sec:helpfeedback} for additional resources.
-
-\subsection{Packages}
-The template automatically loads the packages it requires to function. See the PackagesLoadedbyTemplate.tex file for a complete list of all the packages loaded by the template. You may manually load other packages if you wish, and Overleaf will give you a warning message when you compile your document if your package conflicts with one of the template's packages. If you receive a warning, you can consult the specified package documentation on \underline{\href{https://www.ctan.org}{CTAN}} for a possible resolution.
-\newpage
-\section{Margins}
-\textbf{As of January 2023, the margins must be 1 inch on each side.} Remember to resolve all overfull or underfull warnings to help ensure your dissertation meets the margin requirements.\footnote{This is a common source of errors -- please double check the margins before submitting your final dissertation.} Click \underline{\href{https://www.overleaf.com/learn/how-to/Understanding_underfull_and_overfull_box_warnings\#How_the_Error_Happens}{here}} to learn how to identify and resolve the warnings. Common causes of warnings include 
-\begin{itemize}
-\item \textbf{LaTeX CANNOT automatically break long mathematical expressions or parenthetical references across multiple lines.} Chapter~\ref{ch:equations} demonstrates two methods for manually splitting equations.
-\item You can manually control the hyphenation by using the \Verb|\hyphenation{}| hints command. For example, write \Verb|\hyphenation{rep-re-sent-a-tive}| in the preamble to tell LaTeX where it can break the word ``representative.''
-\item The Verbatim environment and the \Verb|\Verb| command remove LaTeX's formatting controls. There may be instances that require you to manually adjust line breaks.
-\item The breaklinks option of the hyperref package is activated, however there may be instances of URLs running into the margins that require your manual intervention.
-\end{itemize}
-
-\section{Template Tips}
-\subsection{Chapters, sections, and subsections}
-Create chapters with the \Verb|\chapter| command, sections with the \Verb|\section| command, and subsections with the \Verb|\subsection| command. If you use the \Verb|\MakeUppercase| command to autocapitalize chapter titles, carefully check each title and its table of contents entry for compliance with University formatting requirements. You may wish to split chapters into separate .tex files for easier document management. You can use the \Verb|\include{}| command to add the chapters to your main .tex file. Click \underline{\href{https://www.overleaf.com/learn/latex/Management_in_a_large_project\#Inputting_and_including_files}{here}} to learn more.
-
-If a chapter or section title contains math expressions or other symbols, the \Verb|hyperref| package may give a PDFDocEncoded warning when you compile your document. Use the \Verb|\texorpdfstring| command to edit the corresponding PDF bookmark text to resolve the warning. 
-For example, the section title ``Lemurs Wrote $E=mc^2$ in Mud on the Riverbank'' should be coded
-\begin{Verbatim}
- \section{Lemurs Wrote \texorpdfstring{$E=mc^2$}{E=mc2} in Mud on the Riverbank}   
-\end{Verbatim}
-
-\subsection{Page orientation}
-The template's default page orientation is portrait. Use the landscape environment to create landscape pages. Page number location and margins will automatically update like page~\pageref{fig:landlemur1}.
-
-\section{Getting Help and Giving Feedback} \label{sec:helpfeedback}
-Questions about LaTeX?
-\begin{itemize}
-    \item Click \underline{\href{https://guides.library.upenn.edu/LaTeX}{here}} to connect with LaTeX resources, tutorials, and more.
-\end{itemize}
-Want to give feedback on the template?
-\begin{itemize}
-    \item Click \underline{\href{https://upenn.libwizard.com/f/dissertationlatextemplatefeedback}{here}} to share it with us.
-\end{itemize}
-
-\section{Acknowledgments}
-The University of Pennsylvania Ph.D. Dissertation LaTeX Template was initiated by Dr.~Beth S. Wenger, Associate Dean for Graduate Studies, School of Arts and Sciences. It was developed by Lauren Gala, Penn Libraries with assistance from Dr.~Julia Hartmann and Dr.~Man Cheung Tsui, Department of Mathematics, and Bridget Rothera, Graduate Division School of Arts and Sciences. Portions of the code and text were reprinted or adapted with permission from Ratcliffe S.J. (2017) Penn Biostat LaTeX Template: PhD dissertation modified from Dissertation Template for Wharton PhD Candidates in LaTeX.
-
-\chapter{\MakeUppercase{Tables and Figures}}
-\section{Tables}
-The captions of tables inside the table environment (see Table~\ref{extab}) will display in the List of Tables. Use the \Verb|\label| to label tables. 
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{cc|c|c|c|c|l}
-\cline{3-6}
-& & \multicolumn{4}{|c|}{Primes} \\ \cline{3-6}
-& & 2 & 3 & 5 & 7 \\ \cline{1-6}
-\multicolumn{1}{|c|}{\multirow{2}{*}{Powers}} &
-\multicolumn{1}{|c|}{504} & 3 & 2 & 0 & 1 &     \\ \cline{2-6}
-\multicolumn{1}{|c|}{}                        &
-\multicolumn{1}{|c|}{540} & 2 & 3 & 1 & 0 &     \\ \cline{1-6}
-\multicolumn{1}{|c|}{\multirow{2}{*}{Powers}} &
-\multicolumn{1}{|c|}{gcd} & 2 & 2 & 0 & 0 & min \\ \cline{2-6}
-\multicolumn{1}{|c|}{}                        &
-\multicolumn{1}{|c|}{lcm} & 3 & 3 & 1 & 1 & max \\ \cline{1-6}
-\end{tabular}
-\caption{Example Table}\label{extab}
-\end{center}
-\end{table}
 
 \section{Figures}
 The captions of figures inside the figure environment (see Figure~\ref{fig:lemur1}) will display in the List of Illustrations. Use the \Verb|\label| to label figures.\footnote{This also includes photographs, maps, schemes, diagrams, etc.}
@@ -280,66 +235,6 @@ The captions of figures inside the figure environment (see Figure~\ref{fig:lemur
 \caption{Lemur photograph} \label{fig:lemur1}
 \end{center}
 \end{figure}
-
-LaTeX takes into account line and page breaks when determining where to place floating objects like figures and tables on a page. You can override LaTeX's placement decisions by using the float package options. Consult the \underline{\href{https://ctan.org/pkg/float}{float package documentation}} to learn how to gain more control over where and how float objects display.
- 
-\begin{landscape}
-\begin{figure}[H]
-\begin{center}
-\includegraphics{lemurchart}
-\caption{Lemur bar chart on landscape page} \label{fig:landlemur1}
-\end{center}
-\end{figure}
-\end{landscape}
-
-\chapter{\MakeUppercase{Equations}} \label{ch:equations}
-The template automatically loads several math packages like amsmath, amssymb, and amsfonts. The split and the multline environments allow you to split an equation over multiple lines. Equation~\ref{eq:split} is written in the split environment, and Equation~\ref{eq:mult} is in the multline environment. Notice the differences in how the two environments align the equations and where they place the equation number.
-
-\begin{equation} \label{eq:split}
-\begin{split}
-A & = \frac{\pi r^2}{2} \\
- & = \frac{1}{2} \pi r^2
-\end{split}
-\end{equation}
-
-\begin{multline} \label{eq:mult}
-p(x) = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3 + 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\ 
-+ 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3- 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
-\end{multline}
-
-\chapter{\MakeUppercase{Appendices}}
-Appendices are optional. Use the \Verb|\chapter| command inside the custom \Verb|append| environment to insert appendices. Use the \Verb|\ref{ }| command to reference appendices in your text.
-
-Tables and figures in appendices display in the List of Tables and the List of Illustrations, respectively. To prevent appendix tables and figures from displaying in either list, insert an asterisk between \Verb|\caption| and \Verb|{ }|.
-
-\chapter{\MakeUppercase{Citations and Bibliography}} \label{ch:citebib}
-LaTeX bibliography packages and citation management programs enable you to efficiently cite and format bibliographic references. You can manage bibliographic entries in a separate bibliography database file (*.bib) or you can embed the entries directly into the main .tex file. While the LaTeX template was built for the former approach, you can modify it to accommodate latter.
-
-\section{Getting Started}
-Please watch this \underline{\href{https://mediaspace.library.upenn.edu/media/LaTeX+Fundamentals+-+6.1+Citations+\%26+Bibliographies+-+Think+in+LaTeX\%2C+BibTeX\%2C+and+BibLaTeX/1_7dyh4j58}{short video}} to learn the principles underpinning the template bibliography before proceeding.
-
-\section{Default Template Settings}
-The commands written in sampledissertation.tex load the natbib package in its preamble and reference the bibliographic entries stored in bibliography.bib.
-
-This is an example inline citation \citealp{heard_charles_2020}. 
-If you want to cite two publications in one place like \citealp{mcgoogan_chasing_2020,wright_for_2014}, write one citation command. You can add a prenote or postnote \citealp[p.~78]{lake_white_1979} to a citation.
-
-\section{Customization}
-Citation and bibliography formatting commands are written in the main .tex file for your convenience. You can edit the relevant code in the .tex file to produce citation and bibliography styles appropriate for your field. If you wish to make significant to changes to the structure of the bibliography, you may need to edit the bibliof environment defined in upennstyle.sty.
-
-\subsection{Styles and formatting}
-The natbib package, selected format and style options, and example citations are for demonstration. In addition to natbib, other packages and accompanying documentation are free to download from \underline{\href{https://www.ctan.org}{CTAN}}. 
-Always consult the package documentation for additional citation and bibliography commands and formatting options. Remember that the available commands and styles differ between packages.
-
-\subsection{Embedded bibliography}
-You can edit the template to manage your bibliography directly in the .tex file obviating the need for a separate .bib file. Replace the \Verb|\bibliography| command in the bibliof environment with the list of bibitems and edit relevant code elsewhere in the template as needed. 
-
-\section{Recommended Resources}
-\begin{itemize}
-    \item Click \underline{\href{https://guides.library.upenn.edu/LaTeX/cite}{here}} to learn how to manage citations and bibliographies in LaTeX documents
-    \item Click \underline{\href{https://guides.library.upenn.edu/citationpractices}{here}} to learn citation best practices and how to use citation management programs
-    \item Click \underline{\href{https://mediaspace.library.upenn.edu/media/LaTeX+Fundamentals+-+6.2+Citations+\%26+Bibliographies+-+natbib/1_sxrfdv5j}{here}} to watch a short introduction to citing and formatting references with natbib
-\end{itemize}
 
 \end{mainf}
 %-------------------------------------------

@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,9 +12,37 @@ Peter Bodenheimer and James~B. Pollack.
 \newblock ISSN 00191035.
 \newblock \doi{10.1016/0019-1035(86)90122-3}.
 
+\bibitem[Bowler(2016)]{Bowler2016a}
+Brendan~P. Bowler.
+\newblock Imaging {{Extrasolar Giant Planets}}.
+\newblock \emph{Publications of the Astronomical Society of the Pacific}, 128\penalty0 (968):\penalty0 102001, October 2016.
+\newblock ISSN 0004-6280, 1538-3873.
+\newblock \doi{10.1088/1538-3873/128/968/102001}.
+
+\bibitem[Bussmann and Helled(2026)]{Bussmann2026}
+Mirco Bussmann and Ravit Helled.
+\newblock Evolutionary tracks of giant planets formed by disk instability.
+\newblock \emph{Astronomy \& Astrophysics}, 714:\penalty0 A183, October 2026.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/202661805}.
+
+\bibitem[Chabrier et~al.(2014)Chabrier, Johansen, Janson, and Rafikov]{Chabrier2014}
+G.~Chabrier, A.~Johansen, M.~Janson, and R.~Rafikov.
+\newblock Giant planet and brown dwarf formation.
+\newblock 2014.
+\newblock \doi{10.2458/azu_uapress_9780816531240-ch027}.
+
 \bibitem[Dr{\k a}{\.z}kowska et~al.(2023)Dr{\k a}{\.z}kowska, Bitsch, Lambrechts, Mulders, Harsono, Vazan, Liu, Ormel, Kretke, and Morbidelli]{Drazkowska2023}
 J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
 \newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
+
+\bibitem[Kuffmeier et~al.(2026)Kuffmeier, Winter, Kuznetsova, Vioque, and Gupta]{Kuffmeier2026}
+M.~Kuffmeier, A.~Winter, A.~Kuznetsova, M.~Vioque, and A.~Gupta.
+\newblock Stellar age is not disk age, September 2026.
+
+\bibitem[Manara et~al.(2023)Manara, Ansdell, Rosotti, Hughes, Armitage, Lodato, and Williams]{Manara2023}
+C.~F. Manara, M.~Ansdell, G.~P. Rosotti, A.~M. Hughes, P.~J. Armitage, G.~Lodato, and J.~P. Williams.
+\newblock Demographics of young stars and their protoplanetary disks: Lessons learned on disk evolution and its connection to planet formation, March 2023.
 
 \bibitem[Mizuno(1980)]{Mizuno1980}
 H.~Mizuno.
@@ -58,5 +86,24 @@ V.S. Safronov and E.V. Zvjagina.
 \newblock \emph{Icarus}, 10\penalty0 (1):\penalty0 109--115, January 1969.
 \newblock ISSN 00191035.
 \newblock \doi{10.1016/0019-1035(69)90013-X}.
+
+\bibitem[Stolker et~al.(2020)Stolker, Quanz, Todorov, K{\"u}hn, Molli{\`e}re, Meyer, Currie, Daemgen, and Lavie]{Stolker2020}
+Tomas Stolker, Sascha~P. Quanz, Kamen~O. Todorov, Jonas K{\"u}hn, Paul Molli{\`e}re, Michael~R. Meyer, Thayne Currie, Sebastian Daemgen, and Baptiste Lavie.
+\newblock {{MIRACLES}}: Atmospheric characterization of directly imaged planets and substellar companions at 4-5 \${$\mu\$$}m. {{I}}. {{Photometric}} analysis of \${$\beta\$$} {{Pic}} b, {{HIP}} 65426 b, {{PZ Tel B}} and {{HD}} 206893 {{B}}.
+\newblock \emph{Astronomy \& Astrophysics}, 635:\penalty0 A182, March 2020.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201937159}.
+
+\bibitem[Strom et~al.(1993)Strom, Edwards, and Skrutskie]{Strom1993}
+Stephen~E. Strom, Suzan Edwards, and Michael~F. Skrutskie.
+\newblock Evolutionary {{Time Scales}} for {{Circumstellar Disks Associated}} with {{Intermediate-Type}} and {{Solar-Type Stars}}.
+\newblock In \emph{Protostars and {{Planets III}}}, page 837, January 1993.
+
+\bibitem[Whitworth and Stamatellos(2006)]{Whitworth2006a}
+A.~P. Whitworth and D.~Stamatellos.
+\newblock The minimum mass for star formation, and the origin of binary brown dwarfs.
+\newblock \emph{Astronomy \& Astrophysics}, 458\penalty0 (3):\penalty0 817--829, November 2006.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361:20065806}.
 
 \end{thebibliography}
