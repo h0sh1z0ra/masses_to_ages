@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sampledissertation.aux
+The style file: plainnat.bst
+Database file #1: bibliography.bib
+Warning--empty booktitle in Chabrier2014
+Warning--empty publisher in Chabrier2014
+You've used 26 entries,
+            2773 wiz_defined-function locations,
+            805 strings with 12759 characters,
+and the built_in function-call counts, 19157 in all, are:
+= -- 1555
+> -- 1892
+< -- 13
++ -- 633
+- -- 607
+* -- 1883
+:= -- 3128
+add.period$ -- 105
+call.type$ -- 26
+change.case$ -- 280
+chr.to.int$ -- 26
+cite$ -- 54
+duplicate$ -- 541
+empty$ -- 1014
+format.name$ -- 647
+if$ -- 3809
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 22
+newline$ -- 164
+num.names$ -- 106
+pop$ -- 524
+preamble$ -- 1
+purify$ -- 254
+quote$ -- 0
+skip$ -- 535
+stack$ -- 0
+substring$ -- 480
+swap$ -- 59
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 286
+warning$ -- 2
+while$ -- 114
+width$ -- 0
+write$ -- 393
+(There were 2 warnings)

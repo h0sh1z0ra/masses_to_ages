@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.20)  26 OCT 2026 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.20)  27 OCT 2026 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,6 +587,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 74.
+ (./sampledissertation.out) (./sampledissertation.out)
 \@outlinefile=\write4
 \openout4 = `sampledissertation.out'.
 
@@ -636,38 +637,90 @@ Package hyperref Info: Link coloring OFF on input line 74.
 
 ] [5
 
-]
-No file sampledissertation.toc.
+] (./sampledissertation.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `sampledissertation.toc'.
 
-[6
+ [6
+
+] (./sampledissertation.lof)
+\tf@lof=\write6
+\openout6 = `sampledissertation.lof'.
+
+ [7
 
 ]
-No file sampledissertation.lot.
-\tf@lot=\write6
-\openout6 = `sampledissertation.lot'.
+Chapter 1.
+<su_aurigae.jpg, id=113, 1027.84pt x 658.46pt>
+File: su_aurigae.jpg Graphic file (type jpg)
+<use su_aurigae.jpg>
+Package pdftex.def Info: su_aurigae.jpg  used on input line 119.
+(pdftex.def)             Requested size: 411.12872pt x 263.37933pt.
+[1
+
+ <./su_aurigae.jpg>]
+<fig3drazkowska2023.png, id=147, 661.61464pt x 248.21304pt>
+File: fig3drazkowska2023.png Graphic file (type png)
+<use fig3drazkowska2023.png>
+Package pdftex.def Info: fig3drazkowska2023.png  used on input line 146.
+(pdftex.def)             Requested size: 396.97185pt x 148.92896pt.
+ [2] [3 <./fig3drazkowska2023.png>]
+<fig1cpollack1996.png, id=196, 356.61804pt x 258.9675pt>
+File: fig1cpollack1996.png Graphic file (type png)
+<use fig1cpollack1996.png>
+Package pdftex.def Info: fig1cpollack1996.png  used on input line 205.
+(pdftex.def)             Requested size: 356.61716pt x 258.96684pt.
+ [4 <./fig1cpollack1996.png>] [5] [6]
+Chapter 2.
+
+LaTeX Warning: Reference `fig:lemur1' on page 7 undefined on input line 245.
 
 [7
 
 ]
-No file sampledissertation.lof.
-\tf@lof=\write7
-\openout7 = `sampledissertation.lof'.
-
+Chapter A.
 [8
 
 ]
-Chapter 1.
+Chapter B.
+[9
 
-Package natbib Warning: Citation `Strom1993' on page 1 undefined on input line 112.
-
-
-Package natbib Warning: Citation `Manara2023' on page 1 undefined on input line 112.
+] (./sampledissertation.bbl [10
 
 
-Package natbib Warning: Citation `Kuffmeier2026' on page 1 undefined on input line 113.
+] [11]) [12] (./sampledissertation.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
 
 
-!pdfTeX error: pdflatex (file ./su_aurigae.png): libpng: internal error
- ==> Fatal error occurred, no output PDF file produced!
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `sampledissertation.out' has not changed.
+(rerunfilecheck)             Checksum: A8937A43770FBB78ED4E4A86DB58BA57;956.
+ ) 
+Here is how much of TeX's memory you used:
+ 15939 strings out of 469514
+ 252213 string characters out of 5470071
+ 704765 words of memory out of 5000000
+ 44287 multiletter control sequences out of 15000+600000
+ 640173 words of font info for 75 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 84i,8n,93p,1469b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on sampledissertation.pdf (19 pages, 546193 bytes).
+PDF statistics:
+ 379 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+

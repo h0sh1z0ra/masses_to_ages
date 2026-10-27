@@ -94,7 +94,7 @@
 \tableofcontents
 
 %%%% OPTIONAL LIST OF TABLES
-\clearpage \phantomsection \addcontentsline{toc}{chapter}{LIST OF TABLES} \begin{singlespacing} \listoftables \end{singlespacing}% If not applicable, comment out this line to hide the optional List of Tables
+% \clearpage \phantomsection \addcontentsline{toc}{chapter}{LIST OF TABLES} \begin{singlespacing} \listoftables \end{singlespacing}% If not applicable, comment out this line to hide the optional List of Tables
 %-------------------------------------------
 
 %%%% OPTIONAL LIST OF ILLUSTRATIONS
@@ -116,9 +116,9 @@ the cooling tracks we have are correct.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{su_aurigae.png}
+\includegraphics[scale=0.4]{su_aurigae.jpg}
 \caption{The SU Aurigae system. The majority of this photo comprises of wispy arms, which \citealp{Ginski2021} theorise
-is material from the surrounding medium replenishing the material in the disk.} \label{fig:su_aurigae}
+is material from the surrounding medium replenishing the material in the disk. Credit: \citealp{Ginski2021}}\label{fig:su_aurigae}
 \end{center}
 \end{figure}
 
@@ -155,15 +155,15 @@ drift-barrier and others that are beyond the scope of this project but are detai
 % \item They couldn't explain the high-presence of high-Z materials in the atmospheres of the giants
 % \end{itemize}
 
-
-Previous models that \citealp{Pollack1996} model built upon include \citealp{Mizuno1978} and \citealp{Mizuno1980} of core instability, \citealp{Bodenheimer1986}'s investigations into Mizuno's models,\newline
+\begin{sloppypar}
+Previous models that \citealp{Pollack1996} model built upon include \citealp{Mizuno1978} and \citealp{Mizuno1980} of core instability, \citealp{Bodenheimer1986}'s investigations into Mizuno's models,
 \citealp{Pollack1986} and \citealp{Podolak1988} examinations into planetesimal accretion, among others.
 
 In short, a critical mass before runaway gas accretion occurs is found to be $\sim 10M_\oplus$ (\citealp{Mizuno1980}), later $\sim 10M_\oplus - 30M_\oplus$ (BP86), and also when the heavy-element mass
 and the gas mass of the planet would equal; after this critical mass is reached, runaway gas accretion occurs. However, observations of the giant planets also revealed that Neptune and Uranus had compositions such that, 
 in these models, their mass fractions were comprised of too little gas mass, so they'd have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
 will be found in the outline below.
-
+\end{sloppypar}
 % Mizuno et al. 1978 and Mizuno 1980 proposed the "core instability" (CI hereon) model based on the giant planets (Jupiter, Saturn, Uranus, Neptune). 
 % The details of the model are not significant (but can be found in Mizuno et al. 1980) but they showed low-Z mass envelopes (accreted gas phase) grew exponentially with increasing core mass 
 % (contains high-Z materials, formed from planetismal accretion), 
@@ -211,30 +211,39 @@ in phase 3} \label{fig:lum_pollack1996}
 
 \subsection{Gravitational Instability}
 
+
 \subsection{A Note on Cloud Fragmentation and Brown Dwarfs}
-Cloud fragmentation is traditionally a mechanism that forms stars; however, the floor of the mass of objects it can form seems to reach well into the planetary-mass range (\citealp{Whitworth2006a}).
-However, there is substantial evidence that it does not form traditional planets, but that it forms planetary-mass brown dwarfs. Though, the formation tracks for brown dwarfs also remain contested:
-many studies find that their masses can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet (\citealp{Chabrier2014}).
+\begin{sloppypar}
+Cloud fragmentation is traditionally a mechanism that forms stars. A general overview (see \citealp{Whitworth2006b} for the full process) is that given a molecular cloud is massive enough, it contracts and fragments into subclouds.
+This process repeats for the subclouds, until eventually the subclouds are so optically thick that they can't contract anymore since they can't radiate away the contraction heat (\citealp{Whitworth2006b}).
+
+The floor of the mass of objects formed seems to reach well into the planetary-mass range ($\sim$ 1 to 4 $M_{Jup}$, \citealp{Whitworth2006a}).
+Also traditionally, the criterion for brown dwarfs is that it exceeds the deterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged;
+\citealp{Chabrier2014} argues plantary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
+
+Furthermore, the formation tracks for brown dwarfs are also contested:
+many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Balmer2024}, \citealp{Chabrier2003}). Some others suggest they could also be formed through
+disk instability (\citealp{Boss1997}, \citealp{Stamatellos2007}, \citealp{Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{Balmer2024}, \citealp{DAngelo2010}, \citealp{Molliere2012}).
+\end{sloppypar}
 
 \section{Imaging}
 \section{Evolutionary Models}
-Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. Hot-start start with high entropy retain high entropy after formation, resulting in a
-large initial radius and luminosity (\citealp{Bowler2016a}, \citealp{Bussmann2026}). Cold-start  models Older papers associate cold-start models with core accretion,
+Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. 
+Hot-start start with high entropy retain high entropy after formation, resulting in a
+large initial radius and luminosity (\citealp{Bowler2016a}, \citealp{Bussmann2026}). 
+Cold-start models were made prominent by direct imaging to emulate more realistic scenarios for giant planets formed through CA (\citealp{Bowler2016a}).
+
+Older papers associate cold-start models with core accretion,
 and hot-start models with disk instability. However, there is a bit more nuance: core accretion can also produce warm or hot initial conditions
 
 \chapter{Methodology}
-This project makes use of the species Python package (\citealp{Stolker2020}). The cooling-curve inversion uses a 
+This project makes use of the species Python package (\citealp{Stolker2020}). The cooling-curve inversion uses a brute force technique, by using Monte Carlo to
+sample within the uncertainties of the parameters that are passed in.
 
 
 \section{Figures}
 The captions of figures inside the figure environment (see Figure~\ref{fig:lemur1}) will display in the List of Illustrations. Use the \Verb|\label| to label figures.\footnote{This also includes photographs, maps, schemes, diagrams, etc.}
 \newpage
-\begin{figure}[H]
-\begin{center}
-\includegraphics{lemurphoto}
-\caption{Lemur photograph} \label{fig:lemur1}
-\end{center}
-\end{figure}
 
 \end{mainf}
 %-------------------------------------------

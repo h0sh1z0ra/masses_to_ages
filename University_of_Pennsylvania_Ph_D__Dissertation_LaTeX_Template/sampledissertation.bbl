@@ -1,9 +1,16 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Balmer et~al.(2024)Balmer, Pueyo, Lacour, Wang, Stolker, Kammerer, Pourr{\'e}, Nowak, Rickman, Blunt, Sivaramakrishnan, Sing, Wagner, Marleau, Lagrange, Abuter, Amorim, {Asensio-Torres}, Berger, Beust, Boccaletti, Bohn, Bonnefoy, Bonnet, Bordoni, Bourdarot, Brandner, Cantalloube, Caselli, Charnay, Chauvin, Chavez, Choquet, Christiaens, Cl{\'e}net, Du~Foresto, Cridland, Davies, Dembet, Drescher, Duvert, Eckart, Eisenhauer, Schreiber, Garcia, Garcia~Lopez, Gendron, Genzel, Gillessen, Girard, Grant, Haubois, Hei{\ss}el, Henning, Hinkley, Hippler, Houll{\'e}, Hubert, Jocou, Keppler, Kervella, Kreidberg, Kurtovic, Lapeyr{\`e}re, Le~Bouquin, L{\'e}na, Lutz, Maire, Mang, M{\'e}rand, Molli{\`e}re, Mordasini, Mouillet, Nasedkin, Ott, Otten, Paladini, Paumard, Perraut, Perrin, Pfuhl, Ribeiro, Rodet, Rustamkulov, Shangguan, Shimizu, Straubmeier, Sturm, Tacconi, Vigan, Vincent, {Ward-Duong}, Widmann, Winterhalder, Woillez, Yazici, and {the GRAVITY Collaboration}]{Balmer2024}
+William~O. Balmer, L.~Pueyo, S.~Lacour, J.~J. Wang, T.~Stolker, J.~Kammerer, N.~Pourr{\'e}, M.~Nowak, E.~Rickman, S.~Blunt, A.~Sivaramakrishnan, D.~Sing, K.~Wagner, G.-D. Marleau, A.-M. Lagrange, R.~Abuter, A.~Amorim, R.~{Asensio-Torres}, J.-P. Berger, H.~Beust, A.~Boccaletti, A.~Bohn, M.~Bonnefoy, H.~Bonnet, M.~S. Bordoni, G.~Bourdarot, W.~Brandner, F.~Cantalloube, P.~Caselli, B.~Charnay, G.~Chauvin, A.~Chavez, E.~Choquet, V.~Christiaens, Y.~Cl{\'e}net, V.~Coud{\'e} Du~Foresto, A.~Cridland, R.~Davies, R.~Dembet, A.~Drescher, G.~Duvert, A.~Eckart, F.~Eisenhauer, N.~M.~F{\"o}rster Schreiber, P.~Garcia, R.~Garcia~Lopez, E.~Gendron, R.~Genzel, S.~Gillessen, J.~H. Girard, S.~Grant, X.~Haubois, G.~Hei{\ss}el, {\relax Th}.~Henning, S.~Hinkley, S.~Hippler, M.~Houll{\'e}, Z.~Hubert, L.~Jocou, M.~Keppler, P.~Kervella, L.~Kreidberg, N.~T. Kurtovic, V.~Lapeyr{\`e}re, J.-B. Le~Bouquin, P.~L{\'e}na, D.~Lutz, A.-L. Maire, F.~Mang, A.~M{\'e}rand, P.~Molli{\`e}re, C.~Mordasini, D.~Mouillet, E.~Nasedkin, T.~Ott, G.~P. P.~L. Otten, C.~Paladini, T.~Paumard, K.~Perraut, G.~Perrin, O.~Pfuhl, D.~C. Ribeiro, L.~Rodet, Z.~Rustamkulov, J.~Shangguan, T.~Shimizu, C.~Straubmeier, E.~Sturm, L.~J. Tacconi, A.~Vigan, F.~Vincent, K.~{Ward-Duong}, F.~Widmann, T.~Winterhalder, J.~Woillez, S.~Yazici, and {the GRAVITY Collaboration}.
+\newblock {{VLTI}}/{{GRAVITY Provides Evidence}} the {{Young}}, {{Substellar Companion HD}} 136164 {{Ab Formed Like}} a ``{{Failed Star}}''.
+\newblock \emph{The Astronomical Journal}, 167\penalty0 (2):\penalty0 64, February 2024.
+\newblock ISSN 0004-6256, 1538-3881.
+\newblock \doi{10.3847/1538-3881/ad1689}.
 
 \bibitem[Bodenheimer and Pollack(1986)]{Bodenheimer1986}
 Peter Bodenheimer and James~B. Pollack.
@@ -11,6 +18,11 @@ Peter Bodenheimer and James~B. Pollack.
 \newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 391--408, September 1986.
 \newblock ISSN 00191035.
 \newblock \doi{10.1016/0019-1035(86)90122-3}.
+
+\bibitem[Boss(1997)]{Boss1997}
+Alan~P. Boss.
+\newblock Giant planet formation by gravitational instability.
+\newblock \emph{Science}, 276:\penalty0 1836--1839, 1997.
 
 \bibitem[Bowler(2016)]{Bowler2016a}
 Brendan~P. Bowler.
@@ -32,9 +44,31 @@ G.~Chabrier, A.~Johansen, M.~Janson, and R.~Rafikov.
 \newblock 2014.
 \newblock \doi{10.2458/azu_uapress_9780816531240-ch027}.
 
+\bibitem[Chabrier(2003)]{Chabrier2003}
+Gilles Chabrier.
+\newblock Galactic stellar and substellar initial mass function.
+\newblock \emph{Publications of the Astronomical Society of the Pacific}, 115:\penalty0 763--795, 2003.
+
+\bibitem[Chabrier and Baraffe(2000)]{ChabrierBaraffe2000}
+Gilles Chabrier and Isabelle Baraffe.
+\newblock Theory of low-mass stars and substellar objects.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 38:\penalty0 337--377, 2000.
+
+\bibitem[D'Angelo et~al.(2010)D'Angelo, Durisen, and Lissauer]{DAngelo2010}
+Gennaro D'Angelo, Richard~H. Durisen, and Jack~J. Lissauer.
+\newblock Giant planet formation.
+\newblock In S.~Seager, editor, \emph{Exoplanets}, pages 319--346. University of Arizona Press, Tucson, 2010.
+
 \bibitem[Dr{\k a}{\.z}kowska et~al.(2023)Dr{\k a}{\.z}kowska, Bitsch, Lambrechts, Mulders, Harsono, Vazan, Liu, Ormel, Kretke, and Morbidelli]{Drazkowska2023}
 J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
 \newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
+
+\bibitem[Ginski et~al.(2021)Ginski, Facchini, Huang, Benisty, Vaendel, Stapper, Dominik, Bae, M{\'e}nard, {Muro-Arena}, Hogerheijde, McClure, Van~Holstein, Birnstiel, Boehler, Bohn, Flock, Mamajek, Manara, Pinilla, Pinte, and Ribas]{Ginski2021}
+Christian Ginski, Stefano Facchini, Jane Huang, Myriam Benisty, Dennis Vaendel, Lucas Stapper, Carsten Dominik, Jaehan Bae, Fran{\c c}ois M{\'e}nard, Gabriela {Muro-Arena}, Michiel~R. Hogerheijde, Melissa McClure, Rob~G. Van~Holstein, Tilman Birnstiel, Yann Boehler, Alexander Bohn, Mario Flock, Eric~E. Mamajek, Carlo~F. Manara, Paola Pinilla, Christophe Pinte, and {\'A}lvaro Ribas.
+\newblock Disk {{Evolution Study Through Imaging}} of {{Nearby Young Stars}} ({{DESTINYS}}): {{Late Infall Causing Disk Misalignment}} and {{Dynamic Structures}} in {{SU Aur}}*.
+\newblock \emph{The Astrophysical Journal Letters}, 908\penalty0 (2):\penalty0 L25, February 2021.
+\newblock ISSN 2041-8205, 2041-8213.
+\newblock \doi{10.3847/2041-8213/abdf57}.
 
 \bibitem[Kuffmeier et~al.(2026)Kuffmeier, Winter, Kuznetsova, Vioque, and Gupta]{Kuffmeier2026}
 M.~Kuffmeier, A.~Winter, A.~Kuznetsova, M.~Vioque, and A.~Gupta.
@@ -57,6 +91,12 @@ H.~Mizuno, K.~Nakazawa, and C.~Hayashi.
 \newblock \emph{Progress of Theoretical Physics}, 60\penalty0 (3):\penalty0 699--710, September 1978.
 \newblock ISSN 0033-068X, 1347-4081.
 \newblock \doi{10.1143/PTP.60.699}.
+
+\bibitem[Molli{\`e}re and Mordasini(2012)]{Molliere2012}
+P.~Molli{\`e}re and C.~Mordasini.
+\newblock Deuterium burning in objects forming via the core accretion scenario: Brown dwarfs or planets?
+\newblock \emph{Astronomy \& Astrophysics}, 547:\penalty0 A105, 2012.
+\newblock \doi{10.1051/0004-6361/201219844}.
 
 \bibitem[Podolak et~al.(1988)Podolak, Pollack, and Reynolds]{Podolak1988}
 Morris Podolak, James~B. Pollack, and Ray~T. Reynolds.
@@ -87,6 +127,17 @@ V.S. Safronov and E.V. Zvjagina.
 \newblock ISSN 00191035.
 \newblock \doi{10.1016/0019-1035(69)90013-X}.
 
+\bibitem[Stamatellos et~al.(2007)Stamatellos, Hubber, and Whitworth]{Stamatellos2007}
+D.~Stamatellos, D.~A. Hubber, and A.~P. Whitworth.
+\newblock Brown dwarf formation by gravitational fragmentation of massive, extended protostellar discs.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society}, 382:\penalty0 L30--L34, 2007.
+
+\bibitem[Stamatellos and Whitworth(2009)]{Stamatellos2009}
+Dimitris Stamatellos and Anthony~P. Whitworth.
+\newblock The properties of brown dwarfs and low-mass hydrogen-burning stars formed by disc fragmentation.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society}, 392\penalty0 (1):\penalty0 413--427, 2009.
+\newblock \doi{10.1111/j.1365-2966.2008.14069.x}.
+
 \bibitem[Stolker et~al.(2020)Stolker, Quanz, Todorov, K{\"u}hn, Molli{\`e}re, Meyer, Currie, Daemgen, and Lavie]{Stolker2020}
 Tomas Stolker, Sascha~P. Quanz, Kamen~O. Todorov, Jonas K{\"u}hn, Paul Molli{\`e}re, Michael~R. Meyer, Thayne Currie, Sebastian Daemgen, and Baptiste Lavie.
 \newblock {{MIRACLES}}: Atmospheric characterization of directly imaged planets and substellar companions at 4-5 \${$\mu\$$}m. {{I}}. {{Photometric}} analysis of \${$\beta\$$} {{Pic}} b, {{HIP}} 65426 b, {{PZ Tel B}} and {{HD}} 206893 {{B}}.
@@ -105,5 +156,9 @@ A.~P. Whitworth and D.~Stamatellos.
 \newblock \emph{Astronomy \& Astrophysics}, 458\penalty0 (3):\penalty0 817--829, November 2006.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361:20065806}.
+
+\bibitem[Whitworth et~al.(2006)Whitworth, Bate, Nordlund, Reipurth, and Zinnecker]{Whitworth2006b}
+Anthony Whitworth, Matthew~R. Bate, Aake Nordlund, Bo~Reipurth, and Hans Zinnecker.
+\newblock {{PPV Chapter}} - {{The Formation}} of {{Brown Dwarfs}}, February 2006.
 
 \end{thebibliography}
