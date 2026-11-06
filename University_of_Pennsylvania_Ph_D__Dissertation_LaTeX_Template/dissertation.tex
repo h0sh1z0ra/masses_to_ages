@@ -126,17 +126,21 @@ One of the major caveats to our current models are that planets and their parent
 Planets can span anywhere from the full stellar age, to 10 Myr younger, depending on the formation mechanism; top-down mechanisms would be close to coeval, while bottom-up mechanisms would leave a discrepancy of a few Myr.
 Furthermore, depending on the formation mechanism, it could lead to different inferred masses: take for example the young, planetary-mass companion
 2M1207-3932 b of the TW Hydrae Association. Assuming coevality, its hot-start mass is $\sim 5 M_{Jup}$. But, if the formation is delayed by 8 Myr, then
-the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}).
+the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}). Thus, 
 
 \section{Formation Mechanisms}
 \subsection{Core Accretion}
-The widely-accepted model for core accretion (CA hereon) comes from \citealp{Pollack1996}. A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. 
+\begin{sloppypar}
+The standard model for gas-giant formation by core accretion comes from \citet{Pollack1996}, 
+who built on older accretion models (\citealp{Safronov1969, Mizuno1978, Mizuno1980, Bodenheimer1986}).
+A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. 
 This dust undergoes random motion, and eventually dust particles may collide and clump together. The repetition of this process eventually leads to pebbles (dust coagulation, \citealp{Drazkowska2023}), 
 then boulders, plentesimals, then finally, through planetesimal accretion (\citealp{Safronov1969}), a planetary core massive enough to start accreting gas from the disk, which eventually leads to runaway gas accretion 
 (\citealp{Mizuno1980}, \citealp{Bodenheimer1986}, \citealp{Pollack1996}). 
+
 All in all, this process' timescale is on the scale of Myr (\citealp{Pollack1996}), which is significant because a planet formed in this way would be sizeably younger than its host star; planets formed through CA
 are also what this project aims to find.
-
+\end{sloppypar}
 This process occurs closer to the centre of the disk than gravitational instability, the other widely-accepted formation pathway, detailed in the next section. 
 Note that this process is not necessarily linear; most pebbles actually don't evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, 
 drift-barrier and others that are beyond the scope of this project but are detailed in Drazkowska et al. 2023.
@@ -162,7 +166,7 @@ Previous models that \citealp{Pollack1996} model built upon include \citealp{Miz
 In short, a critical mass before runaway gas accretion occurs is found to be $\sim 10M_\oplus$ (\citealp{Mizuno1980}), later $\sim 10M_\oplus - 30M_\oplus$ (BP86), and also when the heavy-element mass
 and the gas mass of the planet would equal; after this critical mass is reached, runaway gas accretion occurs. However, observations of the giant planets also revealed that Neptune and Uranus had compositions such that, 
 in these models, their mass fractions were comprised of too little gas mass, so they'd have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
-will be found in the outline below.
+will be found in the outline below. Note also, that this model occurs after dust and pebble accretion and 
 \end{sloppypar}
 % Mizuno et al. 1978 and Mizuno 1980 proposed the "core instability" (CI hereon) model based on the giant planets (Jupiter, Saturn, Uranus, Neptune). 
 % The details of the model are not significant (but can be found in Mizuno et al. 1980) but they showed low-Z mass envelopes (accreted gas phase) grew exponentially with increasing core mass 
@@ -221,19 +225,25 @@ The floor of the mass of objects formed seems to reach well into the planetary-m
 Also traditionally, the criterion for brown dwarfs is that it exceeds the deterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged;
 \citealp{Chabrier2014} argues plantary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
 
+Actually, the criterion for what a planet actually \it{is} is even under debate: some sources base it on only their mass, while some go off the formation tracks
+
 Furthermore, the formation tracks for brown dwarfs are also contested:
 many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Balmer2024}, \citealp{Chabrier2003}). Some others suggest they could also be formed through
 disk instability (\citealp{Boss1997}, \citealp{Stamatellos2007}, \citealp{Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{Balmer2024}, \citealp{DAngelo2010}, \citealp{Molliere2012}).
 \end{sloppypar}
 
+Thus, this project will also make use of lower mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
+
 \section{Imaging}
+
+
 \section{Evolutionary Models}
 Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. 
-Hot-start start with high entropy retain high entropy after formation, resulting in a
+Hot-start model planets start with high entropy retain high entropy after formation, resulting in a
 large initial radius and luminosity (\citealp{Bowler2016a}, \citealp{Bussmann2026}). 
 Cold-start models were made prominent by direct imaging to emulate more realistic scenarios for giant planets formed through CA (\citealp{Bowler2016a}).
 
-Older papers associate cold-start models with core accretion,
+Traditionally, cold-start models are associated with core accretion
 and hot-start models with disk instability. However, there is a bit more nuance: core accretion can also produce warm or hot initial conditions
 
 \chapter{Methodology}
