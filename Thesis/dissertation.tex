@@ -108,27 +108,22 @@
 %%%%% MAIN TEXT %%%%%so
 \begin{mainf} % The main body of your dissertation starts below this line
 \chapter{Introduction}
-\section{Motivation}
-Determining the age of a planet helps us ascertain the formation delay of the planet, by comparing it to the age of the parent star. We can also test our current formation models, and compare it to the expected disk lifetime (a few Myr, \citealp{Strom1993}, \citealp{Manara2023}):
-if the ages of planets are often younger than the disk lifetimes, then it suggests that disks are being replenished, perhaps through late infall (\citealp{Kuffmeier2026}). In addition, it helps constrain evolutionary models,
-assuming we have the planet's mass and luminosity. Normally, we infer a mass estimate from the luminosity and age, while assuming coevality; if we have all 3, we could constrain our evolutionary models accurately enough to determine if 
-the cooling tracks we have are correct.
+There is currently no way to systematically determine the age of a planet. In the field of planet formation, the standard practice is assuming coevality: that is, the planet and its host star
+are the same age. However, we depend on the age of the planet, along with the luminosity that can be measured from direct imaging, to estimate the mass using evolutionary models. However, it is obvious
+that planet formation takes time, possibly millions of years, so it follows that a lot of mass estimates we obtain are based upon incorrect ages. This project aims to tackle this research gap by finding a systematic
+method to estimate the age of a planet, using dynamical masses, luminosities from direct imaging and evolutionary models. Before the approach is explored, below is the background required to understand what's required to
+undertake this project: how planets form and their respective timescales, how planets are imaged, the aforementioned evolutionary models, a deeper dive into the motivation and then finally the methodology.
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.4]{su_aurigae.jpg}
-\caption{The SU Aurigae system. The majority of this photo comprises of wispy arms, which \citealp{Ginski2021} theorise
-is material from the surrounding medium replenishing the material in the disk. Credit: \citealp{Ginski2021}}\label{fig:su_aurigae}
-\end{center}
-\end{figure}
+% \begin{figure}[H]
+% \begin{center}
+% \includegraphics[scale=0.35]{su_aurigae.jpg}
+% \caption{The SU Aurigae system. The majority of this photo comprises of wispy arms, which \citealp{Ginski2021} theorise
+% is material from the surrounding medium replenishing the material in the disk. Credit: \citealp{Ginski2021}}\label{fig:su_aurigae}
+% \end{center}
+% \end{figure}
+\section{Planetary System Formation}
 
-One of the major caveats to our current models are that planets and their parent stars are not exactly coeval (\citealp{Bowler2016a}). 
-Planets can span anywhere from the full stellar age, to 10 Myr younger, depending on the formation mechanism; top-down mechanisms would be close to coeval, while bottom-up mechanisms would leave a discrepancy of a few Myr.
-Furthermore, depending on the formation mechanism, it could lead to different inferred masses: take for example the young, planetary-mass companion
-2M1207-3932 b of the TW Hydrae Association. Assuming coevality, its hot-start mass is $\sim 5 M_{Jup}$. But, if the formation is delayed by 8 Myr, then
-the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}). Thus, 
-
-\section{Formation Mechanisms}
+\section{Planetary Formation Mechanisms}
 \subsection{Core Accretion}
 \begin{sloppypar}
 The standard model for gas-giant formation by core accretion comes from \citet{Pollack1996}, 
@@ -142,7 +137,7 @@ All in all, this process' timescale is on the scale of Myr (\citealp{Pollack1996
 are also what this project aims to find.
 \end{sloppypar}
 This process occurs closer to the centre of the disk than gravitational instability, the other widely-accepted formation pathway, detailed in the next section. 
-Note that this process is not necessarily linear; most pebbles actually don't evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, 
+Note that this process is not necessarily linear; most pebbles actually do not evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, 
 drift-barrier and others that are beyond the scope of this project but are detailed in Drazkowska et al. 2023.
 
 \begin{figure}[H]
@@ -165,7 +160,7 @@ Previous models that \citealp{Pollack1996} model built upon include \citealp{Miz
 
 In short, a critical mass before runaway gas accretion occurs is found to be $\sim 10M_\oplus$ (\citealp{Mizuno1980}), later $\sim 10M_\oplus - 30M_\oplus$ (BP86), and also when the heavy-element mass
 and the gas mass of the planet would equal; after this critical mass is reached, runaway gas accretion occurs. However, observations of the giant planets also revealed that Neptune and Uranus had compositions such that, 
-in these models, their mass fractions were comprised of too little gas mass, so they'd have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
+in these models, their mass fractions were comprised of too little gas mass, so they would have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
 will be found in the outline below. Note also, that this model occurs after dust and pebble accretion and 
 \end{sloppypar}
 % Mizuno et al. 1978 and Mizuno 1980 proposed the "core instability" (CI hereon) model based on the giant planets (Jupiter, Saturn, Uranus, Neptune). 
@@ -200,21 +195,45 @@ gas accretion rate exceeding planetesimal accretion rate. This phase spans the b
 lasting $\sim7 Myr$. Finally, phase 3 denotes the runaway gas accretion, where both accretion rates (with gas still far exceeding planetesimal) start rapidly
 increasing again.
 
-Fig 1c of \citealp{Pollack1996} is particluarly relevant to this project: during phase 3, the luminosity grows rapidly to a stage that we can image directly.
-Once it reaches a maximum luminosity, it will cool down for the rest of its lifetime (since planets have no mechanisms that illuminate them);
-this cooling is what this project will utilise to infer the age from the luminosity and dynamical masses.
+Fig 1c of \citealp{Pollack1996} is particluarly relevant to this project: during phase 3, the luminosity grows rapidly such that, once fully formed, the planet is bright enough
+that we can directly image it. It will then cool down for the rest of its lifetime (since planets have no mechanisms to self-illuminate).
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics{fig1cpollack1996.png}
 \caption{Fig 1c of \citealp{Pollack1996}. The initial rise corresponds to the runaway planetesimal accretion of phase 1; the long
 plateau corresponds to the transitionary phase 2; the sharp increasing corresponds to both accretion rates rapidly increasing (and the runaway gas accretion)
-in phase 3} \label{fig:lum_pollack1996}
+in phase 3}\label{fig:lum_pollack1996}
 \end{center}
 \end{figure}
 
 \subsection{Gravitational Instability}
+\begin{sloppypar}
+Planet formation by gravitational (disk) instability arises in the outer regions of the disk (\citealp{Dodson-Robinson2009}) where it is colder and results from a clump fragmenting from the disk under its own self-gravity.
+Its dependence on being cold is due to the Toomre stability criterion Q, given by:
+\[
+Q = \frac{c_s\Omega}{\pi G \Sigma}
+\]
+where $c_s$ is the speed of sound, $\Omega$ is rotation frequency, $\Sigma$ is the disk surface density 
+(\citealp{Toomre1964,Kratter2016,Longarini2026}). Q determines the stability of a disk: large Q is stable, and $ Q = 1$ is the instability criterion: any $Q < 1 $ is unstable.
+The speed of sound scales with temperature, so Q scales linearly with sound speed and thus temperature, and inversely with surface density, so cold massive disks are more prone to instability. The parameters of Q are in a three-way competition:
+$\Sigma$ tries to collapse the clump, $c_s$ tries to resist collapse on small scales, $\Omega$ resists on large scales.
+\end{sloppypar}
+So, instability depends on surface density, rotation and temperature that can create denser regions in the disk, that can then fragment into its own subcloud, which will be contracting. 
+This may repeat many times for this fragment, forming sub-subclouds, then sub-sub-sub\ldots clouds (\citealp{Whitworth2006b}). These sub-sub-sub\ldots clouds will contract
+continually over a few thousand years to a million years, scaling inversely with mass (so more massive clouds contract faster). Here, the subcloud is made of $H_2$ and is $\sim 10^2$ $R_{Jup}$ in size, 
+and will continue to contract, increasing in temperature in the process until a critical temperature of $\sim$ 2000 K (\citealp{Helled2014, Bussmann2026}) is reached, where the $H_2$ dissipates and the now protoplanet undergoes a dynamical collapse, rapidly 
+contracting into a dense, compact gas giant of a few $R_{Jup}$. It will then cool in a similar fashion to core accretion.
 
+When observing protoplanetary disks, an indicator of disk instability occurring is spiral arms, characterised by transporting angular momentum throughout the disk, and can be driven by increasing surface density
+or decreasing temperature. These formation mechanisms can be seen in Figure~\ref{fig:fig2longarini2026}.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{fig2longarini2026.png}
+\caption{Fig. 2 from Longarini \& Lodato 2026. It shows two potential transport mechanisms that drive the formation of spiral arms,
+where infall is from increasing surface density ($\Sigma$) or cooling (decreasing sound speed $c_s$)}\label{fig:fig2longarini2026}
+\end{center}
+\end{figure}
 
 \subsection{A Note on Cloud Fragmentation and Brown Dwarfs}
 \begin{sloppypar}
@@ -225,35 +244,42 @@ The floor of the mass of objects formed seems to reach well into the planetary-m
 Also traditionally, the criterion for brown dwarfs is that it exceeds the deterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged;
 \citealp{Chabrier2014} argues plantary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
 
-Actually, the criterion for what a planet actually \it{is} is even under debate: some sources base it on only their mass, while some go off the formation tracks
-
-Furthermore, the formation tracks for brown dwarfs are also contested:
-many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Balmer2024}, \citealp{Chabrier2003}). Some others suggest they could also be formed through
-disk instability (\citealp{Boss1997}, \citealp{Stamatellos2007}, \citealp{Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{Balmer2024}, \citealp{DAngelo2010}, \citealp{Molliere2012}).
+Actually, the criterion for what a planet actually is even under debate: some sources base it on only their mass, while some go off the formation tracks. Furthermore, the formation tracks for brown dwarfs are also contested:
+many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Balmer2024,Chabrier2003}). Some others suggest they could also be formed through
+disk instability (\citealp{Boss1997,Stamatellos2007,Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{Balmer2024,DAngelo2010,Molliere2012}).
 \end{sloppypar}
 
 Thus, this project will also make use of lower mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
 
 \section{Imaging}
+Most of the planetary systems imaged in this project use the Very Large Telescope (VLT), and the Spectro-Polarimetric High-contrast Exoplanet REsearch (SPHERE) instrument, at the European Southern Observatory.
+SPHERE contains the instruments required to carry out the reduction and imaging techniques required to actually observe the planet, such as the coronagraph and wavefront correctors (\citealp{Currie2023}). 
+Coronagraphs block out the starlight via physical occulters in the image plane, and deformable mirrors correct for wavefron errors from atmospheric distortion. 
 
+We target young, bright, giant planets at wide orbits because they are luminous enough to actually be imaged, and far enough from their host star that
+starlight doesn't obscure the planet and it is detectable within our telescope resolution limits. Binary systems are ignored (\citealp{Currie2023}): they can inhibit planetary formation and disturb planetary orbits due to their chaotic nature. 
+In general, the target planets are at separations of 30--300 AU, due to contrast limits at small separations and limited field of view at larger separations.
+
+From imaging, we require the luminosities and dynamical masses from the planets. Dynamical masses are found by fitting the orbits to Kepler's laws through Python packages, e.g., orbitize! (\citealp{Blunt2024}); the separation distance and 
+rotation angle from North are required from the orbits.
 
 \section{Evolutionary Models}
 Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. 
-Hot-start model planets start with high entropy retain high entropy after formation, resulting in a
-large initial radius and luminosity (\citealp{Bowler2016a}, \citealp{Bussmann2026}). 
-Cold-start models were made prominent by direct imaging to emulate more realistic scenarios for giant planets formed through CA (\citealp{Bowler2016a}).
+Hot-start model planets start with high entropy retain high entropy after formation, cold-start models have low entropy, and warm-start models are intermediate between the two former (\citealp{Bowler2016a,Bussmann2026}). 
+In the physical world, this translates to core accretion being able to be hot-start or cold-start, depending on how much gravitational energy is radiated away during formation, and gravitational instability heavily faovuring hot-start
+due to there being no known mechanism that removes entropy during collapse (\citealp{Galvagni2012,Bussmann2026}). This project will make use of hot-start models in the implementation, due to core accretion not being a favoured formation mechanism
+at the studied planets' separations.
 
-Traditionally, cold-start models are associated with core accretion
-and hot-start models with disk instability. However, there is a bit more nuance: core accretion can also produce warm or hot initial conditions
+\chapter{Motivation}
+One of the major caveats to our current models are that planets and their parent stars are not exactly coeval (\citealp{Bowler2016a}). 
+Planets can span anywhere from the full stellar age, to 10 Myr younger, depending on the formation mechanism; top-down mechanisms would be close to coeval, while bottom-up mechanisms would leave a discrepancy of a few Myr.
+Furthermore, depending on the formation mechanism, it could lead to different inferred masses: take for example the young, planetary-mass companion
+2M1207-3932 b of the TW Hydrae Association. Assuming coevality, its hot-start mass is $\sim 5 M_{Jup}$. But, if the formation is delayed by 8 Myr, then
+the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}). Thus, 
 
 \chapter{Methodology}
-This project makes use of the species Python package (\citealp{Stolker2020}). The cooling-curve inversion uses a brute force technique, by using Monte Carlo to
-sample within the uncertainties of the parameters that are passed in.
-
-
-\section{Figures}
-The captions of figures inside the figure environment (see Figure~\ref{fig:lemur1}) will display in the List of Illustrations. Use the \Verb|\label| to label figures.\footnote{This also includes photographs, maps, schemes, diagrams, etc.}
-\newpage
+This project makes use of the species Python package (\citealp{Stolker2020}). The idea is to develop code to brute force an inversion of the evolutionary models, where instead
+of getting a mass estimate from age and luminosity, we get an age estimate from the luminosity and dynamical mass. 
 
 \end{mainf}
 %-------------------------------------------
@@ -265,8 +291,6 @@ The captions of figures inside the figure environment (see Figure~\ref{fig:lemur
 The content of Appendix A begins here. Use the \Verb|\chapter| command to insert additional appendices.
 \section{Section Name of Appendix A}
 Use the \Verb|\section| command to create sections.
-\chapter{\MakeUppercase{Title of Appendix B}}
-The content of Appendix B begins here.
 \end{append}
 %-------------------------------------------
 

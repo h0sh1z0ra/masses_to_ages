@@ -1,0 +1,20 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{ACKNOWLEDGMENT}{iv}{chapter*.1}%
+\contentsline {chapter}{ABSTRACT}{v}{chapter*.2}%
+\contentsline {chapter}{LIST OF ILLUSTRATIONS}{vii}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.4}%
+\contentsline {section}{\numberline {1.1}Planetary System Formation}{1}{section.5}%
+\contentsline {section}{\numberline {1.2}Planetary Formation Mechanisms}{1}{section.6}%
+\contentsline {subsection}{\numberline {1.2.1}Core Accretion}{1}{subsection.7}%
+\contentsline {subsection}{\numberline {1.2.2}Gravitational Instability}{4}{subsection.10}%
+\contentsline {subsection}{\numberline {1.2.3}A Note on Cloud Fragmentation and Brown Dwarfs}{6}{subsection.12}%
+\contentsline {section}{\numberline {1.3}Imaging}{6}{section.13}%
+\contentsline {section}{\numberline {1.4}Evolutionary Models}{7}{section.14}%
+\contentsline {chapter}{\numberline {2}Motivation}{8}{chapter.15}%
+\contentsline {chapter}{\numberline {3}Methodology}{9}{chapter.16}%
+\renewcommand {\cftchappresnum }{APPENDIX }
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\numberline {A}\MakeUppercase []{Title of Appendix A}}{10}{chapter.17}%
+\contentsline {section}{\numberline {A.1}Section Name of Appendix A}{10}{section.18}%
+\contentsline {chapter}{BIBLIOGRAPHY}{11}{section*.19}%
+\setcounter {tocdepth}{0}

@@ -1,16 +1,20 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Balmer et~al.(2024)Balmer, Pueyo, Lacour, Wang, Stolker, Kammerer, Pourr{\'e}, Nowak, Rickman, Blunt, Sivaramakrishnan, Sing, Wagner, Marleau, Lagrange, Abuter, Amorim, {Asensio-Torres}, Berger, Beust, Boccaletti, Bohn, Bonnefoy, Bonnet, Bordoni, Bourdarot, Brandner, Cantalloube, Caselli, Charnay, Chauvin, Chavez, Choquet, Christiaens, Cl{\'e}net, Du~Foresto, Cridland, Davies, Dembet, Drescher, Duvert, Eckart, Eisenhauer, Schreiber, Garcia, Garcia~Lopez, Gendron, Genzel, Gillessen, Girard, Grant, Haubois, Hei{\ss}el, Henning, Hinkley, Hippler, Houll{\'e}, Hubert, Jocou, Keppler, Kervella, Kreidberg, Kurtovic, Lapeyr{\`e}re, Le~Bouquin, L{\'e}na, Lutz, Maire, Mang, M{\'e}rand, Molli{\`e}re, Mordasini, Mouillet, Nasedkin, Ott, Otten, Paladini, Paumard, Perraut, Perrin, Pfuhl, Ribeiro, Rodet, Rustamkulov, Shangguan, Shimizu, Straubmeier, Sturm, Tacconi, Vigan, Vincent, {Ward-Duong}, Widmann, Winterhalder, Woillez, Yazici, and {the GRAVITY Collaboration}]{Balmer2024}
-William~O. Balmer, L.~Pueyo, S.~Lacour, J.~J. Wang, T.~Stolker, J.~Kammerer, N.~Pourr{\'e}, M.~Nowak, E.~Rickman, S.~Blunt, A.~Sivaramakrishnan, D.~Sing, K.~Wagner, G.-D. Marleau, A.-M. Lagrange, R.~Abuter, A.~Amorim, R.~{Asensio-Torres}, J.-P. Berger, H.~Beust, A.~Boccaletti, A.~Bohn, M.~Bonnefoy, H.~Bonnet, M.~S. Bordoni, G.~Bourdarot, W.~Brandner, F.~Cantalloube, P.~Caselli, B.~Charnay, G.~Chauvin, A.~Chavez, E.~Choquet, V.~Christiaens, Y.~Cl{\'e}net, V.~Coud{\'e} Du~Foresto, A.~Cridland, R.~Davies, R.~Dembet, A.~Drescher, G.~Duvert, A.~Eckart, F.~Eisenhauer, N.~M.~F{\"o}rster Schreiber, P.~Garcia, R.~Garcia~Lopez, E.~Gendron, R.~Genzel, S.~Gillessen, J.~H. Girard, S.~Grant, X.~Haubois, G.~Hei{\ss}el, {\relax Th}.~Henning, S.~Hinkley, S.~Hippler, M.~Houll{\'e}, Z.~Hubert, L.~Jocou, M.~Keppler, P.~Kervella, L.~Kreidberg, N.~T. Kurtovic, V.~Lapeyr{\`e}re, J.-B. Le~Bouquin, P.~L{\'e}na, D.~Lutz, A.-L. Maire, F.~Mang, A.~M{\'e}rand, P.~Molli{\`e}re, C.~Mordasini, D.~Mouillet, E.~Nasedkin, T.~Ott, G.~P. P.~L. Otten, C.~Paladini, T.~Paumard, K.~Perraut, G.~Perrin, O.~Pfuhl, D.~C. Ribeiro, L.~Rodet, Z.~Rustamkulov, J.~Shangguan, T.~Shimizu, C.~Straubmeier, E.~Sturm, L.~J. Tacconi, A.~Vigan, F.~Vincent, K.~{Ward-Duong}, F.~Widmann, T.~Winterhalder, J.~Woillez, S.~Yazici, and {the GRAVITY Collaboration}.
+\bibitem[Balmer et~al.(2024)Balmer, Pueyo, Lacour, Wang, Stolker, Kammerer, Pourr{\'e}, Nowak, Rickman, Blunt, Sivaramakrishnan, Sing, Wagner, Marleau, Lagrange, and {the GRAVITY Collaboration}]{Balmer2024}
+William~O. Balmer, L.~Pueyo, S.~Lacour, J.~J. Wang, T.~Stolker, J.~Kammerer, N.~Pourr{\'e}, M.~Nowak, E.~Rickman, S.~Blunt, A.~Sivaramakrishnan, D.~Sing, K.~Wagner, G.-D. Marleau, A.-M. Lagrange, and {the GRAVITY Collaboration}.
 \newblock {{VLTI}}/{{GRAVITY Provides Evidence}} the {{Young}}, {{Substellar Companion HD}} 136164 {{Ab Formed Like}} a ``{{Failed Star}}''.
 \newblock \emph{The Astronomical Journal}, 167\penalty0 (2):\penalty0 64, February 2024.
 \newblock ISSN 0004-6256, 1538-3881.
 \newblock \doi{10.3847/1538-3881/ad1689}.
+
+\bibitem[Blunt et~al.(2024)Blunt, Wang, Hirsch, Tejada, Nagpal, Surti, Covarrubias, McKenna, Ch{\'a}vez, {Llop-Sayson}, Arora, Chavez, Cody, Choudhary, Smith, Balmer, Stolker, Gallamore, {\'O}, Nielsen, and Rosa]{Blunt2024}
+Sarah Blunt, Jason~Jinfei Wang, Lea Hirsch, Roberto Tejada, Vighnesh Nagpal, Tirth~Dharmesh Surti, Sofia Covarrubias, Thea McKenna, Rodrigo~Ferrer Ch{\'a}vez, Jorge {Llop-Sayson}, Mireya Arora, Amanda Chavez, Devin Cody, Saanika Choudhary, Adam J. R.~W. Smith, William Balmer, Tomas Stolker, Hannah Gallamore, Clarissa R.~Do {\'O}, Eric~L. Nielsen, and Robert J.~De Rosa.
+\newblock Orbitize! v3: {{Orbit}} fitting for the {{High}}-contrast {{Imaging Community}}, October 2024.
 
 \bibitem[Bodenheimer and Pollack(1986)]{Bodenheimer1986}
 Peter Bodenheimer and James~B. Pollack.
@@ -54,29 +58,51 @@ Gilles Chabrier and Isabelle Baraffe.
 \newblock Theory of low-mass stars and substellar objects.
 \newblock \emph{Annual Review of Astronomy and Astrophysics}, 38:\penalty0 337--377, 2000.
 
+\bibitem[Currie et~al.(2023)Currie, Biller, Lagrange, Marois, Guyon, Nielsen, Bonnefoy, and {De Rosa}]{Currie2023}
+Thayne Currie, Beth Biller, Anne-Marie Lagrange, Christian Marois, Olivier Guyon, Eric Nielsen, Mickael Bonnefoy, and Robert {De Rosa}.
+\newblock Direct {{Imaging}} and {{Spectroscopy}} of {{Extrasolar Planets}}, July 2023.
+
 \bibitem[D'Angelo et~al.(2010)D'Angelo, Durisen, and Lissauer]{DAngelo2010}
 Gennaro D'Angelo, Richard~H. Durisen, and Jack~J. Lissauer.
 \newblock Giant planet formation.
 \newblock In S.~Seager, editor, \emph{Exoplanets}, pages 319--346. University of Arizona Press, Tucson, 2010.
 
+\bibitem[{Dodson-Robinson} et~al.(2009){Dodson-Robinson}, Veras, Ford, and Beichman]{Dodson-Robinson2009}
+Sarah~E. {Dodson-Robinson}, Dimitri Veras, Eric~B. Ford, and C.~A. Beichman.
+\newblock The {{Formation Mechanism}} of {{Gas Giants}} on {{Wide Orbits}}.
+\newblock \emph{The Astrophysical Journal}, 707\penalty0 (1):\penalty0 79--88, December 2009.
+\newblock ISSN 0004-637X, 1538-4357.
+\newblock \doi{10.1088/0004-637X/707/1/79}.
+
 \bibitem[Dr{\k a}{\.z}kowska et~al.(2023)Dr{\k a}{\.z}kowska, Bitsch, Lambrechts, Mulders, Harsono, Vazan, Liu, Ormel, Kretke, and Morbidelli]{Drazkowska2023}
 J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
 \newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
 
-\bibitem[Ginski et~al.(2021)Ginski, Facchini, Huang, Benisty, Vaendel, Stapper, Dominik, Bae, M{\'e}nard, {Muro-Arena}, Hogerheijde, McClure, Van~Holstein, Birnstiel, Boehler, Bohn, Flock, Mamajek, Manara, Pinilla, Pinte, and Ribas]{Ginski2021}
-Christian Ginski, Stefano Facchini, Jane Huang, Myriam Benisty, Dennis Vaendel, Lucas Stapper, Carsten Dominik, Jaehan Bae, Fran{\c c}ois M{\'e}nard, Gabriela {Muro-Arena}, Michiel~R. Hogerheijde, Melissa McClure, Rob~G. Van~Holstein, Tilman Birnstiel, Yann Boehler, Alexander Bohn, Mario Flock, Eric~E. Mamajek, Carlo~F. Manara, Paola Pinilla, Christophe Pinte, and {\'A}lvaro Ribas.
-\newblock Disk {{Evolution Study Through Imaging}} of {{Nearby Young Stars}} ({{DESTINYS}}): {{Late Infall Causing Disk Misalignment}} and {{Dynamic Structures}} in {{SU Aur}}*.
-\newblock \emph{The Astrophysical Journal Letters}, 908\penalty0 (2):\penalty0 L25, February 2021.
-\newblock ISSN 2041-8205, 2041-8213.
-\newblock \doi{10.3847/2041-8213/abdf57}.
+\bibitem[Galvagni et~al.(2012)Galvagni, Hayfield, Boley, Mayer, Ro{\v s}kar, and Saha]{Galvagni2012}
+M.~Galvagni, T.~Hayfield, A.~Boley, L.~Mayer, R.~Ro{\v s}kar, and P.~Saha.
+\newblock The collapse of protoplanetary clumps formed through disc instability: 3d simulations of the pre-dissociation phase.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society}, 427:\penalty0 1725--1740, 2012.
 
-\bibitem[Kuffmeier et~al.(2026)Kuffmeier, Winter, Kuznetsova, Vioque, and Gupta]{Kuffmeier2026}
-M.~Kuffmeier, A.~Winter, A.~Kuznetsova, M.~Vioque, and A.~Gupta.
-\newblock Stellar age is not disk age, September 2026.
+\bibitem[Helled et~al.(2014)Helled, Bodenheimer, Podolak, Boley, Meru, Nayakshin, Fortney, Mayer, Alibert, and Boss]{Helled2014}
+R.~Helled, P.~Bodenheimer, M.~Podolak, A.~Boley, F.~Meru, S.~Nayakshin, J.~J. Fortney, L.~Mayer, Y.~Alibert, and A.~P. Boss.
+\newblock Giant {{Planet Formation}}, {{Evolution}}, and {{Internal Structure}}.
+\newblock In \emph{Protostars and {{Planets VI}}}. University of Arizona Press, 2014.
+\newblock ISBN 978-0-8165-3124-0.
+\newblock \doi{10.2458/azu_uapress_9780816531240-ch028}.
 
-\bibitem[Manara et~al.(2023)Manara, Ansdell, Rosotti, Hughes, Armitage, Lodato, and Williams]{Manara2023}
-C.~F. Manara, M.~Ansdell, G.~P. Rosotti, A.~M. Hughes, P.~J. Armitage, G.~Lodato, and J.~P. Williams.
-\newblock Demographics of young stars and their protoplanetary disks: Lessons learned on disk evolution and its connection to planet formation, March 2023.
+\bibitem[Kratter and Lodato(2016)]{Kratter2016}
+Kaitlin~M. Kratter and Giuseppe Lodato.
+\newblock Gravitational {{Instabilities}} in {{Circumstellar Disks}}.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 54\penalty0 (1):\penalty0 271--311, September 2016.
+\newblock ISSN 0066-4146, 1545-4282.
+\newblock \doi{10.1146/annurev-astro-081915-023307}.
+
+\bibitem[Longarini and Lodato(2026)]{Longarini2026}
+Cristiano Longarini and Giuseppe Lodato.
+\newblock Gravitational instability in planet-forming discs.
+\newblock \emph{Frontiers in Astronomy and Space Sciences}, 13:\penalty0 1911058, September 2026.
+\newblock ISSN 2296-987X.
+\newblock \doi{10.3389/fspas.2026.1911058}.
 
 \bibitem[Mizuno(1980)]{Mizuno1980}
 H.~Mizuno.
@@ -110,7 +136,7 @@ James~B. Pollack, Morris Podolak, Peter Bodenheimer, and Bruce Christofferson.
 \newblock Planetesimal dissolution in the envelopes of the forming, giant planets.
 \newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 409--443, 1986.
 \newblock ISSN 0019-1035.
-\newblock \doi{https://doi.org/10.1016/0019-1035(86)90123-5}.
+\newblock \doi{10.1016/0019-1035(86)90123-5}.
 \newblock URL \url{https://www.sciencedirect.com/science/article/pii/0019103586901235}.
 
 \bibitem[Pollack et~al.(1996)Pollack, Hubickyj, Bodenheimer, Lissauer, Podolak, and Greenzweig]{Pollack1996}
@@ -139,15 +165,17 @@ Dimitris Stamatellos and Anthony~P. Whitworth.
 
 \bibitem[Stolker et~al.(2020)Stolker, Quanz, Todorov, K{\"u}hn, Molli{\`e}re, Meyer, Currie, Daemgen, and Lavie]{Stolker2020}
 Tomas Stolker, Sascha~P. Quanz, Kamen~O. Todorov, Jonas K{\"u}hn, Paul Molli{\`e}re, Michael~R. Meyer, Thayne Currie, Sebastian Daemgen, and Baptiste Lavie.
-\newblock {{MIRACLES}}: Atmospheric characterization of directly imaged planets and substellar companions at 4-5 \${$\mu\$$}m. {{I}}. {{Photometric}} analysis of \${$\beta\$$} {{Pic}} b, {{HIP}} 65426 b, {{PZ Tel B}} and {{HD}} 206893 {{B}}.
+\newblock {{MIRACLES}}: Atmospheric characterization of directly imaged planets and substellar companions at 4--5 $\mu$m. {{I}}. {{Photometric}} analysis of $\beta$ {{Pic}} b, {{HIP}} 65426 b, {{PZ Tel B}} and {{HD}} 206893 {{B}}.
 \newblock \emph{Astronomy \& Astrophysics}, 635:\penalty0 A182, March 2020.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361/201937159}.
 
-\bibitem[Strom et~al.(1993)Strom, Edwards, and Skrutskie]{Strom1993}
-Stephen~E. Strom, Suzan Edwards, and Michael~F. Skrutskie.
-\newblock Evolutionary {{Time Scales}} for {{Circumstellar Disks Associated}} with {{Intermediate-Type}} and {{Solar-Type Stars}}.
-\newblock In \emph{Protostars and {{Planets III}}}, page 837, January 1993.
+\bibitem[Toomre(1964)]{Toomre1964}
+A.~Toomre.
+\newblock On the gravitational stability of a disk of stars.
+\newblock \emph{The Astrophysical Journal}, 139:\penalty0 1217--1238, May 1964.
+\newblock ISSN 0004-637X.
+\newblock \doi{10.1086/147861}.
 
 \bibitem[Whitworth and Stamatellos(2006)]{Whitworth2006a}
 A.~P. Whitworth and D.~Stamatellos.
