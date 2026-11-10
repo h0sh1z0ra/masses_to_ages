@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -152,6 +152,13 @@ V.~S. Safronov.
 \newblock Nauka, Moscow, 1969.
 \newblock English translation: NASA TT F-677, 1972.
 
+\bibitem[Shu et~al.(1987)Shu, Adams, and Lizano]{Shu1987}
+Frank~H. Shu, Fred~C. Adams, and Susana Lizano.
+\newblock Star formation in molecular clouds: Observation and theory.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 25:\penalty0 23--81, January 1987.
+\newblock ISSN 0066-4146.
+\newblock \doi{10.1146/annurev.aa.25.090187.000323}.
+
 \bibitem[Stamatellos et~al.(2007)Stamatellos, Hubber, and Whitworth]{Stamatellos2007}
 D.~Stamatellos, D.~A. Hubber, and A.~P. Whitworth.
 \newblock Brown dwarf formation by gravitational fragmentation of massive, extended protostellar discs.
@@ -169,6 +176,11 @@ Tomas Stolker, Sascha~P. Quanz, Kamen~O. Todorov, Jonas K{\"u}hn, Paul Molli{\`e
 \newblock \emph{Astronomy \& Astrophysics}, 635:\penalty0 A182, March 2020.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361/201937159}.
+
+\bibitem[Strom et~al.(1993)Strom, Edwards, and Skrutskie]{Strom1993}
+Stephen~E. Strom, Suzan Edwards, and Michael~F. Skrutskie.
+\newblock Evolutionary {{Time Scales}} for {{Circumstellar Disks Associated}} with {{Intermediate-Type}} and {{Solar-Type Stars}}.
+\newblock In \emph{Protostars and {{Planets III}}}, page 837, January 1993.
 
 \bibitem[Toomre(1964)]{Toomre1964}
 A.~Toomre.

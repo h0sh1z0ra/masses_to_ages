@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex dissertation"] 1794249602.42496 "dissertation.aux" "dissertation.bbl" "dissertation" 1794267768.74484 0
-  "./bibliography.bib" 1794249589.86204 26215 2ec143d6f2a528cee6e5f0a9d1ccd6e8 ""
+["bibtex dissertation"] 1794335799.43632 "dissertation.aux" "dissertation.bbl" "dissertation" 1794335800.38755 0
+  "./bibliography.bib" 1794335246.28711 29992 7ce689053b576dccfd40de45efad7f22 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "dissertation.aux" 1794267768.58992 8507 cd75ff30dd9f4bf8206db2196dbebcd2 "pdflatex"
+  "dissertation.aux" 1794335800.21546 10169 f7224ad29e895d8b82c17ec0fec78c05 "pdflatex"
   (generated)
   "dissertation.bbl"
   "dissertation.blg"
   (rewritten before read)
-["pdflatex"] 1794267767.91231 "/home/kaelan/fyp/Thesis/dissertation.tex" "dissertation.pdf" "dissertation" 1794267768.745 0
+["pdflatex"] 1794335799.49195 "/home/kaelan/fyp/Thesis/dissertation.tex" "dissertation.pdf" "dissertation" 1794335800.3878 0
   "/etc/texmf/web2c/texmf.cnf" 1792496863.31439 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kaelan/fyp/Thesis/dissertation.tex" 1794267767.55688 25510 d286411f83327e6e8496ba8244ad95f5 ""
+  "/home/kaelan/fyp/Thesis/dissertation.tex" 1794335798.26076 26203 24cbe399ce516cd1286b9b9875582d86 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
@@ -38,6 +38,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/american.ldf" 1496785618 2768 564633551858ab4a7568c71525151d11 ""
@@ -130,16 +131,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1792496903 5381040 3ad00d6fedfb7e3ff779703e5842481b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1792496961 2236303 70c8e68ca173ce1488cd3c38990721d9 ""
-  "dissertation.aux" 1794267768.58992 8507 cd75ff30dd9f4bf8206db2196dbebcd2 "pdflatex"
-  "dissertation.bbl" 1794249602.47668 11465 f183ed421dab561023d132eee6233c63 "bibtex dissertation"
-  "dissertation.lof" 1794267768.59123 952 7217ee73a14415ebe9eefb2acf425d46 "pdflatex"
-  "dissertation.out" 1794267768.59101 902 243190f6ff674ab0e4fca28059b42274 "pdflatex"
-  "dissertation.tex" 1794267767.55688 25510 d286411f83327e6e8496ba8244ad95f5 ""
-  "dissertation.toc" 1794267768.59123 1341 994008d9ca53c8e68f30121120f2980b "pdflatex"
+  "dissertation.aux" 1794335800.21546 10169 f7224ad29e895d8b82c17ec0fec78c05 "pdflatex"
+  "dissertation.bbl" 1794335799.48825 12154 a570afd971ddb0f05acb400b6d90df7a "bibtex dissertation"
+  "dissertation.lof" 1794335800.2199 1187 12db95957d3f8ac8e517a922e5b31336 "pdflatex"
+  "dissertation.out" 1794335800.21958 995 40beff768f768885a1da4120963ae419 "pdflatex"
+  "dissertation.tex" 1794335798.26076 26203 24cbe399ce516cd1286b9b9875582d86 ""
+  "dissertation.toc" 1794335800.2199 1923 791c5d9ae94a8b76a24d4c5bc3ee705b "pdflatex"
   "fig1cpollack1996.png" 1792764023.7924 29448 d6cb5c4d31a9bf85757cce4512d6238a ""
   "fig2longarini2026.png" 1794238781.64082 692053 22129a62f537defa70b6bc850266092d ""
   "fig3drazkowska2023.png" 1792761338.71842 236899 e33ebed110852f7fc2659174267eca9a ""
-  "upennstyle.sty" 1794247947.26854 13250 74dd71367b6fbadda99d974187dd94ca ""
+  "standard curves.png" 1794312441.42386 172204 dfeaecf76e39b3233cb07c8aa4f7c403 ""
+  "upennstyle.sty" 1794335649.20194 13250 74dd71367b6fbadda99d974187dd94ca ""
   (generated)
   "dissertation.aux"
   "dissertation.lof"
