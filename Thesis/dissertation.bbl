@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -158,6 +158,12 @@ Frank~H. Shu, Fred~C. Adams, and Susana Lizano.
 \newblock \emph{Annual Review of Astronomy and Astrophysics}, 25:\penalty0 23--81, January 1987.
 \newblock ISSN 0066-4146.
 \newblock \doi{10.1146/annurev.aa.25.090187.000323}.
+
+\bibitem[Soderblom et~al.(2014)Soderblom, Hillenbrand, Jeffries, Mamajek, and Naylor]{Soderblom2014}
+David~R. Soderblom, Lynne~A. Hillenbrand, Rob~D. Jeffries, Eric~E. Mamajek, and Tim Naylor.
+\newblock Ages of young stars.
+\newblock 2014.
+\newblock \doi{10.2458/azu_uapress_9780816531240-ch010}.
 
 \bibitem[Stamatellos et~al.(2007)Stamatellos, Hubber, and Whitworth]{Stamatellos2007}
 D.~Stamatellos, D.~A. Hubber, and A.~P. Whitworth.

@@ -610,4 +610,88 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write5
-\openout5 = `dissertat
+\openout5 = `dissertation.toc'.
+
+ [5
+
+] (./dissertation.lof)
+\tf@lof=\write6
+\openout6 = `dissertation.lof'.
+
+ [6
+
+]
+Chapter 1.
+[1
+
+]
+Underfull \hbox (badness 1502) in paragraph at lines 156--162
+\T1/cmr/m/n/10.95 who built on older ac-cre-tion mod-els ([][][], []1969[]; [][][], []1978[]; [][][], []1980[];
+ []
+
+[2]
+<fig3drazkowska2023.png, id=163, 661.61464pt x 248.21304pt>
+File: fig3drazkowska2023.png Graphic file (type png)
+<use fig3drazkowska2023.png>
+Package pdftex.def Info: fig3drazkowska2023.png  used on input line 172.
+(pdftex.def)             Requested size: 396.97185pt x 148.92896pt.
+ [3 <./fig3drazkowska2023.png>]
+<fig1cpollack1996.png, id=194, 356.61804pt x 258.9675pt>
+File: fig1cpollack1996.png Graphic file (type png)
+<use fig1cpollack1996.png>
+Package pdftex.def Info: fig1cpollack1996.png  used on input line 203.
+(pdftex.def)             Requested size: 427.9395pt x 310.75941pt.
+ [4] [5 <./fig1cpollack1996.png>]
+<fig2longarini2026.png, id=228, 1739.49875pt x 820.06375pt>
+File: fig2longarini2026.png Graphic file (type png)
+<use fig2longarini2026.png>
+Package pdftex.def Info: fig2longarini2026.png  used on input line 234.
+(pdftex.def)             Requested size: 434.87363pt x 205.01543pt.
+ [6] [7 <./fig2longarini2026.png>] [8] [9]
+Chapter 2.
+[10
+
+]
+Chapter 3.
+[11
+
+]
+Chapter 4.
+<standard curves.png, id=322, 666.99188pt x 456.95718pt>
+File: standard curves.png Graphic file (type png)
+<use standard curves.png>
+Package pdftex.def Info: standard curves.png  used on input line 306.
+(pdftex.def)             Requested size: 466.89113pt x 319.86784pt.
+[12
+
+ <./standard curves.png>] [13]
+Chapter A.
+[14
+
+] (./dissertation.bbl [15
+
+
+] [16]) [17] (./dissertation.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 40BEFF768F768885A1DA4120963AE419;995.
+ ) 
+Here is how much of TeX's memory you used:
+ 15965 strings out of 469514
+ 252579 string characters out of 5470071
+ 704247 words of memory out of 5000000
+ 44304 multiletter control sequences out of 15000+600000
+ 636445 words of font info for 64 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 84i,8n,93p,1225b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on dissertation.pdf (23 pages, 1271271 bytes).
+PDF statistics:
+ 435 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+

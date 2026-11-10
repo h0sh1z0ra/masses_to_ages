@@ -1,0 +1,27 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{ACKNOWLEDGMENT}{iii}{chapter*.1}%
+\contentsline {chapter}{ABSTRACT}{iv}{chapter*.2}%
+\contentsline {chapter}{LIST OF ILLUSTRATIONS}{vi}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.4}%
+\contentsline {section}{\numberline {1.1}Planetary System Formation}{1}{section.5}%
+\contentsline {section}{\numberline {1.2}Determination of Stellar Age}{2}{section.6}%
+\contentsline {subsection}{\numberline {1.2.1}Lithium Depletion Boundary}{2}{subsection.7}%
+\contentsline {subsection}{\numberline {1.2.2}Kinematic Ages}{2}{subsection.8}%
+\contentsline {subsection}{\numberline {1.2.3}Hertzsprung-Russell Diagrams}{2}{subsection.9}%
+\contentsline {section}{\numberline {1.3}Planetary Formation Mechanisms}{2}{section.10}%
+\contentsline {subsection}{\numberline {1.3.1}Core Accretion}{2}{subsection.11}%
+\contentsline {subsection}{\numberline {1.3.2}Gravitational Instability}{5}{subsection.14}%
+\contentsline {subsection}{\numberline {1.3.3}A Note on Cloud Fragmentation and Brown Dwarfs}{7}{subsection.16}%
+\contentsline {section}{\numberline {1.4}Imaging}{8}{section.17}%
+\contentsline {subsection}{\numberline {1.4.1}Targets}{8}{subsection.18}%
+\contentsline {subsection}{\numberline {1.4.2}Dynamical Masses}{8}{subsection.19}%
+\contentsline {section}{\numberline {1.5}Evolutionary Models}{9}{section.20}%
+\contentsline {chapter}{\numberline {2}Motivation}{10}{chapter.21}%
+\contentsline {chapter}{\numberline {3}Literature Review}{11}{chapter.22}%
+\contentsline {chapter}{\numberline {4}Methodology}{12}{chapter.23}%
+\renewcommand {\cftchappresnum }{APPENDIX }
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\numberline {A}\MakeUppercase []{Interpolation}}{14}{chapter.25}%
+\contentsline {section}{\numberline {A.1}Section Name of Appendix A}{14}{section.26}%
+\contentsline {chapter}{BIBLIOGRAPHY}{15}{section*.27}%
+\setcounter {tocdepth}{0}
