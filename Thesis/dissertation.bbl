@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,16 +12,44 @@ William~O. Balmer, L.~Pueyo, S.~Lacour, J.~J. Wang, T.~Stolker, J.~Kammerer, N.~
 \newblock ISSN 0004-6256, 1538-3881.
 \newblock \doi{10.3847/1538-3881/ad1689}.
 
+\bibitem[Baraffe et~al.(2003)Baraffe, Chabrier, Barman, Allard, and Hauschildt]{Baraffe2003}
+I.~Baraffe, G.~Chabrier, T.~Barman, F.~Allard, and P.~H. Hauschildt.
+\newblock Evolutionary models for cool brown dwarfs and extrasolar giant planets. {{The}} case of {{HD}} 20945.
+\newblock \emph{Astronomy \& Astrophysics}, 402\penalty0 (2):\penalty0 701--712, May 2003.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361:20030252}.
+
+\bibitem[Baraffe et~al.(2015)Baraffe, Homeier, Allard, and Chabrier]{Baraffe2015}
+Isabelle Baraffe, Derek Homeier, France Allard, and Gilles Chabrier.
+\newblock New evolutionary models for pre-main sequence and main sequence low-mass stars down to the hydrogen-burning limit.
+\newblock \emph{Astronomy \& Astrophysics}, 577:\penalty0 A42, May 2015.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201425481}.
+
+\bibitem[Birnstiel et~al.(2010)Birnstiel, Dullemond, and Brauer]{Birnstiel2010}
+T.~Birnstiel, C.~P. Dullemond, and F.~Brauer.
+\newblock Gas- and dust evolution in protoplanetary disks.
+\newblock \emph{Astronomy and Astrophysics}, 513:\penalty0 A79, April 2010.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/200913731}.
+
+\bibitem[Birnstiel et~al.(2016)Birnstiel, Fang, and Johansen]{Birnstiel2016}
+T.~Birnstiel, M.~Fang, and A.~Johansen.
+\newblock Dust {{Evolution}} and the {{Formation}} of {{Planetesimals}}.
+\newblock \emph{Space Science Reviews}, 205\penalty0 (1-4):\penalty0 41--75, December 2016.
+\newblock ISSN 0038-6308, 1572-9672.
+\newblock \doi{10.1007/s11214-016-0256-1}.
+
+\bibitem[Blunt et~al.(2020)Blunt, Wang, Angelo, Ngo, Cody, Rosa, Graham, Hirsch, Nagpal, Nielsen, Pearce, Rice, and Tejada]{Blunt2020}
+Sarah Blunt, Jason Wang, Isabel Angelo, Henry Ngo, Devin Cody, Robert J.~De Rosa, James Graham, Lea Hirsch, Vighnesh Nagpal, Eric~L. Nielsen, Logan Pearce, Malena Rice, and Roberto Tejada.
+\newblock Orbitize!: {{A Comprehensive Orbit}}-fitting {{Software Package}} for the {{High}}-contrast {{Imaging Community}}.
+\newblock \emph{The Astronomical Journal}, 159\penalty0 (3):\penalty0 89, March 2020.
+\newblock ISSN 0004-6256, 1538-3881.
+\newblock \doi{10.3847/1538-3881/ab6663}.
+
 \bibitem[Blunt et~al.(2024)Blunt, Wang, Hirsch, Tejada, Nagpal, Surti, Covarrubias, McKenna, Ch{\'a}vez, {Llop-Sayson}, Arora, Chavez, Cody, Choudhary, Smith, Balmer, Stolker, Gallamore, {\'O}, Nielsen, and Rosa]{Blunt2024}
 Sarah Blunt, Jason~Jinfei Wang, Lea Hirsch, Roberto Tejada, Vighnesh Nagpal, Tirth~Dharmesh Surti, Sofia Covarrubias, Thea McKenna, Rodrigo~Ferrer Ch{\'a}vez, Jorge {Llop-Sayson}, Mireya Arora, Amanda Chavez, Devin Cody, Saanika Choudhary, Adam J. R.~W. Smith, William Balmer, Tomas Stolker, Hannah Gallamore, Clarissa R.~Do {\'O}, Eric~L. Nielsen, and Robert J.~De Rosa.
 \newblock Orbitize! v3: {{Orbit}} fitting for the {{High}}-contrast {{Imaging Community}}, October 2024.
-
-\bibitem[Bodenheimer and Pollack(1986)]{Bodenheimer1986}
-Peter Bodenheimer and James~B. Pollack.
-\newblock Calculations of the accretion and evolution of giant planets: {{The}} effects of solid cores.
-\newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 391--408, September 1986.
-\newblock ISSN 00191035.
-\newblock \doi{10.1016/0019-1035(86)90122-3}.
 
 \bibitem[Boss(1997)]{Boss1997}
 Alan~P. Boss.
@@ -35,12 +63,33 @@ Brendan~P. Bowler.
 \newblock ISSN 0004-6280, 1538-3873.
 \newblock \doi{10.1088/1538-3873/128/968/102001}.
 
+\bibitem[Bowler et~al.(2020)Bowler, Blunt, and Nielsen]{Bowler2020a}
+Brendan~P. Bowler, Sarah~C. Blunt, and Eric~L. Nielsen.
+\newblock Population-level {{Eccentricity Distributions}} of {{Imaged Exoplanets}} and {{Brown Dwarf Companions}}: {{Dynamical Evidence}} for {{Distinct Formation Channels}}*.
+\newblock \emph{The Astronomical Journal}, 159\penalty0 (2):\penalty0 63, February 2020.
+\newblock ISSN 0004-6256, 1538-3881.
+\newblock \doi{10.3847/1538-3881/ab5b11}.
+
+\bibitem[Brandt(2021)]{Brandt2021b}
+Timothy~D. Brandt.
+\newblock The {{Hipparcos-Gaia Catalog}} of {{Accelerations}}: {{Gaia EDR3 Edition}}.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 254\penalty0 (2):\penalty0 42, June 2021.
+\newblock ISSN 0067-0049, 1538-4365.
+\newblock \doi{10.3847/1538-4365/abf93c}.
+
 \bibitem[Bussmann and Helled(2026)]{Bussmann2026}
 Mirco Bussmann and Ravit Helled.
 \newblock Evolutionary tracks of giant planets formed by disk instability.
 \newblock \emph{Astronomy \& Astrophysics}, 714:\penalty0 A183, October 2026.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361/202661805}.
+
+\bibitem[Chabrier et~al.(2000)Chabrier, Baraffe, Allard, and Hauschildt]{Chabrier2000}
+G.~Chabrier, I.~Baraffe, F.~Allard, and P.~Hauschildt.
+\newblock Evolutionary {{Models}} for {{Very Low}}-{{Mass Stars}} and {{Brown Dwarfs}} with {{Dusty Atmospheres}}.
+\newblock \emph{The Astrophysical Journal}, 542\penalty0 (1):\penalty0 464--472, October 2000.
+\newblock ISSN 0004-637X, 1538-4357.
+\newblock \doi{10.1086/309513}.
 
 \bibitem[Chabrier et~al.(2014)Chabrier, Johansen, Janson, and Rafikov]{Chabrier2014}
 G.~Chabrier, A.~Johansen, M.~Janson, and R.~Rafikov.
@@ -67,6 +116,13 @@ Gennaro D'Angelo, Richard~H. Durisen, and Jack~J. Lissauer.
 \newblock Giant planet formation.
 \newblock In S.~Seager, editor, \emph{Exoplanets}, pages 319--346. University of Arizona Press, Tucson, 2010.
 
+\bibitem[De~Boer et~al.(2020)De~Boer, Langlois, Van~Holstein, Girard, Mouillet, Vigan, Dohlen, Snik, Keller, Ginski, Stam, Milli, Wahhaj, Kasper, Schmid, Rabou, Gluck, Hugot, Perret, Martinez, Weber, Pragt, Sauvage, Boccaletti, Le~Coroller, Dominik, Henning, Lagadec, M{\'e}nard, Turatto, Udry, Chauvin, Feldt, and Beuzit]{DeBoer2020}
+J.~De~Boer, M.~Langlois, R.~G. Van~Holstein, J.~H. Girard, D.~Mouillet, A.~Vigan, K.~Dohlen, F.~Snik, C.~U. Keller, C.~Ginski, D.~M. Stam, J.~Milli, Z.~Wahhaj, M.~Kasper, H.~M. Schmid, P.~Rabou, L.~Gluck, E.~Hugot, D.~Perret, P.~Martinez, L.~Weber, J.~Pragt, J.-F. Sauvage, A.~Boccaletti, H.~Le~Coroller, C.~Dominik, T.~Henning, E.~Lagadec, F.~M{\'e}nard, M.~Turatto, S.~Udry, G.~Chauvin, M.~Feldt, and J.-L. Beuzit.
+\newblock Polarimetric imaging mode of {{VLT}}/{{SPHERE}}/{{IRDIS}}: {{I}}. {{Description}}, data reduction, and observing strategy.
+\newblock \emph{Astronomy \& Astrophysics}, 633:\penalty0 A63, January 2020.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201834989}.
+
 \bibitem[{Dodson-Robinson} et~al.(2009){Dodson-Robinson}, Veras, Ford, and Beichman]{Dodson-Robinson2009}
 Sarah~E. {Dodson-Robinson}, Dimitri Veras, Eric~B. Ford, and C.~A. Beichman.
 \newblock The {{Formation Mechanism}} of {{Gas Giants}} on {{Wide Orbits}}.
@@ -78,10 +134,31 @@ Sarah~E. {Dodson-Robinson}, Dimitri Veras, Eric~B. Ford, and C.~A. Beichman.
 J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
 \newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
 
+\bibitem[Fedele et~al.(2010)Fedele, Van Den~Ancker, Henning, Jayawardhana, and Oliveira]{Fedele2010}
+D.~Fedele, M.~E. Van Den~Ancker, {\relax Th}.~Henning, R.~Jayawardhana, and J.~M. Oliveira.
+\newblock Timescale of mass accretion in pre-main-sequence stars.
+\newblock \emph{Astronomy and Astrophysics}, 510:\penalty0 A72, February 2010.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/200912810}.
+
 \bibitem[Galvagni et~al.(2012)Galvagni, Hayfield, Boley, Mayer, Ro{\v s}kar, and Saha]{Galvagni2012}
 M.~Galvagni, T.~Hayfield, A.~Boley, L.~Mayer, R.~Ro{\v s}kar, and P.~Saha.
 \newblock The collapse of protoplanetary clumps formed through disc instability: 3d simulations of the pre-dissociation phase.
 \newblock \emph{Monthly Notices of the Royal Astronomical Society}, 427:\penalty0 1725--1740, 2012.
+
+\bibitem[Garufi et~al.(2026)Garufi, Ginski, Benisty, Vioque, Winter, Huang, Manara, and Dominik]{Garufi2026}
+A.~Garufi, C.~Ginski, M.~Benisty, M.~Vioque, A.~Winter, J.~Huang, C.~F. Manara, and C.~Dominik.
+\newblock Planet-forming disks and their environment across regions and time from the full {{NIR}} census.
+\newblock \emph{Astronomy \& Astrophysics}, 709:\penalty0 A269, May 2026.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/202558522}.
+
+\bibitem[Ginski et~al.(2020)Ginski, M{\'e}nard, Rab, Mamajek, van Holstein, Benisty, Manara, Torres, Bohn, Birnstiel, Delorme, Facchini, Garufi, Gratton, Hogerheijde, Huang, Kenworthy, Langlois, Pinilla, Pinte, Ribas, Rosotti, Schmidt, van~den Ancker, Wahhaj, Waters, Williams, and Zurlo]{Ginski2020}
+C.~Ginski, F.~M{\'e}nard, Ch~Rab, E.~E. Mamajek, R.~G. van Holstein, M.~Benisty, C.~F. Manara, R.~Asensio Torres, A.~Bohn, T.~Birnstiel, P.~Delorme, S.~Facchini, A.~Garufi, R.~Gratton, M.~Hogerheijde, J.~Huang, M.~Kenworthy, M.~Langlois, P.~Pinilla, C.~Pinte, {\'A}~Ribas, G.~Rosotti, T.~O.~B. Schmidt, M.~van~den Ancker, Z.~Wahhaj, L.~B. F.~M. Waters, J.~Williams, and A.~Zurlo.
+\newblock Disk {{Evolution Study Through Imaging}} of {{Nearby Young Stars}} ({{DESTINYS}}): {{A}} close low mass companion to {{ET Cha}}.
+\newblock \emph{Astronomy \& Astrophysics}, 642:\penalty0 A119, October 2020.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/202038383}.
 
 \bibitem[Helled et~al.(2014)Helled, Bodenheimer, Podolak, Boley, Meru, Nayakshin, Fortney, Mayer, Alibert, and Boss]{Helled2014}
 R.~Helled, P.~Bodenheimer, M.~Podolak, A.~Boley, F.~Meru, S.~Nayakshin, J.~J. Fortney, L.~Mayer, Y.~Alibert, and A.~P. Boss.
@@ -97,6 +174,23 @@ Kaitlin~M. Kratter and Giuseppe Lodato.
 \newblock ISSN 0066-4146, 1545-4282.
 \newblock \doi{10.1146/annurev-astro-081915-023307}.
 
+\bibitem[Kuffmeier et~al.(2020)Kuffmeier, Goicovic, and Dullemond]{Kuffmeier2020}
+M.~Kuffmeier, F.~G. Goicovic, and C.~P. Dullemond.
+\newblock Late encounter events as source of disks and spiral structures: {{Forming}} second generation disks.
+\newblock \emph{Astronomy \& Astrophysics}, 633:\penalty0 A3, January 2020.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201936820}.
+
+\bibitem[Kuffmeier et~al.(2026)Kuffmeier, Winter, Kuznetsova, Vioque, and Gupta]{Kuffmeier2026}
+M.~Kuffmeier, A.~Winter, A.~Kuznetsova, M.~Vioque, and A.~Gupta.
+\newblock Stellar age is not disk age, September 2026.
+
+\bibitem[Lenzen et~al.(2003)Lenzen, Hartung, Brandner, Finger, Hubin, Lacombe, Lagrange, Lehnert, Moorwood, and Mouillet]{Lenzen2003}
+Rainer Lenzen, Markus Hartung, Wolfgang Brandner, Gert Finger, Norbert~N. Hubin, Francois Lacombe, Anne-Marie Lagrange, Matthew~D. Lehnert, Alan F.~M. Moorwood, and David Mouillet.
+\newblock {{NAOS-CONICA}} first on sky results in a variety of observing modes.
+\newblock In Masanori Iye and Alan F.~M. Moorwood, editors, \emph{Astronomical {{Telescopes}} and {{Instrumentation}}}, page 944, Waikoloa, Hawai'i, United States, March 2003.
+\newblock \doi{10.1117/12.460044}.
+
 \bibitem[Longarini and Lodato(2026)]{Longarini2026}
 Cristiano Longarini and Giuseppe Lodato.
 \newblock Gravitational instability in planet-forming discs.
@@ -104,40 +198,18 @@ Cristiano Longarini and Giuseppe Lodato.
 \newblock ISSN 2296-987X.
 \newblock \doi{10.3389/fspas.2026.1911058}.
 
-\bibitem[Mizuno(1980)]{Mizuno1980}
-H.~Mizuno.
-\newblock Formation of the {{Giant Planets}}.
-\newblock \emph{Progress of Theoretical Physics}, 64\penalty0 (2):\penalty0 544--557, August 1980.
-\newblock ISSN 0033-068X, 1347-4081.
-\newblock \doi{10.1143/PTP.64.544}.
-
-\bibitem[Mizuno et~al.(1978)Mizuno, Nakazawa, and Hayashi]{Mizuno1978}
-H.~Mizuno, K.~Nakazawa, and C.~Hayashi.
-\newblock Instability of a {{Gaseous Envelope Surrounding}} a {{Planetary Core}} and {{Formation}} of {{Giant Planets}}.
-\newblock \emph{Progress of Theoretical Physics}, 60\penalty0 (3):\penalty0 699--710, September 1978.
-\newblock ISSN 0033-068X, 1347-4081.
-\newblock \doi{10.1143/PTP.60.699}.
-
 \bibitem[Molli{\`e}re and Mordasini(2012)]{Molliere2012}
 P.~Molli{\`e}re and C.~Mordasini.
 \newblock Deuterium burning in objects forming via the core accretion scenario: Brown dwarfs or planets?
 \newblock \emph{Astronomy \& Astrophysics}, 547:\penalty0 A105, 2012.
 \newblock \doi{10.1051/0004-6361/201219844}.
 
-\bibitem[Podolak et~al.(1988)Podolak, Pollack, and Reynolds]{Podolak1988}
-Morris Podolak, James~B. Pollack, and Ray~T. Reynolds.
-\newblock Interactions of planetesimals with protoplanetary atmospheres.
-\newblock \emph{Icarus}, 73\penalty0 (1):\penalty0 163--179, January 1988.
-\newblock ISSN 00191035.
-\newblock \doi{10.1016/0019-1035(88)90090-5}.
-
-\bibitem[Pollack et~al.(1986)Pollack, Podolak, Bodenheimer, and Christofferson]{Pollack1986}
-James~B. Pollack, Morris Podolak, Peter Bodenheimer, and Bruce Christofferson.
-\newblock Planetesimal dissolution in the envelopes of the forming, giant planets.
-\newblock \emph{Icarus}, 67\penalty0 (3):\penalty0 409--443, 1986.
-\newblock ISSN 0019-1035.
-\newblock \doi{10.1016/0019-1035(86)90123-5}.
-\newblock URL \url{https://www.sciencedirect.com/science/article/pii/0019103586901235}.
+\bibitem[Phillips et~al.(2020)Phillips, Tremblin, Baraffe, Chabrier, Allard, Spiegelman, Goyal, Drummond, and H{\'e}brard]{Phillips2020}
+M.~W. Phillips, P.~Tremblin, I.~Baraffe, G.~Chabrier, N.~F. Allard, F.~Spiegelman, J.~M. Goyal, B.~Drummond, and E.~H{\'e}brard.
+\newblock A new set of atmosphere and evolution models for cool {{T}}--{{Y}} brown dwarfs and giant exoplanets.
+\newblock \emph{Astronomy \& Astrophysics}, 637:\penalty0 A38, May 2020.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201937381}.
 
 \bibitem[Pollack et~al.(1996)Pollack, Hubickyj, Bodenheimer, Lissauer, Podolak, and Greenzweig]{Pollack1996}
 James~B. Pollack, Olenka Hubickyj, Peter Bodenheimer, Jack~J. Lissauer, Morris Podolak, and Yuval Greenzweig.
@@ -146,11 +218,24 @@ James~B. Pollack, Olenka Hubickyj, Peter Bodenheimer, Jack~J. Lissauer, Morris P
 \newblock ISSN 00191035.
 \newblock \doi{10.1006/icar.1996.0190}.
 
+\bibitem[Rousset et~al.(2003)Rousset, Lacombe, Puget, Hubin, Gendron, Fusco, Arsenault, Charton, Feautrier, Gigan, Kern, Lagrange, Madec, Mouillet, Rabaud, Rabou, Stadler, and Zins]{Rousset2003}
+Gerard Rousset, Francois Lacombe, Pascal Puget, Norbert~N. Hubin, Eric Gendron, Thierry Fusco, Robin Arsenault, Julien Charton, Philippe Feautrier, Pierre Gigan, Pierre~Y. Kern, Anne-Marie Lagrange, Pierre-Yves Madec, David Mouillet, Didier Rabaud, Patrick Rabou, Eric Stadler, and Gerard Zins.
+\newblock {{NAOS}}, the first {{AO}} system of the {{VLT}}: On-sky performance.
+\newblock In Peter~L. Wizinowich and Domenico Bonaccini, editors, \emph{Astronomical {{Telescopes}} and {{Instrumentation}}}, page 140, Waikoloa, Hawai'i, United States, February 2003.
+\newblock \doi{10.1117/12.459332}.
+
 \bibitem[Safronov(1969)]{Safronov1969}
 V.~S. Safronov.
 \newblock \emph{Evolution of the Protoplanetary Cloud and Formation of the Earth and Planets}.
 \newblock Nauka, Moscow, 1969.
 \newblock English translation: NASA TT F-677, 1972.
+
+\bibitem[Scicluna et~al.(2014)Scicluna, Rosotti, Dale, and Testi]{Scicluna2014}
+P.~Scicluna, G.~Rosotti, J.~E. Dale, and L.~Testi.
+\newblock Old pre-main-sequence stars: {{Disc}} reformation by {{Bondi-Hoyle}} accretion.
+\newblock \emph{Astronomy \& Astrophysics}, 566:\penalty0 L3, June 2014.
+\newblock ISSN 0004-6361, 1432-0746.
+\newblock \doi{10.1051/0004-6361/201423654}.
 
 \bibitem[Shu et~al.(1987)Shu, Adams, and Lizano]{Shu1987}
 Frank~H. Shu, Fred~C. Adams, and Susana Lizano.
@@ -158,6 +243,17 @@ Frank~H. Shu, Fred~C. Adams, and Susana Lizano.
 \newblock \emph{Annual Review of Astronomy and Astrophysics}, 25:\penalty0 23--81, January 1987.
 \newblock ISSN 0066-4146.
 \newblock \doi{10.1146/annurev.aa.25.090187.000323}.
+
+\bibitem[Siess et~al.(2000)Siess, Dufour, and Forestini]{Siess2000}
+L.~Siess, E.~Dufour, and M.~Forestini.
+\newblock An internet server for update pre-main sequence tracks of low- and intermediate-mass stars, March 2000.
+
+\bibitem[Soderblom(2010)]{Soderblom2010}
+David~R. Soderblom.
+\newblock The {{Ages}} of {{Stars}}.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 48\penalty0 (1):\penalty0 581--629, August 2010.
+\newblock ISSN 0066-4146, 1545-4282.
+\newblock \doi{10.1146/annurev-astro-081309-130806}.
 
 \bibitem[Soderblom et~al.(2014)Soderblom, Hillenbrand, Jeffries, Mamajek, and Naylor]{Soderblom2014}
 David~R. Soderblom, Lynne~A. Hillenbrand, Rob~D. Jeffries, Eric~E. Mamajek, and Tim Naylor.

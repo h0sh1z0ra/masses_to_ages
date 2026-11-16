@@ -7,7 +7,7 @@
 \RequirePackage[margin=1in,
                 nohead,
                 includeheadfoot,
-                letterpaper]{geometry} 
+                letterpaper]{geometry}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[american]{babel}
 \RequirePackage{csquotes}
@@ -46,7 +46,7 @@
 \counterwithout{footnote}{chapter}
 
 
-% TABLE OF CONTENTS TITLE    
+% TABLE OF CONTENTS TITLE
 \renewcommand{\cftbeforetoctitleskip}{-21pt} % Vertical space above title
 \renewcommand{\cfttoctitlefont}{\large}
 \addto\captionsamerican{\renewcommand{\contentsname}{\hfill TABLE OF CONTENTS \hfill}}
@@ -67,7 +67,7 @@
 
 % LIST OF TABLES TITLE
 \renewcommand{\cftbeforelottitleskip}{-12pt} % Vertical space above title
-\renewcommand{\cftlottitlefont}{\large\hfill} 
+\renewcommand{\cftlottitlefont}{\large\hfill}
 \addto\captionsamerican{\renewcommand{\listtablename}{LIST OF TABLES}}
 \renewcommand{\cftafterlottitle}{\hfill}
 \renewcommand{\cftafterlottitleskip}{20pt} % Vertical space below title
@@ -82,7 +82,7 @@
 
 % LIST OF ILLUSTRATIONS (figures) TITLE
 \renewcommand{\cftbeforeloftitleskip}{-12pt} % Vertical space above title
-\renewcommand{\cftloftitlefont}{\large\hfill} 
+\renewcommand{\cftloftitlefont}{\large\hfill}
 \addto\captionsamerican{\renewcommand{\listfigurename}{LIST OF ILLUSTRATIONS}}
 \renewcommand{\cftafterloftitle}{\hfill}
 \renewcommand{\cftafterloftitleskip}{20pt} % Vertical space below title
@@ -101,7 +101,7 @@
 \newcommand{\gradgroup}[1]{%
   \expandafter\gdef\csname gradgroup@\endcsname{#1}}
 
-  
+
 \newcommand{\supervisor}[1]{%
   \expandafter\gdef\csname supervisor@\endcsname{#1}}
 \newcount\cosup@cnt
@@ -117,7 +117,7 @@
 \newcommand{\gradchair}[1]{%
   \expandafter\gdef\csname gradchair@\endcsname{#1}}%
 \newcount\cograd@cnt
-\cograd@cnt=0  
+\cograd@cnt=0
 \newcommand{\cogradchair}[1]{%
   \expandafter\gdef\csname cogradchair@\romannumeral\cograd@cnt\endcsname{#1}%
   \advance\cograd@cnt by 1}
@@ -149,24 +149,25 @@
 \newcommand{\@maketitle}{%
   \thispagestyle{empty}
   \begin{center}%
+    \includegraphics[width=0.6\textwidth]{University_of_Galway_logo_2022.png}~\\[1.5cm]  
     \begin{doublespace}
-    \normalsize{\MakeUppercase{\@title\\}%
+    \LARGE{\MakeUppercase{\@title\\}%
    {\@author\\}%
-   {A DISSERTATION\\}%
+   {A (Partial) DISSERTATION\\}%
    {in\\}%
    {\csname gradgroup@\endcsname\\}%
    {Presented to the Faculties of the University of Galway\\}%
    {in\\}%
    {Partial Fulfillment of the Requirements for the\\}%
    {Degree of Bachelor of Science\\}%
-   {\@date}%
-    \vskip 1.25cm}%
+   {\@date}}%
+    % \vskip 1.25cm}%
     \end{doublespace}
   \end{center}%
    \begin{flushleft}%
    \ifnum \cosup@cnt=0 {%
     {Supervisor of Dissertation}\vskip 0em%
-   {\csname supervisor@\endcsname}, %
+   {\csname supervisor@\endcsname} %
   {\csname supervisortitle@\endcsname}}%
   \else {%
  \begin{tabular*}{\textwidth}{@{} @{\extracolsep{\fill}} p{0.4\linewidth} p{0.4\linewidth}}%
@@ -175,100 +176,29 @@
    \vskip 0em {\csname supervisortitle@\endcsname} & \vskip 0em {\csname cosupervisortitle@\endcsname}
 \end{tabular*}%
 }%
- \fi%  
-  \vskip 1.25cm%
-  \ifnum \cograd@cnt=0 {%
-  {Graduate Group Chairperson}\vskip 0em%
-   {\csname gradchair@\endcsname}, %
-   {\csname gradchairtitle@\endcsname}}%
- \else {%
- \begin{tabular*}{\textwidth}{@{} @{\extracolsep{\fill}} p{0.4\linewidth} p{0.4\linewidth}}%
-   {Graduate Group Chairperson} & {Graduate Group Chairperson}\\ 
-   \vskip 0em {\csname gradchair@\endcsname} & \vskip 0em {\csname cogradchair@\endcsname}\\
-   \vskip 0em {\csname gradchairtitle@\endcsname} & \vskip 0em {\csname cogradchairtitle@\endcsname}
-\end{tabular*}%
-}%
-\fi%
-  \vskip 1.25cm%
-  {Dissertation Committee}\vskip 0em%
-  \newcount\n%
-  \n=1%
-  \loop {\csname committee@\romannumeral\n\endcsname}%
-  \advance \n by 1%
-  \ifnum\n<\comm@cnt%
-  \\ \vskip 0em 
-  \repeat%
-  \end{flushleft}
-  \thispagestyle{empty}
-  \clearpage
-}
-
-\newcommand{\makespecializationtitle}{\par
-  \begingroup
-     \singlespacing
-      \@makespecializationtitlepage
-      \pagenumbering{roman}
-  \endgroup
-  \global\let\makespecializationtitle\relax
-  \global\let\@makespecializationtitle\relax
-  \global\let\@commitee\@empty
-  \global\let\committee\relax
-  \global\let\and\relax
-}
-
-\newcommand{\@makespecializationtitlepage}{%
-  \thispagestyle{empty}
-  \begin{center}%
-    \begin{doublespace}
-    \normalsize{\MakeUppercase{\@title\\}%
-   {\@author\\}%
-   {A DISSERTATION\\}%
-   {in\\}%
-   {\csname specialization@\endcsname\\}%
-   {For the Graduate Group in} {\csname gradgroup@\endcsname\\}%
-   {Presented to the Faculties of  University of Galway\\}%
-   {in\\}%
-   {Partial Fulfillment of the Requirements for the\\}%
-   {Bachelor's Degree of Science\\}%
-   {\@date}%
-    \vskip 1.25cm}%
-    \end{doublespace}
-  \end{center}%
-   \begin{flushleft}%
-   \ifnum \cosup@cnt=0 {%
-    {Supervisor of Dissertation}\vskip 0em%
-   {\csname supervisor@\endcsname}, %
-  {\csname supervisortitle@\endcsname}}%
-  \else {%
- \begin{tabular*}{\textwidth}{@{} @{\extracolsep{\fill}} p{0.4\linewidth} p{0.4\linewidth}}%
-   {Supervisor of Dissertation} & {Co-Supervisor of Dissertation}\\
-   \vskip 0em {\csname supervisor@\endcsname} & \vskip 0em {\csname cosupervisor@\endcsname}\\
-   \vskip 0em {\csname supervisortitle@\endcsname} & \vskip 0em {\csname cosupervisortitle@\endcsname}
-\end{tabular*}%
-}%
- \fi%  
-  \vskip 1.25cm%
-  \ifnum \cograd@cnt=0 {%
-  {Graduate Group Chairperson}\vskip 0em%
-   {\csname gradchair@\endcsname}, %
-   {\csname gradchairtitle@\endcsname}}%
- \else {%
- \begin{tabular*}{\textwidth}{@{} @{\extracolsep{\fill}} p{0.4\linewidth} p{0.4\linewidth}}%
-   {Graduate Group Chairperson} & {Graduate Group Chairperson}\\ 
-   \vskip 0em {\csname gradchair@\endcsname} & \vskip 0em {\csname cogradchair@\endcsname}\\
-   \vskip 0em {\csname gradchairtitle@\endcsname} & \vskip 0em {\csname cogradchairtitle@\endcsname}
-\end{tabular*}%
-}%
-\fi% 
-  \vskip 1.25cm%
-  {Dissertation Committee}\vskip 0em%
-  \newcount\n%
-  \n=1%
-  \loop {\csname committee@\romannumeral\n\endcsname}%
-  \advance \n by 1%
-  \ifnum\n<\comm@cnt%
-  \\ \vskip 0em 
-  \repeat%
+ \fi%
+%   \vskip 1.25cm%
+%   \ifnum \cograd@cnt=0 {%
+%   {Graduate Group Chairperson}\vskip 0em%
+%    {\csname gradchair@\endcsname}, %
+%    {\csname gradchairtitle@\endcsname}}%
+%  \else {%
+%  \begin{tabular*}{\textwidth}{@{} @{\extracolsep{\fill}} p{0.4\linewidth} p{0.4\linewidth}}%
+%    {Graduate Group Chairperson} & {Graduate Group Chairperson}\\
+%    \vskip 0em {\csname gradchair@\endcsname} & \vskip 0em {\csname cogradchair@\endcsname}\\
+%    \vskip 0em {\csname gradchairtitle@\endcsname} & \vskip 0em {\csname cogradchairtitle@\endcsname}
+% \end{tabular*}%
+% }%
+% \fi%
+%   \vskip 1.25cm%
+%   {Dissertation Committee}\vskip 0em%
+%   \newcount\n%
+%   \n=1%
+%   \loop {\csname committee@\romannumeral\n\endcsname}%
+%   \advance \n by 1%
+%   \ifnum\n<\comm@cnt%
+%   \\ \vskip 0em
+%   \repeat%
   \end{flushleft}
   \thispagestyle{empty}
   \clearpage
@@ -283,10 +213,10 @@
   \expandafter\gdef\csname cclicense@\endcsname{#1}}
 \newcommand{\cclicenseurl}[1]{%
   \expandafter\gdef\csname cclicenseurl@\endcsname{#1}}
-  
+
 \newcommand{\makecopyright}{%
   \newgeometry{left=1in,bottom=1in}
-  \vspace*{\fill} 
+  \vspace*{\fill}
   \thispagestyle{empty}
   \begin{flushleft}%
     \begin{doublespace}
@@ -302,7 +232,7 @@
 
 \newcommand{\makecreativecommons}{%
   \newgeometry{left=1in,bottom=1in}
-  \vspace*{\fill} 
+  \vspace*{\fill}
   \thispagestyle{empty}
   \begin{flushleft}%
     \begin{doublespace}%
@@ -334,7 +264,7 @@
     \expandafter\gdef\csname acknowledgment@\endcsname{#1}}
 \newcommand{\makeacknowledgment}{%
    \titleformat{\chapter}[hang]{\huge\center}{\thechapter}{0pt}{}%
-   \titlespacing*{\chapter}{0pt}{-33pt}{6pt}% Key value is -33 pt   
+   \titlespacing*{\chapter}{0pt}{-33pt}{6pt}% Key value is -33 pt
    \chapter*{ACKNOWLEDGMENT}%
    \addcontentsline{toc}{chapter}{ACKNOWLEDGMENT}% Adds entry to Table of Contents
    {\csname acknowledgment@\endcsname}%
@@ -368,7 +298,7 @@
 \newcommand{\makepreface}{%
    \clearpage
    \titleformat{\chapter}[hang]{\Large\center}{\thechapter}{0pt}{}%
-   \titlespacing*{\chapter}{0pt}{-33pt}{6pt}% Key value is -33 pt   
+   \titlespacing*{\chapter}{0pt}{-33pt}{6pt}% Key value is -33 pt
    \chapter*{PREFACE}%
    \addcontentsline{toc}{chapter}{PREFACE}
    {\csname preface@\endcsname}%

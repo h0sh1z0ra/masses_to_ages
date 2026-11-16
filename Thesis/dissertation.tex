@@ -34,8 +34,8 @@
 %\specialization{Field of Specialization} % If you are in Romance Languages or Managerial Science and Applied Economics (Wharton), uncomment this line and edit the text between the {}. If you do, you will also need to edit lines 74 and 75.
 \gradgroup{School of Natural Sciences} % See https://provost.upenn.edu/for-students/graduate-and-professional-education/graduate-degrees/graduate-group-coordinators/graduate-groups for names
 \date{2026} % Enter current four-digit year
-\supervisor{Christian Ginski}
-\supervisortitle{Lecturer, School of Natural Sciences}
+\supervisor{Dr. Christian Ginski}
+% \supervisortitle{Lecturer, School of Natural Sciences}
 %\cosupervisor{Co-supervisor's Typed Name} % If applicable, uncomment this line and edit the text between the {}. If you do, you will also need to edit line 39. 
 %\cosupervisortitle{Full Faculty Title and Affiliation} % If applicable, uncomment this line and edit the text between the {}. If you do, you will also need to edit line 38.
 % \gradchair{Graduate Group Chairperson's Typed Name}
@@ -64,11 +64,10 @@
 %-------------------------------------------
 
 %%%% ABSTRACT
-\abstract{Write your abstract text here.} % Write your abstract between the {}
+% \abstract{Write your abstract text here.} % Write your abstract between the {}
 %-------------------------------------------
 
 %%%% OPTIONAL PREFACE
-%\preface{Write your preface text here.} % If applicable, uncomment this line and write your preface between the {}. If you do, you will also need to edit line 104.
 %-------------------------------------------
 
 \begin{document}
@@ -83,14 +82,14 @@
 %-------------------------------------------
 
 %%%% OPTIONAL DEDICATION PAGE
-\makededication % If not applicable, comment out this line to hide the optional dedication page. If you do, you will also need to edit line 58.
+% \makededication % If not applicable, comment out this line to hide the optional dedication page. If you do, you will also need to edit line 58.
 %-------------------------------------------
 
 %%%% OPTIONAL ACKNOWLEDGMENT PAGE
-\makeacknowledgment % If not applicable, comment out this line to hide the optional acknowledgment page. If you do, you will also need to edit line 62.
+% \makeacknowledgment % If not applicable, comment out this line to hide the optional acknowledgment page. If you do, you will also need to edit line 62.
 %-------------------------------------------
 
-\makeabstract
+% \makeabstract
 \tableofcontents
 
 %%%% OPTIONAL LIST OF TABLES
@@ -136,76 +135,64 @@ the disk will dissipate and a planetary system much like our own solar system wi
 The ages of young stars can be determined by a few methods, three of which I will mention in this section as they are of particular relevance to the systems studied in this project.
 
 \subsection{Lithium Depletion Boundary}
-This process only happens in groups of stars with the same age, known as moving groups. Young stars contract as they age; in doing so, their core temperatures rise (\citealp{Soderblom2014}). Lithium burning occurs at about $3\times 10^6$ K, and these young stars reach this temperature on a timescale that depends on mass.
-We can tell if this has occurred through spectroscopy. The lithium depletion boundary (LDB) is the  between low luminosity stars still have all their lithium, and slightly higher luminosity stars have totally burned through their lithium. 
+Young stars contract as they age; in doing so, their core temperatures rise (\citealp{Soderblom2014}). 
+Lithium burning occurs at about $3\times 10^6$ K and these young stars reach this temperature on a timescale that depends inversely on mass (more massive stars contract faster);
+we can tell if this has occurred through spectroscopy. In a stellar group, the lithium depletion boundary (LDB) is the transition between low luminosity stars that still have all their lithium, 
+and slightly higher luminosity stars that have totally burned through their lithium. This LDB depends on age and evolutionary models, allowing us to estimate the age of the group by fitting to boundaries at certain ages found through evolutionary models (Section~\ref{sec:Emodels}).
+% and depending on the mass of the cluster (\citealp{Soderblom2014}) the group's LDB can be fitted to pre-defined LDBs found through stellar evolutionary models to 
 
 
-
-
+% \begin{figure}[H]
+% \begin{center}
+% \includegraphics[scale=0.6]{fig3binks2014.jpg}
+% \caption{Figure 3 of \citealp{Binks2013}. The black lines show the LDB at different ages and are independent of the data; they're found through 
+% stellar evolutionary models.}\label{fig:fig3binks2013}
+% \end{center}
+% \end{figure}
 
 \subsection{Kinematic Ages}
+As a way to circumvent the stellar evolutionary model dependence of LDB, one can also use kinematics to determine the age of a star. This is achieved by following the motion
+of a group of stars into the past to determine when they were closest in distance physically, which is assumed to be the time of formation (\citealp{Soderblom2010}). However, this method has a few caveats: the main one 
+being the lack of high quality kinematic data makes this method hard to use. 
+The other main caveat is that stars and clusters encounter other giant objects during their lifetime that can disrupt orbits, 
+however this isn't relevant as the timescale at which this occurs is $\approx 200$ Myr, and the planetary systems of interest will in general be younger than this (\citealp{Soderblom2010}). 
+Instead, the real limiting factor is the scarcity of high-quality kinematic data.
 
-\subsection{Hertzsprung-Russell Diagrams}
+\subsection{Isochrone Fitting}
+Isochrone fitting is the most commonly used method, due to it requiring very little data to yield results: 
+one can fit the luminosity and temperatures to Hertzsprung-Russell Diagrams (HRD; from spectroscopy and distance) or the colour and magnitude to Colour-Magnitude Diagrams (CMD; from photometry and distance), depending on what data is available.
+
+However, there are many different models of these isochrones available, and all can lead to different results. For example, detailed in Chapter~\ref{chap:litrev}, \citet{Ginski2020} uses the exact same parameters from a star, with two different evolutionary models, and finds 4.9 Myr from one and 3.2 Myr from the other.
+So the same method but different models can lead to results that don't agree with each other. But due to the nature of it requiring such little data, it is how most of the stellar age data this project uses was obtained.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
 
-\section{Planetary Formation Mechanisms}
+\section{Planetary Formation Mechanisms}\label{sec:formation_mechanisms}
 \subsection{Core Accretion}
-\begin{sloppypar}
-The standard model for gas-giant formation by core accretion comes from \citet{Pollack1996}, 
-who built on older accretion models (\citealp{Safronov1969, Mizuno1978, Mizuno1980, Bodenheimer1986}).
-A general overview of the process is as follows: a protoplanetary disk consists of dust and gas. 
-This dust undergoes random motion, and eventually dust particles may collide and clump together. The repetition of this process eventually leads to pebbles (dust coagulation, \citealp{Drazkowska2023}), 
-then boulders, plentesimals, then finally, through planetesimal accretion (\citealp{Safronov1969}), a planetary core massive enough to start accreting gas from the disk, which eventually leads to runaway gas accretion 
-(\citealp{Mizuno1980}, \citealp{Bodenheimer1986}, \citealp{Pollack1996}). 
+Core accretion is a slow planet formation process that takes place within a few tens of AU of the centre of the protoplanetary disk (\citealp{Dodson-Robinson2009,Helled2014}). The dust of the disk, which comprises of gas and dust (\citealp{Birnstiel2010}), 
+moves under random motion through 5 processes: radial, azimuthal, vertical drift, Brownian motion and turbulence (\citealp{Birnstiel2016}). These processes cause a relative velocity lag between particles of different sizes which allows them to collide, however the former
+three processes don't hold for particles of the same size, as they require a size differential. All of these particles depend on the mass of the particles; however Brownian motion dominates and thus determines collisions for small particles (\citealp{Birnstiel2016}).  
 
-All in all, this process' timescale is on the scale of Myr (\citealp{Pollack1996}), which is significant because a planet formed in this way would be sizeably younger than its host star; planets formed through CA
-are also what this project aims to find.
-\end{sloppypar}
-This process occurs closer to the centre of the disk than gravitational instability, the other widely-accepted formation pathway, detailed in the next section. 
-Note that this process is not necessarily linear; most pebbles actually do not evolve to the metre-scale. Among the potential barriers include the fragmentation-barrier, 
-drift-barrier and others that are beyond the scope of this project but are detailed in Drazkowska et al. 2023.
+Upon a collision, a few outcomes can result (see Section 3.2 of \citealt{Birnstiel2016} for the full list), but the one of interest and leads to particle growth is sticking, where particles aggregate to form a bigger particle; the other outcomes are barriers to growth. This stage 
+achieves centimetre-scale pebbles, after which the pebbles must concentrate and collapse under their own self gravity (streaming instability) to form metre-scale boulders, which then accrete into planetesimals during this process.
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.6]{fig3drazkowska2023.png}
-\caption{Fig. 3 from Drazkowska2023. This figure provides a general scale for the stages of CA.} \label{fig:fig3drazkowska2023}
-\end{center}
-\end{figure}
+Planetesimal accretion then occurs (\citealp{Safronov1969}) which results in a planetary embryo. The embryo continues to accrete pebbles and planetesimals (\citealp{Drazkowska2023}) and begins to accrete gas from the disk. The time to form the embryo and begin accreting gas is a few hundred thousand years (\citealp{Pollack1996}). 
+The embryo will continue to accrete mass for several Myr (\citealp{Pollack1996,Helled2014}) until a crossover mass (when accreted solid mass i.e., planetesimals/pebbles, equals accreted gas mass) is reached, which signifies the onset of runaway gas accretion (and as a result of the rapidly increasing mass, 
+planetesimal accretion rate increases too) which leads to a massive increase in luminosity (see Figure~\ref{fig:lum_pollack1996}), bright enough to be directly imaged once formed. Accretion stops once either the proplanetary disk dissipates, or the planet clears a gap in the disk woide enough that it can't reach any more material (\citealp{Helled2014}).
 
-\begin{sloppypar}
-Previous models that \citealp{Pollack1996} model built upon include \citealp{Mizuno1978} and \citealp{Mizuno1980} of core instability, \citealp{Bodenheimer1986}'s investigations into Mizuno's models,
-\citealp{Pollack1986} and \citealp{Podolak1988} examinations into planetesimal accretion, among others.
-
-In short, a critical mass before runaway gas accretion occurs is found to be $\sim 10M_\oplus$ (\citealp{Mizuno1980}), later $\sim 10M_\oplus - 30M_\oplus$ (BP86), and also when the heavy-element mass
-and the gas mass of the planet would equal; after this critical mass is reached, runaway gas accretion occurs. However, observations of the giant planets also revealed that Neptune and Uranus had compositions such that, 
-in these models, their mass fractions were comprised of too little gas mass, so they would have never reached the equality required to reach the critical mass. \citealp{Pollack1996}'s remedy to this issue
-will be found in the outline below. Note also, that this model occurs after dust and pebble accretion and 
-\end{sloppypar}
-
-Arranged neatly, the model of \citealp{Pollack1996} is split into three phases: during phase 1, planetesimal accretion exceeds gas accretion rate;
-they're initially many orders of magnitude apart, with planetesimal accretion rate being the greater value. Overtime, the two rates become comparable:
-after $\sim 10^5$ years, they are comparable and planetesimal accretion rate begins declining sharply. Meanwhile, gas accretion rate keeps growing.
-This phase denotes a runaway planetesimal accretion, separate from the runaway gas accretion, and it finishes when a protoplanet has emptied
-its feeding zone of planetesimals. However, the feeding zone grows as the planet's total mass increases, introducing new planetesimals (\citealp{Pollack1996}) 
-
-Phase 2 is a novel phase introduced in this model, that denotes a long, liminal phase where both accretion rates are relatively time-invariant, now with
-gas accretion rate exceeding planetesimal accretion rate. This phase spans the bulk of the aforementioned Myr timescale, with Pollack's simulations of Jupiter
-lasting $\sim7 Myr$. Finally, phase 3 denotes the runaway gas accretion, where both accretion rates (with gas still far exceeding planetesimal) start rapidly
-increasing again.
-
-Fig 1c of \citealp{Pollack1996} is particluarly relevant to this project: during phase 3, the luminosity grows rapidly such that, once fully formed, the planet is bright enough
-that we can directly image it. It will then cool down for the rest of its lifetime (since planets have no mechanisms to self-illuminate).
+This formation process takes several Myr (\citealp{Pollack1996,Helled2014}), the planet cools for the rest of its lifetime, since it lacks any self-illumination mechanism like stars, which form the basis of the evolutionary models sthat will be used in this project (Section~\ref{sec:Emodels})
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=1.2]{fig1cpollack1996.png}
-\caption{Fig 1c of \citealp{Pollack1996}. The initial rise corresponds to the runaway planetesimal accretion of phase 1; the long
-plateau corresponds to the transitionary phase 2; the sharp increasing corresponds to both accretion rates rapidly increasing (and the runaway gas accretion)
-in phase 3}\label{fig:lum_pollack1996}
+\caption{Figure 1c of \citealp{Pollack1996}. The initial rise corresponds to the initial planetesimal accretion; the long
+plateau corresponds to the long steady accretion of gas, planetesials and pebbles; the sharp increasing corresponds to the runaway gas accretion and increased planetesimal accretion.}\label{fig:lum_pollack1996}
 \end{center}
 \end{figure}
+
+Most particles never reach this stage due to growth barriers: alongside the aforementioned processes that oppose dust-particle growth, other significant hindrances include the radial drift barrier, where particles (generally metre-size) drift inward to the star due to differences in velocity between a metre-size boulder and the gas in the disk,
+and the fragmentation barrier, where when particles collide they destroy each other (\citealp{Birnstiel2010,Birnstiel2016,Drazkowska2023}). The radial drift barrier mainly affects metre-size boulders because smaller particles couple better to the gas, and planetesimals are large enough that the velocity differential (thus radial velocity) doesn't affect them.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,16 +210,16 @@ $\Sigma$ tries to collapse the clump, $c_s$ tries to resist collapse on small sc
 \end{sloppypar}
 So, instability depends on surface density, rotation and temperature that can create denser regions in the disk, that can then fragment into its own subcloud, which will be contracting. 
 This may repeat many times for this fragment, forming sub-subclouds, then sub-sub-sub\ldots clouds (\citealp{Whitworth2006b}). These sub-sub-sub\ldots clouds will contract
-continually over a few thousand years to a million years, scaling inversely with mass (so more massive clouds contract faster). Here, the subcloud is made of $H_2$ and is $\sim 10^2$ $R_{Jup}$ in size, 
+continually over a few thousand years to a million years (\citealp{Galvagni2012, Bussmann2026,Longarini2026}), scaling inversely with mass (so more massive clouds contract faster). Here, the subcloud/protoplanet is made of $H_2$ and is $\sim 10^2$ $R_{Jup}$ in size, 
 and will continue to contract, increasing in temperature in the process until a critical temperature of $\sim$ 2000 K (\citealp{Helled2014, Bussmann2026}) is reached, where the $H_2$ dissipates and the now protoplanet undergoes a dynamical collapse, rapidly 
-contracting into a dense, compact gas giant of a few $R_{Jup}$. It will then cool in a similar fashion to core accretion.
+contracting into a dense, compact gas giant of a few $R_{Jup}$, taking in total a few thousand years for a massive planet. It will then cool in a similar fashion to core accretion.
 
 When observing protoplanetary disks, an indicator of disk instability occurring is spiral arms, characterised by transporting angular momentum throughout the disk, and can be driven by increasing surface density
 or decreasing temperature. These formation mechanisms can be seen in Figure~\ref{fig:fig2longarini2026}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.25]{fig2longarini2026.png}
-\caption{Fig. 2 from Longarini \& Lodato 2026. It shows two potential transport mechanisms that drive the formation of spiral arms,
+\caption{Fig. 2 from \citealp{Longarini2026}. It shows two potential transport mechanisms that drive the formation of spiral arms,
 where infall is from increasing surface density ($\Sigma$) or cooling (decreasing sound speed $c_s$)}\label{fig:fig2longarini2026}
 \end{center}
 \end{figure}
@@ -247,11 +234,11 @@ Also traditionally, the criterion for brown dwarfs is that it exceeds the deteri
 \citealp{Chabrier2014} argues plantary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
 
 Actually, the criterion for what a planet actually is even under debate: some sources base it on only their mass, while some go off the formation tracks. Furthermore, the formation tracks for brown dwarfs are also contested:
-many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Balmer2024,Chabrier2003}). Some others suggest they could also be formed through
-disk instability (\citealp{Boss1997,Stamatellos2007,Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{Balmer2024,DAngelo2010,Molliere2012}).
+many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Chabrier2003,Balmer2024}). Some others suggest they could also be formed through
+disk instability (\citealp{Boss1997,Stamatellos2007,Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{DAngelo2010,Molliere2012,Balmer2024}).
 \end{sloppypar}
 
-Thus, this project will also make use of lower mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
+Thus, due to the ambiguity of brown dwarfs' formation, this project will also make use of lower mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -268,64 +255,156 @@ In general, the target planets are at separations of 30--300 AU, due to contrast
 %---------------------------------------------------------------------------------------------------------------------------------
 
 \subsection{Dynamical Masses}
-From imaging, we require the luminosities and dynamical masses from the planets. Dynamical masses are found by fitting the orbits to Kepler's laws through Python packages, e.g., orbitize! (\citealp{Blunt2024}); the separation distance and 
-rotation angle from North are required from the orbits.
+From imaging, we require the luminosities and dynamical masses from the planets. Dynamical masses are found by fitting the orbits to Kepler's laws through Python packages, e.g., orbitize! (\citealp{Blunt2024}): what is required are
+the separation distance and rotation angle from North (relative astrometry (\citealp{Currie2023})), radial velocities (found from Doppler effect, where the light wobbles due to the planet and start orbiting a shared barycentre rather than strictly planet-orbits-star (\citealp{Currie2023})), and absolute astrometry 
+(the star's position and orbital data over many decades (\citealp{Brandt2021b})). 
+The data necessary can typically be retrieved from the \textit{Hipparcos-Gaia} Catalogue of Accelerations (\citealp{Brandt2021b}) and direct imaging.
+
+The main appeal of dynamical masses are that they are model-independent, which allows this project to exist, since it doesn't involve any of the techniques for inferring the mass from age, allowing a separate method to estimate planetary age.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
-\section{Evolutionary Models}
+\section{Evolutionary Models}\label{sec:Emodels}
 Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. 
 Hot-start model planets start with high entropy retain high entropy after formation, cold-start models have low entropy, and warm-start models are intermediate between the two former (\citealp{Bowler2016a,Bussmann2026}). 
 In the physical world, this translates to core accretion being able to be hot-start or cold-start, depending on how much gravitational energy is radiated away during formation, and gravitational instability heavily faovuring hot-start
-due to there being no known mechanism that removes entropy during collapse (\citealp{Galvagni2012,Bussmann2026}). This project will make use of hot-start models in the implementation, due to core accretion not being a favoured formation mechanism
+due to there being no known mechanism that removes entropy during collapse (\citealp{Galvagni2012,Bussmann2026}). 
+
+These models are based on the cooling of planets after formation. Practically, they take a luminosity and age and return a mass. This project will make use of hot-start models in the implementation, due to core accretion not being a favoured formation mechanism
 at the studied planets' separations.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
-\chapter{Motivation}
-One of the major caveats to our current models are that planets and their parent stars are not exactly coeval (\citealp{Bowler2016a}). 
-Planets can span anywhere from the full stellar age, to 10 Myr younger, depending on the formation mechanism; top-down mechanisms would be close to coeval, while bottom-up mechanisms would leave a discrepancy of a few Myr.
-Furthermore, depending on the formation mechanism, it could lead to different inferred masses: take for example the young, planetary-mass companion
-2M1207--3932 b of the TW Hydrae Association. Assuming coevality, its hot-start mass is $\sim 5 M_{Jup}$. But, if the formation is delayed by 8 Myr, then
-the mass is only $\sim 2.5 M_{Jup}$ (\citealp{Bowler2016a}). Thus, 
+\chapter{Literature Review}\label{chap:litrev}
+In this section I will summarise three particularly relevant papers to this project: \citet{Bowler2020a,Ginski2020,Kuffmeier2026}.
 
-%---------------------------------------------------------------------------------------------------------------------------------
+\citet{Bowler2020a} actually approaches the issue of which formation pathways planets/brown dwarfs follow in a similar way to this project, but uses orbital eccentricities (how far an orbit deviates from a perfect circle)
+as a gauge for a given sample of objects' formation process. The basis of this paper's research is that, objects formed in the disk should have low eccentricities, and those scattered past the disk through migration or formed via cloud fragmentation have a broad range. 
 
-\chapter{Literature Review}
+Put simply, this paper's goal was to use population-level eccentricity distributions: that is, they used Bayesian sampling to find the underlying eccentricity distribution of the population of a sample, by combining the eccentricity distributions of all individual objects, to assess whether imaged planets and brown dwarfs on wide orbits (5--100 AU) form 
+in similar ways. Also, the reason this paper uses population-level rather than taking individual planets is because, due to the wide orbits, the traceable orbital arc of a planet is very small in human timeframes, resulting in broad eccentricity distributions when plotted. However, Bayesian sampling allows population-level inference, since a sizable sample of such 
+companions are available.  
 
-%---------------------------------------------------------------------------------------------------------------------------------
-
-
-\chapter{Methodology}
-This project makes use of the species Python package (\citealp{Stolker2020}). The idea is to develop code to brute force an inversion of the evolutionary models, where instead
-of getting a mass estimate from age and luminosity, we get an age estimate from the luminosity and dynamical mass. The idea is to create ``standard'' curves, using an evolutionary model (one of ATMO, COND, DUSTY), 
-sampling within the uncertainties of the bolometric luminosity of the planet via Monte Carlo sampling and a pre-defined array of ages. The curves will be different for every planet but the implementation is the same.
-
+To make use of these small orbital arcs, they used the Python package orbitize! (\citealp{Blunt2020}), specifically the Orbits For The Impatient (OFTI) algorithm and ptemcee, which allows the use of parallel-temperature Markov Chain Monte Carlo (both are Bayesian sampling methods), to find orbits that are compatible with the small arcs measured. A general overview of their procedure is as follows:
+\begin{itemize}
+    \item Use companions with orbital motion to study population-level eccentricity
+    \item For systems with small orbital coverage, use orbitize! to infer orbits
+    \item Use Bayesian sampling to infer underlying eccentricity, and compare eccentricities of brown dwarfs ($>$ 15 $M_{Jup}$ is adopted in this paper) and planets
+\end{itemize}
+Across the full sample (brown dwarfs and planets combined), they find an approximately flat eccentricity distribution curve. However, when separating brown dwarfs and giant planets, they find that brown dwarfs span a wider range of eccentricities, while giant planets focused on lower eccentricity values.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.7]{standard curves.png}
-\caption{Standard curves for AF Lep b. Generated with $\log{\frac{L}{L_\odot}} = -4.81 \pm 0.13$ and a logspace of ages from 0 to 10 Gyr.}\label{fig:standard}
+\includegraphics[scale=0.28]{bowler2020_fullsample_e.jpg}
+\includegraphics[scale=0.28]{bowler2020_comparison_e.jpg}
+\caption{The findings of \citet{Bowler2020a}. Top: eccentricity distribution of the combined sample. Bottom: eccentricity distributions separated by planets and brown dwarfs.}\label{fig:bowler2020}
 \end{center}
 \end{figure}
 
-The same Monte Carlo sampling is applied to the dynamical mass and its respective uncertainties, which is fitted to the curves via interpolation (see Appendix~\ref{sec:Appendix_A}) to give an age estimate. The median and
-first standard deviation is found from this via percentiles.
+From these results, they conclude that indeed the eccentricity distributions of brown dwarfs and planets are significantly different and interpret it as evidence that the imaged planets are formed in a disk, and brown dwarfs through cloud fragmentation, since stellar binaries show similar eccentricity distributions and they form through cloud fragmentation.
+However, as previously mentioned this paper finds \textit{population-level} eccentricity distributions, and thus finds potential formation paths for groups of objects, in this case planets and brown dwarfs, but not individual objects; this project aims to 
+ascertain formation pathways of \textit{individual} objects.
 
-To include:
-- hot-start
-- maybe discuss possible solutions and their interpretation
+The ET Cha system is one member of the $\eta$ Chamaeleontis cluster: they are coeval and all younger than 10 Myr. What is interesting about ET Cha is that, despite being relatively old and having a compact disk, it still has a high rate of accretion and a gas-rich disk, especially relative to its age and radius. These are signs that there is a companion in the system.
+
+\begin{sloppypar}
+\citet{Ginski2020} observed this system using SPHERE/IRDIS (InfraRed Dual-band Imager and Spectrograph), with a coronagraph and reduced the images with the IRDAP pipeline (\citealt{DeBoer2020}). 
+They also used archival data taken in 2003 with VLT/NACO (\citealt{Lenzen2003,Rousset2003}). The images in this dataset had a strange elongation in the Northwest direction (see bottom image of Figure~\ref{fig:ginski2020_etcha}).
+\end{sloppypar}
+
+They compared the results of their methods with this dataset and their own:
+what they found is that, in their own images taken without the coronagraph, they could resolve a companion to ET Cha; a companion explains also the elongation in the 2003 dataset: it was simply the unresolved companion. Also, examining Figure~\ref{fig:ginski2020_etcha}, the companion has exhibited significant orbital advancement in the 17 years between imaging epochs.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.75]{ginski2020_etcha.png}
+\caption{Figure 1 of \citet{Ginski2020}. Top: two clearly resolved bodies from the paper's observations with SPHERE. 
+Bottom: VLT/NACO image from 2003; the companion isn't clearly resolved but an elongation to the Northwest is clearly visible.}\label{fig:ginski2020_etcha}
+\end{center}
+\end{figure}
+
+In order to verify this object is actually a companion, they check if it co-moves with ET Cha in the sky: they compared its astrometry to background objects and found no correlation. They then compared it to a nearby background object and again found no correlation, effectively confirming that it is, indeed, a companion. This could explain many of the irregularities of the system, like the small outer disk radius,
+unexpectedly high gas content given its age among others.
+
+To find what kind of object this companion is, they needed the ages of the stars. They use two methods of determining age: assuming coevality with the RS Cha system, since it's nearby and has similar motion in the sky, and inferring age from ET Cha's own parameters. 
+Given the luminosity and temperature $0.073 L_\odot$ and 3190 K, the two different evolutionary models these were fed into (\citet{Siess2000, Baraffe2015}) give 4.9 Myr and 3.2 Myr respectively. \citet{Ginski2020} adopts 4.9 Myr to stay in line with previous literature values.
+Also, two parallax distances were used, 91.7 pc and 99.0 pc for the self-paramterised case and coeval case (see Table~\ref{tab:etcha} for a neat layout). 
+
+\begin{table}[h]
+\centering
+\begin{singlespace}
+\begin{tabular}{lcccc}
+\toprule
+Scenario & Age (Myr) & Distance (pc) & $M_\star$ ($M_\odot$) & $M_\mathrm{companion}$ ($M_\odot$) \\
+\midrule
+ET Cha's properties & 5 & 91.7 & 0.22 & 0.048 \\
+Coeval with RS Cha        & 8 & 99.0 & 0.32 & 0.10 \\
+\bottomrule
+\end{tabular}
+\caption{Age-dependent mass estimates for ET Cha and its companion, from \citet{Ginski2020}.}\label{tab:etcha}
+\end{singlespace}
+\end{table}
+
+Thus, this paper demonstrates that younger systems lead to smaller estimated masses and also supports this project's argument that different age estimates can lead to miscategorisation of objects:
+in this case, either a high-mass brown dwarf or low-mass star.
+
+One of the most widespread methods of constraining planet formation timescales is disk fractions (fraction of stars that still have a disk) as a function of stellar age. 
+The number of stars with a disk decreases as stars get older, so clusters of different ages will have different fractions (see \citet{Fedele2010} for a detailed analysis). But, \citet{Kuffmeier2026} argues that this method
+is flawed: some papers (\citealt{Scicluna2014,Kuffmeier2020}) argue that young stars capture enough material (infall) to form a second-generation disk. There are a few indicators of these replenished disks: accretion at ages where it should have ceased, and disks around older ($\geq$ 20 Myr) stars, among others.
+
+\citet{Kuffmeier2026} finds that, because this material infall can create another disk, it ``extends'' the lifetime of the disk, leading to the age of the original disk being overestimated.
+They present their model and find that, with an expected lifetime of 3.6 Myr, the fraction of stars with their original disk remaining after 5 Myr is 25\%. For the Scorpius-Centaurus group they surveyed, they find 35\%;
+thus the extra 10\% must come from replenishment; it must also be on the 0.75 that don't have their original disk, giving 14\% of stars that have a replenished disk. See below for the full workings and equations.
+
+\[
+P_{primordial}(t_\star) = \exp(-t_\star/\tau_{disk}) = \exp(-5/3.6) \approx 0.25
+\]
+\[
+f_{replenished} = 0.10/0.75 = 0.14
+\]
+
+These findings are supported by \citet{Garufi2026}; see \citet{Kuffmeier2026} for more details. But, this paper demonstrates that disk fractions aren't an accurate constraint on planet formation timescales, because a substantial number of disk ages we estimate don't actually come from the original disk, giving an overestimation of the age (ties back to the miscategorisation clause of the previous paper), 
+further bolstering the motivation of this project.
+
+%---------------------------------------------------------------------------------------------------------------------------------
+
+\chapter{Motivation}
+Planets and their parent stars are not coeval (\citealp{Bowler2016a}). Since planets take time to form, they can be at best almost the same age as their parent star, or possibly millions of years younger, depending on if it was formed through core accretion or gravitational instability. 
+In literature, we depend on the age of the planet (i.e., age of the star) to infer the mass, where a younger age leads to a lower mass. For example, \citet{Bowler2016a} ran simulations assuming coevality and an 8 Myr age discrepancy, and found inferred masses of 5 $M_{Jup}$ and 2.5 $M_{Jup}$ respectively.
+Then, it follows that planets with a substantial age discrepancy with their parent stars are having their masses substantially overestimated, possibly leading to miscategorising some giant planets as brown dwarfs.
+
+As above, \citet{Kuffmeier2026} finds that a substantial fraction of protoplanetary disks have been replenished via material infall, so planets could form much later than the expected disk lifetime, which leads to a further formation time lag. The idea of this project is to investigate the timescales of planet formation, which helps us
+constrain the cause of this lag: if a planet is found to be millions of years younger than its star, then its likely formed through core accretion. Or, if a planet is found to be quite similar in age (within 1 Myr or so), then it's likely formed through gravitational instability.
+
+This project wouldn't have been possible until recently, with the onset of papers being published finding dynamical masses of planets. Since it's a model-independent mass measurement, it is the key to the puzzle: we can find solutions for the age by using the dynamical mass and luminosity, by essentially reversing the process
+detailed in Section~\ref{sec:Emodels}.
+
+%---------------------------------------------------------------------------------------------------------------------------------
+
+\chapter{Methodology}
+This project makes use of the species Python package (\citealp{Stolker2020}). The idea is to develop code to brute force an inversion of the evolutionary models, where instead
+of getting a mass estimate from age and luminosity, we get an age estimate from the luminosity and dynamical mass. The idea is to create ``standard'' curves, using a hot-start (see Section~\ref{sec:Emodels}) evolutionary model (ATMO (\citealt{Phillips2020}), COND (\citealt{Baraffe2003}), DUSTY (\citealt{Chabrier2000})), 
+sampling within the uncertainties of the bolometric luminosity of the planet via Monte Carlo sampling and a pre-defined array of ages. The curves will be different for every planet but the implementation is the same. Should all models yield similar results, it's a really strong case that the result is robust
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.7]{standard curves.png}
+\caption{Standard curves for AF Lep b. Generated with $\log{\frac{L}{L_\odot}} = -4.81 \pm 0.13$ and a logspace of ages from 1 Myr to 10 Gyr.}\label{fig:standard}
+\end{center}
+\end{figure}
+
+The same Monte Carlo sampling is applied to the dynamical mass and its respective uncertainties; the code takes into account asymmetric uncertainties by using a split normal distribution. These parameters are fitted to the curves via interpolation to give an age estimate: the 16th, 50th and 84th percentile is computed to yield
+the median and 1$\sigma$.
 
 \end{mainf}
 %-------------------------------------------
 
 %%%%% OPTIONAL APPENDICES %%%%%
 %-------------------------------------------
-\begin{append}
-\chapter{\MakeUppercase{Interpolation}}
-The content of Appendix A begins here. Use the \Verb|\chapter| command to insert additional appendices.
-\section{Section Name of Appendix A}\label{sec:Appendix_A}
-Use the \Verb|\section| command to create sections.
-\end{append}
+% \begin{append}
+% \chapter{\MakeUppercase{Interpolation}}
+% The content of Appendix A begins here. Use the \Verb|\chapter| command to insert additional appendices.
+% \section{Section Name of Appendix A}\label{sec:Appendix_A}
+% Use the \Verb|\section| command to create sections.
+% \end{append}
 %-------------------------------------------
 
 %%%%% BIBLIOGRAPHY %%%%%
