@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -76,6 +76,13 @@ Timothy~D. Brandt.
 \newblock \emph{The Astrophysical Journal Supplement Series}, 254\penalty0 (2):\penalty0 42, June 2021.
 \newblock ISSN 0067-0049, 1538-4365.
 \newblock \doi{10.3847/1538-4365/abf93c}.
+
+\bibitem[Brandt et~al.(2021)Brandt, Dupuy, Li, Brandt, Zeng, Michalik, Bardalez~Gagliuffi, and {Raposo-Pulido}]{Brandt2021c}
+Timothy~D. Brandt, Trent~J. Dupuy, Yiting Li, G.~Mirek Brandt, Yunlin Zeng, Daniel Michalik, Daniella~C. Bardalez~Gagliuffi, and Virginia {Raposo-Pulido}.
+\newblock Orvara: {{An Efficient Code}} to {{Fit Orbits Using Radial Velocity}}, {{Absolute}}, and/or {{Relative Astrometry}}.
+\newblock \emph{The Astronomical Journal}, 162\penalty0 (5):\penalty0 186, November 2021.
+\newblock ISSN 0004-6256, 1538-3881.
+\newblock \doi{10.3847/1538-3881/ac042e}.
 
 \bibitem[Bussmann and Helled(2026)]{Bussmann2026}
 Mirco Bussmann and Ravit Helled.

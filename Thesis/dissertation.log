@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.20)  16 NOV 2026 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.20)  17 NOV 2026 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -505,24 +505,24 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -586,7 +586,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 83.
  (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write4
 \openout4 = `dissertation.out'.
@@ -594,7 +594,7 @@ Package hyperref Info: Link coloring OFF on input line 73.
 <University_of_Galway_logo_2022.png, id=28, 109.3686pt x 52.7571pt>
 File: University_of_Galway_logo_2022.png Graphic file (type png)
 <use University_of_Galway_logo_2022.png>
-Package pdftex.def Info: University_of_Galway_logo_2022.png  used on input line 74.
+Package pdftex.def Info: University_of_Galway_logo_2022.png  used on input line 84.
 (pdftex.def)             Requested size: 281.85587pt x 135.99149pt.
  [1
 
@@ -623,37 +623,37 @@ Chapter 1.
 [1
 
 ] [2] [3]
-<fig1cpollack1996.png, id=176, 356.61804pt x 258.9675pt>
+<fig1cpollack1996.png, id=175, 356.61804pt x 258.9675pt>
 File: fig1cpollack1996.png Graphic file (type png)
 <use fig1cpollack1996.png>
-Package pdftex.def Info: fig1cpollack1996.png  used on input line 188.
+Package pdftex.def Info: fig1cpollack1996.png  used on input line 198.
 (pdftex.def)             Requested size: 427.9395pt x 310.75941pt.
  [4 <./fig1cpollack1996.png>] [5]
-<fig2longarini2026.png, id=223, 1739.49875pt x 820.06375pt>
+<fig2longarini2026.png, id=222, 1739.49875pt x 820.06375pt>
 File: fig2longarini2026.png Graphic file (type png)
 <use fig2longarini2026.png>
-Package pdftex.def Info: fig2longarini2026.png  used on input line 221.
+Package pdftex.def Info: fig2longarini2026.png  used on input line 231.
 (pdftex.def)             Requested size: 434.87363pt x 205.01543pt.
  [6 <./fig2longarini2026.png>] [7] [8]
 Chapter 2.
 [9
 
 ]
-<bowler2020_fullsample_e.jpg, id=324, 1003.75pt x 425.59pt>
+<bowler2020_fullsample_e.jpg, id=322, 1003.75pt x 425.59pt>
 File: bowler2020_fullsample_e.jpg Graphic file (type jpg)
 <use bowler2020_fullsample_e.jpg>
-Package pdftex.def Info: bowler2020_fullsample_e.jpg  used on input line 297.
+Package pdftex.def Info: bowler2020_fullsample_e.jpg  used on input line 307.
 (pdftex.def)             Requested size: 281.04808pt x 119.16438pt.
-<bowler2020_comparison_e.jpg, id=325, 1606.0pt x 388.45125pt>
+<bowler2020_comparison_e.jpg, id=323, 1606.0pt x 388.45125pt>
 File: bowler2020_comparison_e.jpg Graphic file (type jpg)
 <use bowler2020_comparison_e.jpg>
-Package pdftex.def Info: bowler2020_comparison_e.jpg  used on input line 298.
+Package pdftex.def Info: bowler2020_comparison_e.jpg  used on input line 308.
 (pdftex.def)             Requested size: 449.67694pt x 108.7656pt.
  [10{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./bowler2020_fullsample_e.jpg> <./bowler2020_comparison_e.jpg>]
-<ginski2020_etcha.png, id=346, 543.83176pt x 849.1725pt>
+<ginski2020_etcha.png, id=344, 543.83176pt x 849.1725pt>
 File: ginski2020_etcha.png Graphic file (type png)
 <use ginski2020_etcha.png>
-Package pdftex.def Info: ginski2020_etcha.png  used on input line 318.
+Package pdftex.def Info: ginski2020_etcha.png  used on input line 328.
 (pdftex.def)             Requested size: 407.87282pt x 636.8778pt.
  [11]
 Overfull \vbox (67.2478pt too high) has occurred while \output is active []
@@ -664,10 +664,10 @@ Chapter 3.
 
 ]
 Chapter 4.
-<standard curves.png, id=423, 666.99188pt x 456.95718pt>
+<standard curves.png, id=420, 666.99188pt x 456.95718pt>
 File: standard curves.png Graphic file (type png)
 <use standard curves.png>
-Package pdftex.def Info: standard curves.png  used on input line 389.
+Package pdftex.def Info: standard curves.png  used on input line 400.
 (pdftex.def)             Requested size: 466.89113pt x 319.86784pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -683,21 +683,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: E9C891D91B5EB5F95AB5CAF59A9EF3F9;688.
+(rerunfilecheck)             Checksum: 4FACB1842F7567C9C5EAB508D9F7808B;688.
  ) 
 Here is how much of TeX's memory you used:
- 16050 strings out of 469514
- 254580 string characters out of 5470071
- 706206 words of memory out of 5000000
- 44372 multiletter control sequences out of 15000+600000
- 637240 words of font info for 65 fonts, out of 8000000 for 9000
+ 16059 strings out of 469514
+ 254713 string characters out of 5470071
+ 707763 words of memory out of 5000000
+ 44379 multiletter control sequences out of 15000+600000
+ 639105 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,10n,93p,1225b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on dissertation.pdf (25 pages, 1558331 bytes).
+ 84i,10n,93p,1225b,791s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on dissertation.pdf (25 pages, 1587829 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -64,7 +64,17 @@
 %-------------------------------------------
 
 %%%% ABSTRACT
-% \abstract{Write your abstract text here.} % Write your abstract between the {}
+\abstract{
+    To estimate the mass of a directly imaged planet, we require the age, luminosity and evolutionary models. While luminosity is well constrained and evolutionary models are easily accessible,
+    finding the age of a planet is a tall task; the field currently assumes it is the same age as its parent star. However, planets form after their stars, so the assumed age (and, by extension, mass) is too high.
+    This project will use dynamical masses, which are measured from directly imaging the planet and tracing its orbit; unlike the masses found from evolutionary models, they are model-independent. 
+    Dynamical masses allow the inversion of the direction of conventional evolutionary models, enabling age estimates from the luminosity and mass. 
+    Using Python, standard curves of mass against age will be generated using evolutionary models, 
+    pre-defined ages and the luminosity of the planet. We then find what age on the standard curves matches the dynamical mass to yield one age estimate: this process will be used on Monte Carlo sampled masses and luminosities to give many different estimates of age.
+    We will then find the 16th, 50th and 84th percentiles to yield the median and 68\% interval.
+    We can then subtract this estimate from the age of the star to find the time taken for formation, thus hopefully constraining the processes under which the planet was formed.
+
+} % Write your abstract between the {}
 %-------------------------------------------
 
 %%%% OPTIONAL PREFACE
@@ -179,9 +189,9 @@ achieves centimetre-scale pebbles, after which the pebbles must concentrate and 
 
 Planetesimal accretion then occurs (\citealp{Safronov1969}) which results in a planetary embryo. The embryo continues to accrete pebbles and planetesimals (\citealp{Drazkowska2023}) and begins to accrete gas from the disk. The time to form the embryo and begin accreting gas is a few hundred thousand years (\citealp{Pollack1996}). 
 The embryo will continue to accrete mass for several Myr (\citealp{Pollack1996,Helled2014}) until a crossover mass (when accreted solid mass i.e., planetesimals/pebbles, equals accreted gas mass) is reached, which signifies the onset of runaway gas accretion (and as a result of the rapidly increasing mass, 
-planetesimal accretion rate increases too) which leads to a massive increase in luminosity (see Figure~\ref{fig:lum_pollack1996}), bright enough to be directly imaged once formed. Accretion stops once either the proplanetary disk dissipates, or the planet clears a gap in the disk woide enough that it can't reach any more material (\citealp{Helled2014}).
+planetesimal accretion rate increases too) which leads to a massive increase in luminosity (see Figure~\ref{fig:lum_pollack1996}), bright enough to be directly imaged once formed. Accretion stops once either the protoplanetary disk dissipates, or the planet clears a gap in the disk wide enough that it can't reach any more material (\citealp{Helled2014}).
 
-This formation process takes several Myr (\citealp{Pollack1996,Helled2014}), the planet cools for the rest of its lifetime, since it lacks any self-illumination mechanism like stars, which form the basis of the evolutionary models sthat will be used in this project (Section~\ref{sec:Emodels})
+This formation process takes several Myr (\citealp{Pollack1996,Helled2014}), the planet cools for the rest of its lifetime, since it lacks any self-illumination mechanism like stars, which form the basis of the evolutionary models that will be used in this project (Section~\ref{sec:Emodels})
 
 \begin{figure}[H]
 \begin{center}
@@ -230,8 +240,8 @@ Cloud fragmentation is traditionally a mechanism that forms stars. A general ove
 This process repeats for the subclouds, until eventually the subclouds are so optically thick that they can't contract anymore since they can't radiate away the contraction heat (\citealp{Whitworth2006b}).
 
 The floor of the mass of objects formed seems to reach well into the planetary-mass range ($\sim$ 1 to 4 $M_{Jup}$, \citealp{Whitworth2006a}).
-Also traditionally, the criterion for brown dwarfs is that it exceeds the deterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged;
-\citealp{Chabrier2014} argues plantary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
+Also traditionally, the criterion for brown dwarfs is that it exceeds the deuterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged;
+\citealp{Chabrier2014} argues planetary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
 
 Actually, the criterion for what a planet actually is even under debate: some sources base it on only their mass, while some go off the formation tracks. Furthermore, the formation tracks for brown dwarfs are also contested:
 many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Chabrier2003,Balmer2024}). Some others suggest they could also be formed through
@@ -242,20 +252,20 @@ Thus, due to the ambiguity of brown dwarfs' formation, this project will also ma
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
-\section{Imaging}
+{Imaging}
 \subsection{Targets}
 Most of the planetary systems imaged in this project use the Very Large Telescope (VLT), and the Spectro-Polarimetric High-contrast Exoplanet REsearch (SPHERE) instrument, at the European Southern Observatory.
 SPHERE contains the instruments required to carry out the reduction and imaging techniques required to actually observe the planet, such as the coronagraph and wavefront correctors (\citealp{Currie2023}). 
-Coronagraphs block out the starlight via physical occulters in the image plane, and deformable mirrors correct for wavefron errors from atmospheric distortion. 
+Coronagraphs block out the starlight via physical occulters in the image plane, and deformable mirrors correct for wavefront errors from atmospheric distortion. 
 
-We target young, bright, giant planets at wide orbits because they are luminous enough to actually be imaged, and far enough from their host star that
-starlight doesn't obscure the planet and it is detectable within our telescope resolution limits. Binary systems are ignored (\citealp{Currie2023}): they can inhibit planetary formation and disturb planetary orbits due to their chaotic nature. 
+We target young, bright, giant planets at wide orbits because they are luminous enough to actually be imaged. They must be far enough from their host star that
+starlight doesn't obscure the planet and is detectable within our telescope resolution limits (~). Binary systems are ignored (\citealp{Currie2023}): they can inhibit planetary formation and disturb planetary orbits due to their chaotic nature. 
 In general, the target planets are at separations of 30--300 AU, due to contrast limits at small separations and limited field of view at larger separations.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
 \subsection{Dynamical Masses}
-From imaging, we require the luminosities and dynamical masses from the planets. Dynamical masses are found by fitting the orbits to Kepler's laws through Python packages, e.g., orbitize! (\citealp{Blunt2024}): what is required are
+From imaging, we require the bolometric luminosities (total luminosity integrated over all wavelengths) and dynamical masses from the planets. Dynamical masses are found by fitting the orbits to Kepler's laws through Python packages, e.g., orbitize! (\citealp{Blunt2024}): what is required are
 the separation distance and rotation angle from North (relative astrometry (\citealp{Currie2023})), radial velocities (found from Doppler effect, where the light wobbles due to the planet and start orbiting a shared barycentre rather than strictly planet-orbits-star (\citealp{Currie2023})), and absolute astrometry 
 (the star's position and orbital data over many decades (\citealp{Brandt2021b})). 
 The data necessary can typically be retrieved from the \textit{Hipparcos-Gaia} Catalogue of Accelerations (\citealp{Brandt2021b}) and direct imaging.
@@ -264,10 +274,10 @@ The main appeal of dynamical masses are that they are model-independent, which a
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
-\section{Evolutionary Models}\label{sec:Emodels}
+{Evolutionary Models}\label{sec:Emodels}
 Evolutionary models are split into three categories: hot-start, warm-start and cold-start models. 
 Hot-start model planets start with high entropy retain high entropy after formation, cold-start models have low entropy, and warm-start models are intermediate between the two former (\citealp{Bowler2016a,Bussmann2026}). 
-In the physical world, this translates to core accretion being able to be hot-start or cold-start, depending on how much gravitational energy is radiated away during formation, and gravitational instability heavily faovuring hot-start
+In the physical world, this translates to core accretion being able to be hot-start or cold-start, depending on how much gravitational energy is radiated away during formation, and gravitational instability heavily favouring hot-start
 due to there being no known mechanism that removes entropy during collapse (\citealp{Galvagni2012,Bussmann2026}). 
 
 These models are based on the cooling of planets after formation. Practically, they take a luminosity and age and return a mass. This project will make use of hot-start models in the implementation, due to core accretion not being a favoured formation mechanism
@@ -326,7 +336,7 @@ unexpectedly high gas content given its age among others.
 
 To find what kind of object this companion is, they needed the ages of the stars. They use two methods of determining age: assuming coevality with the RS Cha system, since it's nearby and has similar motion in the sky, and inferring age from ET Cha's own parameters. 
 Given the luminosity and temperature $0.073 L_\odot$ and 3190 K, the two different evolutionary models these were fed into (\citet{Siess2000, Baraffe2015}) give 4.9 Myr and 3.2 Myr respectively. \citet{Ginski2020} adopts 4.9 Myr to stay in line with previous literature values.
-Also, two parallax distances were used, 91.7 pc and 99.0 pc for the self-paramterised case and coeval case (see Table~\ref{tab:etcha} for a neat layout). 
+Also, two parallax distances were used, 91.7 pc and 99.0 pc for the self-parameterised case and coeval case (see Table~\ref{tab:etcha} for a neat layout). 
 
 \begin{table}[h]
 \centering
@@ -348,7 +358,7 @@ in this case, either a high-mass brown dwarf or low-mass star.
 
 One of the most widespread methods of constraining planet formation timescales is disk fractions (fraction of stars that still have a disk) as a function of stellar age. 
 The number of stars with a disk decreases as stars get older, so clusters of different ages will have different fractions (see \citet{Fedele2010} for a detailed analysis). But, \citet{Kuffmeier2026} argues that this method
-is flawed: some papers (\citealt{Scicluna2014,Kuffmeier2020}) argue that young stars capture enough material (infall) to form a second-generation disk. There are a few indicators of these replenished disks: accretion at ages where it should have ceased, and disks around older ($\geq$ 20 Myr) stars, among others.
+is flawed: some papers (\citealt{Scicluna2014,Kuffmeier2020}) argue that young stars capture enough material (infall) to form a second-generation disk. There are a few indicators of these replenished disks: accretion at ages when it should have ceased; disks around older ($\geq$ 20 Myr) stars, among others.
 
 \citet{Kuffmeier2026} finds that, because this material infall can create another disk, it ``extends'' the lifetime of the disk, leading to the age of the original disk being overestimated.
 They present their model and find that, with an expected lifetime of 3.6 Myr, the fraction of stars with their original disk remaining after 5 Myr is 25\%. For the Scorpius-Centaurus group they surveyed, they find 35\%;
@@ -372,7 +382,7 @@ In literature, we depend on the age of the planet (i.e., age of the star) to inf
 Then, it follows that planets with a substantial age discrepancy with their parent stars are having their masses substantially overestimated, possibly leading to miscategorising some giant planets as brown dwarfs.
 
 As above, \citet{Kuffmeier2026} finds that a substantial fraction of protoplanetary disks have been replenished via material infall, so planets could form much later than the expected disk lifetime, which leads to a further formation time lag. The idea of this project is to investigate the timescales of planet formation, which helps us
-constrain the cause of this lag: if a planet is found to be millions of years younger than its star, then its likely formed through core accretion. Or, if a planet is found to be quite similar in age (within 1 Myr or so), then it's likely formed through gravitational instability.
+constrain the cause of this lag: if a planet is found to be millions of years younger than its star, then it's likely formed through core accretion. Or, if a planet is found to be quite similar in age (within 1 Myr or so), then it's likely formed through gravitational instability.
 
 This project wouldn't have been possible until recently, with the onset of papers being published finding dynamical masses of planets. Since it's a model-independent mass measurement, it is the key to the puzzle: we can find solutions for the age by using the dynamical mass and luminosity, by essentially reversing the process
 detailed in Section~\ref{sec:Emodels}.
@@ -382,17 +392,22 @@ detailed in Section~\ref{sec:Emodels}.
 \chapter{Methodology}
 This project makes use of the species Python package (\citealp{Stolker2020}). The idea is to develop code to brute force an inversion of the evolutionary models, where instead
 of getting a mass estimate from age and luminosity, we get an age estimate from the luminosity and dynamical mass. The idea is to create ``standard'' curves, using a hot-start (see Section~\ref{sec:Emodels}) evolutionary model (ATMO (\citealt{Phillips2020}), COND (\citealt{Baraffe2003}), DUSTY (\citealt{Chabrier2000})), 
-sampling within the uncertainties of the bolometric luminosity of the planet via Monte Carlo sampling and a pre-defined array of ages. The curves will be different for every planet but the implementation is the same. Should all models yield similar results, it's a really strong case that the result is robust
+sampling within the uncertainties of the bolometric luminosity of the planet via Monte Carlo sampling and a pre-defined array of ages. The curves will be different for every planet but the implementation is the same. We use several models to test the robustness of an estimate: the conditions of the models are all different, 
+so should all models yield similar results, it's a really strong case that the result is robust.
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.7]{standard curves.png}
-\caption{Standard curves for AF Lep b. Generated with $\log{\frac{L}{L_\odot}} = -4.81 \pm 0.13$ and a logspace of ages from 1 Myr to 10 Gyr.}\label{fig:standard}
+\caption{Standard curves for AF Lep b. Generated with $\log{\frac{L}{L_\odot}} = -4.81 \pm 0.13$ and a logspace of ages from 1 Myr to 10 Gyr. The artefact at $\sim$ 13 $M_{Jup}$ is from the deuterium burning limit}\label{fig:standard}
 \end{center}
 \end{figure}
 
-The same Monte Carlo sampling is applied to the dynamical mass and its respective uncertainties; the code takes into account asymmetric uncertainties by using a split normal distribution. These parameters are fitted to the curves via interpolation to give an age estimate: the 16th, 50th and 84th percentile is computed to yield
-the median and 1$\sigma$.
+The same Monte Carlo sampling is applied to the dynamical mass and its respective uncertainties; the code takes into account asymmetric uncertainties by using a split normal distribution. It works by drawing from a normal distribution, then scaling the negative and positive ends to the negative and positive uncertainties.
+These parameters are fitted to the curves via interpolation to give an age estimate: the 16th, 50th and 84th percentile is computed to yield
+the median and 1$\sigma$; the median is taken since the results will have anomalous readings and the distribution is more than likely skewed. 
+
+For the next semester, to expand the sample size of dynamical masses of directly imaged planets, \texttt{orbitize!} (\citealt{Blunt2024}) and \texttt{orvara} (\citealt{Brandt2021c}) will be used. 
+An expansion of the code to include single-band measurements (e.g., K-band only) can also help expand sample size and will be explored. The same process outlined above will be carried forward. If there are enough samples, we can plot the age difference between the star and planet, against the mass and perhaps find a relationship between the two.
 
 \end{mainf}
 %-------------------------------------------
@@ -402,8 +417,8 @@ the median and 1$\sigma$.
 % \begin{append}
 % \chapter{\MakeUppercase{Interpolation}}
 % The content of Appendix A begins here. Use the \Verb|\chapter| command to insert additional appendices.
-% \section{Section Name of Appendix A}\label{sec:Appendix_A}
-% Use the \Verb|\section| command to create sections.
+% {Section Name of Appendix A}\label{sec:Appendix_A}
+% Use the \Verb|| command to create sections.
 % \end{append}
 %-------------------------------------------
 
