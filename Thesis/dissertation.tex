@@ -108,12 +108,12 @@ There is currently no way to systematically determine the age of a planet. In th
 are the same age. We depend on the age of the planet, along with the luminosity that can be measured from direct imaging, to estimate the mass using evolutionary models. 
 However, since planet formation takes time (possibly millions of years, Section~\ref{sec:formation_mechanisms}), it follows that a lot of mass estimates we obtain are based upon incorrect ages. 
 This project aims to tackle this research gap by finding a systematic method to estimate the age of a planet, using dynamical masses, luminosities from direct imaging and evolutionary models. 
-In order to better understand the approach required, below will explore the required background information.
+In order to better understand the approach taken, we will explore the required background information.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
 \section{Planetary System Formation}
-Planetary systems are born from a planet-forming disk around a young star, which form from a giant molecular cloud ($\sim 10^6M_\odot$, $\sim10^7$ AU) contracting under its own self gravity (\citealp{Shu1987}).
+Planetary systems are born from a planet-forming disk around a young star; these form from a giant molecular cloud ($\sim 10^6M_\odot$, $\sim10^7$ AU) contracting under its own self gravity (\citealp{Shu1987}).
 This contraction forms a protostar with a surrounding rotating envelope. Due to the conservation of angular momentum, excess mass from the envelope not accreted by the star will settle into a rotating disk
 of gas and dust, which is the planet-forming (protoplanetary) disk of interest. This disk has an expected lifetime of $\sim 10$ Myr (\citealp{Strom1993}), during which it will form planets. Once exhausted of its material,
 the disk will dissipate and a planetary system much like our own solar system will result.
@@ -190,7 +190,7 @@ Q = \frac{c_s\Omega}{\pi G \Sigma}
 \]
 where $c_s$ is the speed of sound ($m/s$), $\Omega$ is rotation frequency ($s^{-1}$), $\Sigma$ is the disk surface density ($kg/m^2$) 
 (\citealp{Toomre1964,Kratter2016,Longarini2026}). 
-Q determines the stability of a disk: $Q >> 1$ is stable, $Q = 1$ is the instability criterion, and any $Q < 1 $ is unstable.
+Q determines the stability of a disk: $Q \gg 1$ is stable, $Q = 1$ is the instability criterion, and any $Q < 1 $ is unstable.
 Since Q scales linearly with sound speed, it will thus scale with the square root of temperature, and inversely with surface density:
 \[
 Q \propto c_s \propto \sqrt{T} \propto \frac{1}{\Sigma}
@@ -205,7 +205,7 @@ This may repeat many times for this fragment, forming sub-subclouds, then sub-su
 These sub-sub-sub\ldots clouds will contract continually over a few thousand years to a million years (\citealp{Galvagni2012, Bussmann2026,Longarini2026}), scaling inversely with mass (so more massive clouds contract faster). 
 Here, the subcloud/protoplanet is made of $H_2$ and is $\sim 10^2$ $R_{Jup}$ in size. 
 It will continue to contract, increasing in temperature in the process until a critical temperature of $\sim$ 2000 K (\citealp{Helled2014, Bussmann2026}) is reached, where the $H_2$ dissociates into H and the now protoplanet undergoes a dynamical collapse, rapidly 
-contracting into a dense, compact gas giant of a few $R_{Jup}$. In total, gravitational instability takes few thousand years to form a massive planet, which will cool in a similar fashion to core accretion.
+contracting into a dense, compact gas giant of a few $R_{Jup}$. In total, gravitational instability takes a few thousand years to form a massive planet, which will cool in a similar fashion to core accretion.
 
 When observing protoplanetary disks, an indicator of disk instability occurring is the presence of spiral arms, characterised by transporting angular momentum throughout the disk, and can be driven by increasing surface density
 or decreasing temperature. These formation mechanisms can be seen in Figure~\ref{fig:fig2longarini2026}.
@@ -220,18 +220,18 @@ where infall is from increasing surface density ($\Sigma$) or cooling (decreasin
 \subsection{A Note on Cloud Fragmentation and Brown Dwarfs}
 \begin{sloppypar}
 Cloud fragmentation is traditionally a mechanism that forms stars. A general overview (see \citealp{Whitworth2006b} for the full process) is that given a massive enough molecular cloud, it contracts and fragments into subclouds.
-This process repeats for the subclouds, until eventually the subclouds are so optically thick that they can't contract anymore since they can't radiate away the contraction heat (\citealp{Whitworth2006b}, similar to gravitational instability)
+This process repeats for the subclouds, until eventually, as in gravitational instability, the subclouds are so optically thick that they can't fragment anymore since they can't radiate away the compressional heat (\citealp{Whitworth2006b}).
 
 The floor of the mass of objects formed seems to reach well into the planetary-mass range ($\sim$ 1 to 4 $M_{Jupiter}$, \citealp{Whitworth2006a}).
 Also, traditionally, the criterion for brown dwarfs is that it exceeds the deuterium burning limit of $\simeq 13M_{Jup}$ (\citealp{ChabrierBaraffe2000}), however even this remains challenged.
 \citet{Chabrier2014} argues planetary and brown dwarf can overlap and that there is no clear cut-off mass for one body to be a brown dwarf and another a planet.
 
-Actually, the criterion for what a planet even is is even under debate: some sources base it only on their mass, while some go off the formation tracks. Furthermore, the formation tracks for brown dwarfs are also contested:
+Actually, the criterion for what a planet even is remains under debate: some sources base it only on their mass, while some go off the formation tracks. Furthermore, the formation tracks for brown dwarfs are also contested:
 many studies theorise that brown dwarfs can form from the low-end masses of cloud fragmentation (\citealp{Chabrier2003,Balmer2024}). Some others suggest they could also be formed through
 disk instability (\citealp{Boss1997,Stamatellos2007,Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{DAngelo2010,Molliere2012,Balmer2024}).
 \end{sloppypar}
 
-Thus, due to the ambiguity of brown dwarfs' formation, this project will also make use of lower mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
+Thus, due to the ambiguity of brown dwarfs' formation, this project will also make use of lower-mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -258,7 +258,7 @@ To find the dynamical mass, what's required are:
 
 The data necessary can typically be retrieved from the \textit{Hipparcos-Gaia} Catalogue of Accelerations (\citealp{Brandt2021b}) and direct imaging.
 
-The main appeal of dynamical masses are that they are model-independent, which allows this project to exist, since it doesn't involve any of the techniques for inferring the mass from age, allowing a separate method to estimate planetary age.
+The main appeal of dynamical masses is that they are model-independent, which allows this project to exist, since it doesn't involve any of the techniques for inferring the mass from age, allowing a separate method to estimate planetary age.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -268,8 +268,7 @@ Hot-start model planets retain high entropy after formation; cold-start models h
 In the physical world, this translates to core accretion being able to be hot-start or cold-start, depending on how much gravitational energy is radiated away during formation, and gravitational instability heavily favouring hot-start
 due to there being no known mechanism that removes entropy during collapse (\citealp{Galvagni2012,Bussmann2026}). 
 
-These models are based on the cooling of planets after formation. Practically, they take a luminosity and age and return a mass. This project will make use of hot-start models in the implementation all of the current observed planets are in line
-with hot-start models (\citealp{Dupuy2021}).
+These models are based on the cooling of planets after formation. Practically, they take a luminosity and age and return a mass. This project will make use of hot-start models in the implementation, as most of the current observed planets point to warm-start or hot-start models and hot-starts are  (\citealp{Dupuy2021}).
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -283,7 +282,7 @@ This paper's goal was to use population-level eccentricity distributions via Bay
 in similar ways. Also, the reason this paper uses population-level rather than taking individual planets is because, due to the wide orbits, the traceable orbital arc of a planet is very small in human timeframes, resulting in broad eccentricity distributions when plotted. However, Bayesian sampling allows population-level inference, since a sizable sample of such 
 companions are available.  
 
-To make use of these small orbital arcs, they used the Python package orbitize! (\citealp{Blunt2020}), specifically the \texttt{OFTI} (Orbits For The Impatient) algorithm and \texttt{ptemcee}, which allows the use of parallel-temperature Markov Chain Monte Carlo (both are Bayesian sampling methods), to find orbits that are compatible with the small arcs measured. A general overview of their procedure is as follows:
+To make use of these small orbital arcs, they used the Python package orbitize! (\citealp{Blunt2020}), specifically the \texttt{OFTI} (Orbits For The Impatient) algorithm and \texttt{ptemcee}, which allows the use of parallel-tempering Markov Chain Monte Carlo (both are Bayesian sampling methods), to find orbits that are compatible with the small arcs measured. A general overview of their procedure is as follows:
 \begin{itemize}
     \item Use companions with orbital motion to study population-level eccentricity
     \item For systems with small orbital coverage, use orbitize! to infer orbits
@@ -324,7 +323,7 @@ In order to verify this object is actually a companion, they check if it moves i
 unexpectedly high gas content given its age among others.
 
 To find what kind of object this companion is, they needed the ages of the stars. They use two methods of determining age: assuming coevality with the RS Cha system, since it's nearby and has similar motion in the sky, and inferring age from ET Cha's own parameters. 
-Given the luminosity and temperature are $0.073 L_\odot$ and 3190 K, the two different evolutionary models these were fed into (\citet{Siess2000, Baraffe2015}) give 4.9 Myr and 3.2 Myr respectively. \citet{Ginski2020} adopts 4.9 Myr to stay in line with previous literature values.
+Given the luminosity and temperature are $0.073 L_\odot$ and 3190 K, the two different evolutionary models these were fed into (\citealt{Siess2000, Baraffe2015}) give 4.9 Myr and 3.2 Myr respectively. \citet{Ginski2020} adopts 4.9 Myr to stay in line with previous literature values.
 Also, two parallax distances were used, 91.7 pc and 99.0 pc for the self-parameterised case and coeval case (see Table~\ref{tab:etcha} for a neat layout). 
 
 \begin{table}[h]
@@ -351,7 +350,7 @@ is flawed: some papers (\citealp{Scicluna2014,Kuffmeier2020}) argue that young s
 
 \citet{Kuffmeier2026} finds that, because material infall can create another disk, it ``extends'' the lifetime of the disk, leading to the age of the original disk being overestimated.
 They present their model and find that, with an expected lifetime of 3.6 Myr, the fraction of stars with their original disk remaining $P_{original}$ after 5 Myr is 25\%. For the Scorpius-Centaurus group they surveyed, they find 35\%;
-thus the extra 10\% must come from replenishment. It must also be on the 0.75 that don't have their original disk, giving 14\% of stars that have a replenished disk $f_{replenished}$. See below for the full workings and equations.
+thus the extra 10\% must come from replenishment. It must also be on the 0.75 that don't have their original disk, giving 14\% of stars that have a replenished disk $f_{replenished}$. See below for the full workings and equations:
 
 \[
 P_{original}(t_\star) = \exp(-t_\star/\tau_{disk}) = \exp(-5/3.6) \approx 0.25
@@ -359,7 +358,7 @@ P_{original}(t_\star) = \exp(-t_\star/\tau_{disk}) = \exp(-5/3.6) \approx 0.25
 \[
 f_{replenished} = 0.10/0.75 = 0.14
 \]
-Where $t_\star$ is the age of the star and $\tau_\star$ is the disk's expected lifetime. These findings are supported by \citet{Garufi2026}; see \citet{Kuffmeier2026} for more details. 
+where $t_\star$ is the age of the star and $\tau_{disk}$ is the disk's expected lifetime. These findings are supported by \citet{Garufi2026}; see \citet{Kuffmeier2026} for more details. 
 
 However, this paper demonstrates that disk fractions aren't an accurate constraint on planet formation timescales,
 because a substantial number of disk ages we estimate don't actually come from the original disk. So, in literature, planet ages estimated from disk fractions are being overestimated, 
@@ -394,8 +393,8 @@ so should all models yield similar results, it's a really strong case that the r
 \end{figure}
 
 The same Monte Carlo sampling is applied to the dynamical mass and its respective uncertainties; the code takes into account asymmetric uncertainties by using a split normal distribution. It works by drawing from a normal distribution, then scaling the negative and positive ends to the negative and positive uncertainties.
-These parameters are fitted to the curves via interpolation to give an age estimate: the 16th, 50th and 84th percentile is computed to yield
-the median and 1$\sigma$; the median is taken since the results will have anomalous readings and the distribution is more than likely skewed. 
+These parameters are fitted to the curves via interpolation to give an age estimate: the 16th, 50th and 84th percentiles are computed to yield
+the median and 68\% interval; the median is taken since the results will have anomalous readings and the distribution is more than likely skewed. 
 
 Next semester, to expand the sample size of dynamical masses of directly imaged planets, \texttt{orbitize!} (\citealp{Blunt2024}) and \texttt{orvara} (\citealp{Brandt2021c}) will be used. 
 An expansion of the code to include single-band measurements (e.g., K-band only) can also help expand sample size and will be explored. The same process outlined above will be carried forward. If there are enough samples, we can plot the age difference between the star and planet, against the mass and perhaps find a relationship between the two.
