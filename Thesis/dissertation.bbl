@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -140,6 +140,13 @@ Sarah~E. {Dodson-Robinson}, Dimitri Veras, Eric~B. Ford, and C.~A. Beichman.
 \bibitem[Dr{\k a}{\.z}kowska et~al.(2023)Dr{\k a}{\.z}kowska, Bitsch, Lambrechts, Mulders, Harsono, Vazan, Liu, Ormel, Kretke, and Morbidelli]{Drazkowska2023}
 J.~Dr{\k a}{\.z}kowska, B.~Bitsch, M.~Lambrechts, G.~D. Mulders, D.~Harsono, A.~Vazan, B.~Liu, C.~W. Ormel, K.~Kretke, and A.~Morbidelli.
 \newblock Planet {{Formation Theory}} in the {{Era}} of {{ALMA}} and {{Kepler}}: From {{Pebbles}} to {{Exoplanets}}, July 2023.
+
+\bibitem[Dupuy et~al.(2021)Dupuy, Brandt, and Brandt]{Dupuy2021}
+Trent~J. Dupuy, G.~Mirek Brandt, and Timothy~D. Brandt.
+\newblock Limits on the {{Mass}} and {{Initial Entropy}} of 51 {{Eri}} b from {{Gaia EDR3 Astrometry}}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society}, 509\penalty0 (3):\penalty0 4411--4419, December 2021.
+\newblock ISSN 0035-8711, 1365-2966.
+\newblock \doi{10.1093/mnras/stab3148}.
 
 \bibitem[Fedele et~al.(2010)Fedele, Van Den~Ancker, Henning, Jayawardhana, and Oliveira]{Fedele2010}
 D.~Fedele, M.~E. Van Den~Ancker, {\relax Th}.~Henning, R.~Jayawardhana, and J.~M. Oliveira.

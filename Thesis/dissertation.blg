@@ -7,45 +7,45 @@ Warning--empty booktitle in Chabrier2014
 Warning--empty publisher in Chabrier2014
 Warning--empty booktitle in Soderblom2014
 Warning--empty publisher in Soderblom2014
-You've used 49 entries,
+You've used 50 entries,
             2773 wiz_defined-function locations,
-            971 strings with 17969 characters,
-and the built_in function-call counts, 32060 in all, are:
-= -- 2657
-> -- 2916
+            979 strings with 18193 characters,
+and the built_in function-call counts, 32613 in all, are:
+= -- 2711
+> -- 2946
 < -- 18
-+ -- 975
-- -- 926
-* -- 3094
-:= -- 5218
-add.period$ -- 208
-call.type$ -- 49
-change.case$ -- 453
-chr.to.int$ -- 49
-cite$ -- 102
-duplicate$ -- 1038
-empty$ -- 1868
-format.name$ -- 989
-if$ -- 6437
++ -- 985
+- -- 935
+* -- 3149
+:= -- 5303
+add.period$ -- 213
+call.type$ -- 50
+change.case$ -- 459
+chr.to.int$ -- 50
+cite$ -- 104
+duplicate$ -- 1059
+empty$ -- 1911
+format.name$ -- 999
+if$ -- 6551
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 44
-newline$ -- 312
-num.names$ -- 202
-pop$ -- 836
+missing$ -- 45
+newline$ -- 319
+num.names$ -- 206
+pop$ -- 844
 preamble$ -- 1
-purify$ -- 405
+purify$ -- 410
 quote$ -- 0
-skip$ -- 910
+skip$ -- 924
 stack$ -- 0
-substring$ -- 731
-swap$ -- 115
+substring$ -- 764
+swap$ -- 117
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 534
+type$ -- 545
 warning$ -- 4
-while$ -- 207
+while$ -- 212
 width$ -- 0
-write$ -- 756
+write$ -- 773
 (There were 4 warnings)

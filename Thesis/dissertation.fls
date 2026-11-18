@@ -195,6 +195,7 @@ INPUT ./University_of_Galway_logo_2022.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT ./dissertation.toc
 INPUT ./dissertation.toc
@@ -227,7 +228,6 @@ INPUT ./dissertation.lof
 INPUT ./dissertation.lof
 INPUT dissertation.lof
 OUTPUT dissertation.lof
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
@@ -236,35 +236,35 @@ INPUT ./fig1cpollack1996.png
 INPUT ./fig1cpollack1996.png
 INPUT ./fig1cpollack1996.png
 INPUT ./fig1cpollack1996.png
-INPUT ./fig2longarini2026.png
-INPUT ./fig2longarini2026.png
-INPUT ./fig2longarini2026.png
-INPUT ./fig2longarini2026.png
-INPUT ./fig2longarini2026.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
+INPUT ./fig2longarini2026.jpg
+INPUT ./fig2longarini2026.jpg
+INPUT ./fig2longarini2026.jpg
+INPUT ./fig2longarini2026.jpg
+INPUT ./fig2longarini2026.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-INPUT ./bowler2020_fullsample_e.jpg
-INPUT ./bowler2020_fullsample_e.jpg
-INPUT ./bowler2020_fullsample_e.jpg
-INPUT ./bowler2020_fullsample_e.jpg
-INPUT ./bowler2020_fullsample_e.jpg
-INPUT ./bowler2020_comparison_e.jpg
-INPUT ./bowler2020_comparison_e.jpg
-INPUT ./bowler2020_comparison_e.jpg
-INPUT ./bowler2020_comparison_e.jpg
-INPUT ./bowler2020_comparison_e.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./ginski2020_etcha.png
-INPUT ./ginski2020_etcha.png
-INPUT ./ginski2020_etcha.png
-INPUT ./ginski2020_etcha.png
-INPUT ./ginski2020_etcha.png
-INPUT ./standard curves.png
-INPUT ./standard curves.png
-INPUT ./standard curves.png
-INPUT ./standard curves.png
-INPUT ./standard curves.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
+INPUT ./bowler2020_fullsample_e.jpg
+INPUT ./bowler2020_fullsample_e.jpg
+INPUT ./bowler2020_fullsample_e.jpg
+INPUT ./bowler2020_fullsample_e.jpg
+INPUT ./bowler2020_fullsample_e.jpg
+INPUT ./bowler2020_comparison_e.jpg
+INPUT ./bowler2020_comparison_e.jpg
+INPUT ./bowler2020_comparison_e.jpg
+INPUT ./bowler2020_comparison_e.jpg
+INPUT ./bowler2020_comparison_e.jpg
+INPUT ./ginski2020_etcha.png
+INPUT ./ginski2020_etcha.png
+INPUT ./ginski2020_etcha.png
+INPUT ./ginski2020_etcha.png
+INPUT ./ginski2020_etcha.png
+INPUT ./standard curves.png
+INPUT ./standard curves.png
+INPUT ./standard curves.png
+INPUT ./standard curves.png
+INPUT ./standard curves.png
 INPUT ./dissertation.bbl
 INPUT ./dissertation.bbl
 INPUT dissertation.bbl
