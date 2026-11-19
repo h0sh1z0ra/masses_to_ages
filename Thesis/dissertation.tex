@@ -137,10 +137,12 @@ There is currently no way to systematically determine the age of a planet. In th
 are the same age. We depend on the age of the planet, along with the luminosity that can be measured from direct imaging, to estimate the mass using evolutionary models. 
 However, since planet formation takes time (possibly millions of years, Section~\ref{sec:formation_mechanisms}), it follows that a lot of mass estimates we obtain are based upon incorrect ages. 
 This project aims to tackle this research gap by finding a systematic method to estimate the age of a planet, using dynamical masses, luminosities from direct imaging and evolutionary models. 
-In order to better understand the approach taken, we will explore the required background information, in the order that the events happen. Section~\ref{sec:formation} details how planets formed, 
-Section~\ref{sec:imaging} gives an overview on seeing these planets through our instruments, Section~\ref{chap:litrev} is the literature review that supports the motivation of this project; 
-Section~\ref{chap:motivation} shows 
-Section~\ref{chap:method} lays out a potential approach to finding the age of a planet.
+In order to better understand the approach taken, we will explore the required background information, in the order that the events happen. Section~\ref{sec:formation} is an overview of how stars and planets are formed, 
+Section~\ref{sec:date} explains how the ages of stars are found,
+Section~\ref{sec:formation_mechanisms} details the planetary formation mechanisms, Section~\ref{sec:imaging} gives an overview of seeing these planets through our instruments, Section~\ref{sec:Emodels} breaks down the aforementioned evolutionary models; 
+Chapter~\ref{chap:litrev} is the literature review that supports the motivation of this project; 
+Chapter~\ref{chap:motivation} uses the information from everything prior to outline why this project is important;
+Chapter~\ref{chap:method} lays out a potential approach to finding the age of a planet.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -152,7 +154,7 @@ the disk will dissipate and a planetary system much like our own solar system wi
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
-\section{Determination of Stellar Age}
+\section{Determination of Stellar Age}\label{sec:date}
 The ages of young stars can be determined by a few methods, three of which will be mentioned in this section as they are of particular relevance to the systems studied in this project.
 
 \subsection{Lithium Depletion Boundary}
@@ -171,7 +173,7 @@ however this isn't relevant, as the timescale at which this occurs is $\approx 2
 Instead, the real limiting factor is the scarcity of high-quality kinematic data.
 
 \subsection{Isochrone Fitting}
-Isochrones are curves on diagrams of luminosity against temperature or colour and magnitude (brightness), both pairs of quantities from which masses can be found. 
+Isochrones are curves on diagrams of luminosity against temperature or colour against magnitude (brightness); both are pairs of quantities from which masses can be found. 
 Moving along the curve yields different values for luminosity and temperature or colour and magnitude, leading to different mass estimates. Importantly, each curve corresponds to one age, so the curve that fits best is the age estimate of the star.
 
 When combined with an age estimate and an evolutionary model (Section~\ref{sec:Emodels}), a mass estimate is found.
@@ -196,12 +198,12 @@ This stage achieves centimetre-scale pebbles, after which the pebbles must conce
 \begin{sloppypar}
 Planetesimal accretion, where planetesimals collide and merge, then occurs (\citealp{Safronov1969}) which results in a planetary embryo. The embryo continues to accrete pebbles and planetesimals (\citealp{Drazkowska2023}) and begins to accrete gas from the disk. The time to form the embryo and begin accreting gas is a few hundred thousand years (\citealp{Pollack1996}). 
 The embryo will continue to accrete mass for several Myr (\citealp{Pollack1996,Helled2014}) until a ``crossover mass'' (accreted solid mass equals accreted gas mass) is reached, which signifies the onset of runaway gas accretion. This is where accreted gas increases mass, so gravity is stronger, which increases gas accretion rate, creating a feedback loop.
-Also, the mass increases rapidly due to the runaway gas accretion, leading to an increase in the planetesimal accretion rate too.
+Also, since the mass increases rapidly due to the runaway gas accretion, the planetesimal accretion rate increases too.
 
 These lead to a massive increase in luminosity (see Figure~\ref{fig:lum_pollack1996}), bright enough to be directly imaged once formed. Accretion stops once either the protoplanetary disk dissipates, or the planet clears a gap in the disk wide enough that it can't reach any more material (\citealp{Helled2014}).
 \end{sloppypar}
 
-This formation process takes several Myr (\citealp{Pollack1996,Helled2014}). Once formed, the planet cools for the rest of its lifetime, since it lacks any self-illumination mechanism like stars; this cooling is the basis of the evolutionary models that will be used in this project (Section~\ref{sec:Emodels}).
+This formation process takes several Myr (\citealp{Pollack1996,Helled2014}). Once formed, the planet cools for the rest of its lifetime, since it lacks any self-illumination mechanism like stars have; this cooling is the basis of the evolutionary models that will be used in this project (Section~\ref{sec:Emodels}).
 
 \begin{figure}[H]
 \begin{center}
@@ -239,9 +241,9 @@ so cold ($c_s$ is smaller), massive disks ($\Sigma$ is greater) are more prone t
 $\Sigma$ tries to collapse the clump, $c_s$ tries to resist collapse on small scales, $\Omega$ resists on large scales.
 \end{sloppypar}
 So, instability depends on surface density, rotation and temperature that can create denser regions in the disk, that can then fragment into its own subcloud, which will be contracting. 
-This may repeat many times for this fragment, forming sub-subclouds, then sub-sub-sub\ldots clouds (\citealp{Whitworth2006b}). The fragmentation continues until the subclouds become too optically thick (opaque) and cannot radiate away the compressional heat any more (\citealp{Whitworth2006a}).
+This may repeat many times for this fragment, forming sub-subclouds, then sub-sub\dots subclouds (\citealp{Whitworth2006b}). The fragmentation continues until the subclouds become too optically thick (opaque) and cannot radiate away the compressional heat any more (\citealp{Whitworth2006a}).
 
-These sub-sub-sub\ldots clouds will contract continually over a few thousand years to a million years (\citealp{Galvagni2012, Bussmann2026,Longarini2026}), scaling inversely with mass (so more massive clouds contract faster). 
+These sub-sub\ldots subclouds will contract continually over a few thousand years to a million years (\citealp{Galvagni2012, Bussmann2026,Longarini2026}), scaling inversely with mass (so more massive clouds contract faster). 
 Here, the subcloud/protoplanet is made of $H_2$ and is $\sim 10^2$ $R_{Jup}$ in size. 
 It will continue to contract, increasing in temperature in the process until a critical temperature of $\sim$ 2000 K (\citealp{Helled2014, Bussmann2026}) is reached, where the $H_2$ dissociates into H and the now protoplanet undergoes a dynamical collapse, rapidly 
 contracting into a dense, compact gas giant of a few $R_{Jup}$. In total, gravitational instability takes a few thousand years to form a massive planet, which will cool in a similar fashion to core accretion.
@@ -270,7 +272,7 @@ many studies theorise that brown dwarfs can form from the low-end masses of clou
 disk instability (\citealp{Boss1997,Stamatellos2007,Stamatellos2009}) or even core accretion along with the associated runaway gas accretion (\citealp{DAngelo2010,Molliere2012,Balmer2024}).
 \end{sloppypar}
 
-Thus, due to the ambiguity of brown dwarfs' formation, this project will also make use of lower-mass brown dwarfs under the assumption that they can use the same formation tracks as planets.
+Thus, due to the ambiguity of brown dwarfs' formation, this project will also make use of lower-mass brown dwarfs under the assumption that they can with through the same formation tracks as planets.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 
@@ -303,7 +305,7 @@ The main appeal of dynamical masses is that they are model-independent, which al
 
 \section{Evolutionary Models}\label{sec:Emodels}
 Evolutionary models, which model the cooling of planets after formation, are split into three categories: hot-start, warm-start and cold-start models. 
-Hot-start model planets retain high entropy after formation; cold-start models have low entropy, and warm-start models are intermediate between the hot-start and cold-start (\citealp{Bowler2016a,Bussmann2026}). 
+Hot-start model planets retain high entropy after formation; cold-start models have low entropy, and warm-start models are intermediate between hot-start and cold-start (\citealp{Bowler2016a,Bussmann2026}). 
 
 However, there isn't a way to physically map one formation pathway to one type of model; while gravitational stability heavily favours hot-start, since it has no mechanism to radiate away entropy (\citealp{Galvagni2012,Bussmann2026}),
 core accretion can be either hot-start or cold-start. 
@@ -340,7 +342,7 @@ Across the full sample (brown dwarfs and planets combined), they find an approxi
 
 From these results, they conclude indeed that the eccentricity distributions of brown dwarfs and planets are significantly different. 
 They interpret this as evidence that the imaged planets are formed in a disk, and brown dwarfs through cloud fragmentation, since stellar binaries show similar eccentricity distributions and they form through cloud fragmentation.
-However, as previously mentioned this paper finds \textit{population-level} eccentricity distributions, and thus finds potential formation paths for groups of objects, in this case planets and brown dwarfs, but not individual objects; this project aims to 
+However, as previously mentioned this paper finds \textit{population-level} eccentricity distributions, and thus finds potential formation paths for groups of objects, in this case planets and brown dwarfs, but not individual objects. This project aims to 
 ascertain formation pathways of \textit{individual} objects, since population-level results about eccentricity can't correct for incorrect ages.
 
 The ET Cha system is one member of the $\eta$ Chamaeleontis cluster: they are coeval and all younger than 10 Myr. What is interesting about ET Cha is that, despite being relatively old and having a compact disk, it still has a high rate of accretion and a gas-rich disk, especially relative to its age and radius. These are signs that there is a companion in the system.

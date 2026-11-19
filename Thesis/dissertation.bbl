@@ -14,7 +14,7 @@ William~O. Balmer, L.~Pueyo, S.~Lacour, J.~J. Wang, T.~Stolker, J.~Kammerer, N.~
 
 \bibitem[Baraffe et~al.(2003)Baraffe, Chabrier, Barman, Allard, and Hauschildt]{Baraffe2003}
 I.~Baraffe, G.~Chabrier, T.~Barman, F.~Allard, and P.~H. Hauschildt.
-\newblock Evolutionary models for cool brown dwarfs and extrasolar giant planets. {{The}} case of {{HD}} 20945.
+\newblock Evolutionary models for cool brown dwarfs and extrasolar giant planets. {{The}} case of {{HD}} 209458.
 \newblock \emph{Astronomy \& Astrophysics}, 402\penalty0 (2):\penalty0 701--712, May 2003.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361:20030252}.
@@ -47,15 +47,15 @@ T.~Birnstiel, M.~Fang, and A.~Johansen.
 \newblock ISSN 0038-6308, 1572-9672.
 \newblock \doi{10.1007/s11214-016-0256-1}.
 
-\bibitem[Blunt et~al.(2020)Blunt, Wang, Angelo, Ngo, Cody, Rosa, Graham, Hirsch, Nagpal, Nielsen, Pearce, Rice, and Tejada]{Blunt2020}
-Sarah Blunt, Jason Wang, Isabel Angelo, Henry Ngo, Devin Cody, Robert J.~De Rosa, James Graham, Lea Hirsch, Vighnesh Nagpal, Eric~L. Nielsen, Logan Pearce, Malena Rice, and Roberto Tejada.
+\bibitem[Blunt et~al.(2020)Blunt, Wang, Angelo, Ngo, Cody, {De Rosa}, Graham, Hirsch, Nagpal, Nielsen, Pearce, Rice, and Tejada]{Blunt2020}
+Sarah Blunt, Jason Wang, Isabel Angelo, Henry Ngo, Devin Cody, Robert~J. {De Rosa}, James Graham, Lea Hirsch, Vighnesh Nagpal, Eric~L. Nielsen, Logan Pearce, Malena Rice, and Roberto Tejada.
 \newblock Orbitize!: {{A Comprehensive Orbit}}-fitting {{Software Package}} for the {{High}}-contrast {{Imaging Community}}.
 \newblock \emph{The Astronomical Journal}, 159\penalty0 (3):\penalty0 89, March 2020.
 \newblock ISSN 0004-6256, 1538-3881.
 \newblock \doi{10.3847/1538-3881/ab6663}.
 
-\bibitem[Blunt et~al.(2024)Blunt, Wang, Hirsch, Tejada, Nagpal, Surti, Covarrubias, McKenna, Ch{\'a}vez, {Llop-Sayson}, Arora, Chavez, Cody, Choudhary, Smith, Balmer, Stolker, Gallamore, {\'O}, Nielsen, and Rosa]{Blunt2024}
-Sarah Blunt, Jason~Jinfei Wang, Lea Hirsch, Roberto Tejada, Vighnesh Nagpal, Tirth~Dharmesh Surti, Sofia Covarrubias, Thea McKenna, Rodrigo~Ferrer Ch{\'a}vez, Jorge {Llop-Sayson}, Mireya Arora, Amanda Chavez, Devin Cody, Saanika Choudhary, Adam J. R.~W. Smith, William Balmer, Tomas Stolker, Hannah Gallamore, Clarissa R.~Do {\'O}, Eric~L. Nielsen, and Robert J.~De Rosa.
+\bibitem[Blunt et~al.(2024)Blunt, Wang, Hirsch, Tejada, Nagpal, Surti, Covarrubias, McKenna, Ch{\'a}vez, {Llop-Sayson}, Arora, Chavez, Cody, Choudhary, Smith, Balmer, Stolker, Gallamore, {Do {\'O}}, Nielsen, and {De Rosa}]{Blunt2024}
+Sarah Blunt, Jason~Jinfei Wang, Lea Hirsch, Roberto Tejada, Vighnesh Nagpal, Tirth~Dharmesh Surti, Sofia Covarrubias, Thea McKenna, Rodrigo~Ferrer Ch{\'a}vez, Jorge {Llop-Sayson}, Mireya Arora, Amanda Chavez, Devin Cody, Saanika Choudhary, Adam J. R.~W. Smith, William Balmer, Tomas Stolker, Hannah Gallamore, Clarissa~R. {Do {\'O}}, Eric~L. Nielsen, and Robert~J. {De Rosa}.
 \newblock Orbitize! v3: {{Orbit}} fitting for the {{High}}-contrast {{Imaging Community}}, October 2024.
 
 \bibitem[Boss(1997)]{Boss1997}
@@ -108,7 +108,7 @@ G.~Chabrier, I.~Baraffe, F.~Allard, and P.~Hauschildt.
 \bibitem[Chabrier et~al.(2014)Chabrier, Johansen, Janson, and Rafikov]{Chabrier2014}
 G.~Chabrier, A.~Johansen, M.~Janson, and R.~Rafikov.
 \newblock Giant planet and brown dwarf formation.
-\newblock 2014.
+\newblock In \emph{Protostars and {{Planets VI}}}. University of Arizona Press, 2014.
 \newblock \doi{10.2458/azu_uapress_9780816531240-ch027}.
 
 \bibitem[Chabrier(2003)]{Chabrier2003}
@@ -228,7 +228,7 @@ P.~Mabey, B.~Albertazzi, E.~Falize, {\relax Th}.~Michel, G.~Rigon, L.~Van Box~So
 
 \bibitem[Molli{\`e}re and Mordasini(2012)]{Molliere2012}
 P.~Molli{\`e}re and C.~Mordasini.
-\newblock Deuterium burning in objects forming via the core accretion scenario: Brown dwarfs or planets?
+\newblock Deuterium burning in objects forming via the core accretion scenario. {{Mass-radius}} relationships.
 \newblock \emph{Astronomy \& Astrophysics}, 547:\penalty0 A105, 2012.
 \newblock \doi{10.1051/0004-6361/201219844}.
 
@@ -286,7 +286,7 @@ David~R. Soderblom.
 \bibitem[Soderblom et~al.(2014)Soderblom, Hillenbrand, Jeffries, Mamajek, and Naylor]{Soderblom2014}
 David~R. Soderblom, Lynne~A. Hillenbrand, Rob~D. Jeffries, Eric~E. Mamajek, and Tim Naylor.
 \newblock Ages of young stars.
-\newblock 2014.
+\newblock In \emph{Protostars and {{Planets VI}}}. University of Arizona Press, 2014.
 \newblock \doi{10.2458/azu_uapress_9780816531240-ch010}.
 
 \bibitem[Stamatellos et~al.(2007)Stamatellos, Hubber, and Whitworth]{Stamatellos2007}
@@ -328,6 +328,6 @@ A.~P. Whitworth and D.~Stamatellos.
 
 \bibitem[Whitworth et~al.(2006)Whitworth, Bate, Nordlund, Reipurth, and Zinnecker]{Whitworth2006b}
 Anthony Whitworth, Matthew~R. Bate, Aake Nordlund, Bo~Reipurth, and Hans Zinnecker.
-\newblock {{PPV Chapter}} - {{The Formation}} of {{Brown Dwarfs}}, February 2006.
+\newblock The {{Formation}} of {{Brown Dwarfs}}, February 2006.
 
 \end{thebibliography}
