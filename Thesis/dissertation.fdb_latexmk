@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex dissertation"] 1795029581.52604 "dissertation.aux" "dissertation.bbl" "dissertation" 1795030854.17686 0
-  "./bibliography.bib" 1795029418.67165 65401 0f4f68687cfa18e5f72c78e9b0f7ed31 ""
+["bibtex dissertation"] 1795115896.28341 "dissertation.aux" "dissertation.bbl" "dissertation" 1795116249.87206 0
+  "./bibliography.bib" 1795115502.00033 70321 8352b266e7b97b7c0d46fddf26da838f ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "dissertation.aux" 1795030853.83872 14550 777dbe42e182af750b2b233773b213ba "pdflatex"
+  "dissertation.aux" 1795116249.48281 15226 6d621f4ae84f880befb54db6e6f859a1 "pdflatex"
   (generated)
   "dissertation.bbl"
   "dissertation.blg"
   (rewritten before read)
-["pdflatex"] 1795030852.49365 "/home/kaelan/fyp/Thesis/dissertation.tex" "dissertation.pdf" "dissertation" 1795030854.17736 0
+["pdflatex"] 1795116247.63078 "/home/kaelan/fyp/Thesis/dissertation.tex" "dissertation.pdf" "dissertation" 1795116249.87287 0
   "/etc/texmf/web2c/texmf.cnf" 1792496863.31439 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kaelan/fyp/Thesis/dissertation.tex" 1795030852.07835 39693 db96858d19b787b978d659cf997c3844 ""
+  "/home/kaelan/fyp/Thesis/dissertation.tex" 1795116246.40681 42554 b4c9cfb1dc67b2a1a3f6779d7234402b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -86,6 +86,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1429144587 7068 06f8d141725d114847527a66439066b6 ""
   "/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def" 1712263026 22135 0975a49eeaed232aa861e9425ffb2e7c ""
   "/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty" 1712263026 62767 e79d6d7a989e7da62dcf3d0a65c1faee ""
+  "/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty" 1738874546 52272 63d293bc0d496619edb57585740861a2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1759437024 46885 8953c67ffba03252c6090aa19568b8ba ""
   "/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty" 1753819787 43717 653cd083c203051741d10c7e48c3b24f ""
@@ -141,17 +142,17 @@
   "University_of_Galway_logo_2022.png" 1794785329.76514 54782 ca0ab37d87acb7666bc7e9a972161d2c ""
   "bowler2020_comparison_e.jpg" 1794698589.03202 242067 1127d700cd8248c17af303e39ec3d456 ""
   "bowler2020_fullsample_e.jpg" 1794698512.39758 133530 2ccfbe20d4c4da6393cfa81192eb0cc7 ""
-  "dissertation.aux" 1795030853.83872 14550 777dbe42e182af750b2b233773b213ba "pdflatex"
-  "dissertation.bbl" 1795029581.60662 21384 9ac10fc43bbc72da10fbea771650aeaf "bibtex dissertation"
-  "dissertation.lof" 1795030853.84263 1655 e67dcb9e8b104de43f917db45bb35496 "pdflatex"
-  "dissertation.out" 1795030853.83936 772 0b6e13e0b86fa6bc6656902ebf439fe2 "pdflatex"
-  "dissertation.tex" 1795030852.07835 39693 db96858d19b787b978d659cf997c3844 ""
-  "dissertation.toc" 1795030853.84263 1608 3c25b8fa8f5bddac497a5e3b088ba93d "pdflatex"
+  "dissertation.aux" 1795116249.48281 15226 6d621f4ae84f880befb54db6e6f859a1 "pdflatex"
+  "dissertation.bbl" 1795115896.40185 22456 fe7afbc21e93a5bfef420560a70f4d6d "bibtex dissertation"
+  "dissertation.lof" 1795116249.4911 1655 dae873a9f883ec0d4a1370540aef63ff "pdflatex"
+  "dissertation.out" 1795116249.48681 983 07b8b200f0be7a100c633cece4b6234f "pdflatex"
+  "dissertation.tex" 1795116246.40681 42554 b4c9cfb1dc67b2a1a3f6779d7234402b ""
+  "dissertation.toc" 1795116249.4911 1684 ddc2e4381f06bd7649de8d3fbf6d8a30 "pdflatex"
   "fig1cpollack1996.png" 1792764023.7924 29448 d6cb5c4d31a9bf85757cce4512d6238a ""
   "fig2longarini2026.jpg" 1795027483.61619 429070 5a2f128348662cab9bf74866217bea3c ""
   "ginski2020_etcha.png" 1794773547.38721 76138 c9a392d5f93de0addf7c9645e7fddea8 ""
   "standard curves.png" 1794312441.42386 172204 dfeaecf76e39b3233cb07c8aa4f7c403 ""
-  "upennstyle.sty" 1795024455.39266 11126 f0cf240fd762174537971f77df9672e5 ""
+  "upennstyle.sty" 1795114368.3072 11158 08bee9394dba55501f12d30d22d22f5b ""
   (generated)
   "dissertation.aux"
   "dissertation.lof"

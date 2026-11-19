@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,13 @@ Isabelle Baraffe, Derek Homeier, France Allard, and Gilles Chabrier.
 \newblock \emph{Astronomy \& Astrophysics}, 577:\penalty0 A42, May 2015.
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361/201425481}.
+
+\bibitem[Berardo et~al.(2017)Berardo, Cumming, and Marleau]{Berardo2017}
+David Berardo, Andrew Cumming, and Gabriel-Dominique Marleau.
+\newblock {{THE EVOLUTION OF GAS GIANT ENTROPY DURING FORMATION BY RUNAWAY ACCRETION}}.
+\newblock \emph{The Astrophysical Journal}, 834\penalty0 (2):\penalty0 149, January 2017.
+\newblock ISSN 0004-637X, 1538-4357.
+\newblock \doi{10.3847/1538-4357/834/2/149}.
 
 \bibitem[Birnstiel et~al.(2010)Birnstiel, Dullemond, and Brauer]{Birnstiel2010}
 T.~Birnstiel, C.~P. Dullemond, and F.~Brauer.
@@ -211,6 +218,13 @@ Cristiano Longarini and Giuseppe Lodato.
 \newblock \emph{Frontiers in Astronomy and Space Sciences}, 13:\penalty0 1911058, September 2026.
 \newblock ISSN 2296-987X.
 \newblock \doi{10.3389/fspas.2026.1911058}.
+
+\bibitem[Mabey et~al.(2019)Mabey, Albertazzi, Falize, Michel, Rigon, Van Box~Som, Pelka, Brack, Kroll, Filippov, Gregori, Kuramitsu, Lamb, Li, Ozaki, Pikuz, Sakawa, Tzeferacos, and Koenig]{Mabey2019}
+P.~Mabey, B.~Albertazzi, E.~Falize, {\relax Th}.~Michel, G.~Rigon, L.~Van Box~Som, A.~Pelka, F.-E. Brack, F.~Kroll, E.~Filippov, G.~Gregori, Y.~Kuramitsu, D.~Q. Lamb, C.~Li, N.~Ozaki, S.~Pikuz, Y.~Sakawa, P.~Tzeferacos, and M.~Koenig.
+\newblock Laboratory study of stationary accretion shock relevant to astrophysical systems.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 8157, May 2019.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-019-44596-3}.
 
 \bibitem[Molli{\`e}re and Mordasini(2012)]{Molliere2012}
 P.~Molli{\`e}re and C.~Mordasini.

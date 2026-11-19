@@ -30,6 +30,7 @@
 \RequirePackage{tocloft}
 \RequirePackage{parskip} % Improves management of the Dutch paragraph style
 \RequirePackage[compact]{titlesec}
+\RequirePackage{enumitem}
 
 % LINKS
 \RequirePackage[hidelinks,hypertexnames=false]{hyperref}
@@ -165,7 +166,7 @@
     \end{doublespace}
   \end{center}%
    \begin{flushleft}%
-   \ifnum \cosup@cnt=0 {%
+   \ifnum \cosup@cnt=0 {\large%
     {Supervisor of Dissertation}\vskip 0em%
    {\csname supervisor@\endcsname} %
   {\csname supervisortitle@\endcsname}}%
