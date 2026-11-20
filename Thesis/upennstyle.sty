@@ -115,6 +115,9 @@
 \newcommand{\cosupervisortitle}[1]{%
   \expandafter\gdef\csname cosupervisortitle@\endcsname{#1}}
 
+\newcommand{\studentid}[1]{%
+  \expandafter\gdef\csname studentid@\endcsname{#1}}
+
 \newcommand{\gradchair}[1]{%
   \expandafter\gdef\csname gradchair@\endcsname{#1}}%
 \newcount\cograd@cnt
@@ -150,7 +153,7 @@
 \newcommand{\@maketitle}{%
   \thispagestyle{empty}
   \begin{center}%
-    \includegraphics[width=0.6\textwidth]{University_of_Galway_logo_2022.png}~\\[1.5cm]  
+    \includegraphics[width=0.48\textwidth]{University_of_Galway_logo_2022.png}~\\[1.5cm]  
     \begin{doublespace}
     \LARGE{\MakeUppercase{\@title\\}%
    {\@author\\}%
@@ -200,6 +203,8 @@
 %   \ifnum\n<\comm@cnt%
 %   \\ \vskip 0em
 %   \repeat%
+  \vskip 0em%
+  {\large Student ID: \csname studentid@\endcsname}%
   \end{flushleft}
   \thispagestyle{empty}
   \clearpage
