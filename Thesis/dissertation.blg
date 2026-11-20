@@ -3,44 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: plainnat.bst
 Database file #1: bibliography.bib
+Warning--empty journal in Blunt2024
+Warning--there's a number but no volume in Blunt2024
+Warning--empty journal in Kuffmeier2026
+Warning--there's a number but no volume in Kuffmeier2026
+Warning--empty journal in Siess2000
+Warning--there's a number but no volume in Siess2000
 You've used 52 entries,
             2773 wiz_defined-function locations,
-            997 strings with 18849 characters,
-and the built_in function-call counts, 34424 in all, are:
-= -- 2858
-> -- 3150
+            996 strings with 18981 characters,
+and the built_in function-call counts, 34382 in all, are:
+= -- 2866
+> -- 3123
 < -- 18
-+ -- 1053
-- -- 1001
-* -- 3340
-:= -- 5612
-add.period$ -- 225
++ -- 1044
+- -- 992
+* -- 3348
+:= -- 5614
+add.period$ -- 231
 call.type$ -- 52
-change.case$ -- 487
+change.case$ -- 484
 chr.to.int$ -- 52
-cite$ -- 104
-duplicate$ -- 1103
-empty$ -- 1990
-format.name$ -- 1067
-if$ -- 6911
+cite$ -- 110
+duplicate$ -- 1115
+empty$ -- 1986
+format.name$ -- 1058
+if$ -- 6897
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 47
-newline$ -- 333
+missing$ -- 50
+newline$ -- 339
 num.names$ -- 214
-pop$ -- 888
+pop$ -- 870
 preamble$ -- 1
-purify$ -- 436
+purify$ -- 433
 quote$ -- 0
-skip$ -- 966
+skip$ -- 957
 stack$ -- 0
-substring$ -- 789
-swap$ -- 123
+substring$ -- 786
+swap$ -- 120
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 567
-warning$ -- 0
+warning$ -- 6
 while$ -- 220
 width$ -- 0
-write$ -- 811
+write$ -- 823
+(There were 6 warnings)

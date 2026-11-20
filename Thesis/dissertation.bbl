@@ -56,7 +56,9 @@ Sarah Blunt, Jason Wang, Isabel Angelo, Henry Ngo, Devin Cody, Robert~J. {De Ros
 
 \bibitem[Blunt et~al.(2024)Blunt, Wang, Hirsch, Tejada, Nagpal, Surti, Covarrubias, McKenna, Ch{\'a}vez, {Llop-Sayson}, Arora, Chavez, Cody, Choudhary, Smith, Balmer, Stolker, Gallamore, {Do {\'O}}, Nielsen, and {De Rosa}]{Blunt2024}
 Sarah Blunt, Jason~Jinfei Wang, Lea Hirsch, Roberto Tejada, Vighnesh Nagpal, Tirth~Dharmesh Surti, Sofia Covarrubias, Thea McKenna, Rodrigo~Ferrer Ch{\'a}vez, Jorge {Llop-Sayson}, Mireya Arora, Amanda Chavez, Devin Cody, Saanika Choudhary, Adam J. R.~W. Smith, William Balmer, Tomas Stolker, Hannah Gallamore, Clarissa~R. {Do {\'O}}, Eric~L. Nielsen, and Robert~J. {De Rosa}.
-\newblock Orbitize! v3: {{Orbit}} fitting for the {{High}}-contrast {{Imaging Community}}, October 2024.
+\newblock Orbitize! v3: {{Orbit}} fitting for the {{High}}-contrast {{Imaging Community}}.
+\newblock \penalty0 (arXiv:2409.11573), October 2024.
+\newblock \doi{10.48550/arXiv.2409.11573}.
 
 \bibitem[Boss(1997)]{Boss1997}
 Alan~P. Boss.
@@ -162,6 +164,13 @@ D.~Fedele, M.~E. Van Den~Ancker, {\relax Th}.~Henning, R.~Jayawardhana, and J.~M
 \newblock ISSN 0004-6361, 1432-0746.
 \newblock \doi{10.1051/0004-6361/200912810}.
 
+\bibitem[Franson et~al.(2023)Franson, Bowler, Zhou, Pearce, Bardalez~Gagliuffi, Biddle, Brandt, Crepp, Dupuy, Faherty, {Jensen-Clem}, Morgan, Sanghi, Theissen, Tran, and Wolf]{Franson2023a}
+Kyle Franson, Brendan~P. Bowler, Yifan Zhou, Tim~D. Pearce, Daniella~C. Bardalez~Gagliuffi, Lauren~I. Biddle, Timothy~D. Brandt, Justin~R. Crepp, Trent~J. Dupuy, Jacqueline Faherty, Rebecca {Jensen-Clem}, Marvin Morgan, Aniket Sanghi, Christopher~A. Theissen, Quang~H. Tran, and Trevor~N. Wolf.
+\newblock Astrometric {{Accelerations}} as {{Dynamical Beacons}}: {{A Giant Planet Imaged}} inside the {{Debris Disk}} of the {{Young Star AF Lep}}.
+\newblock \emph{The Astrophysical Journal Letters}, 950\penalty0 (2):\penalty0 L19, June 2023.
+\newblock ISSN 2041-8205, 2041-8213.
+\newblock \doi{10.3847/2041-8213/acd6f6}.
+
 \bibitem[Galvagni et~al.(2012)Galvagni, Hayfield, Boley, Mayer, Ro{\v s}kar, and Saha]{Galvagni2012}
 M.~Galvagni, T.~Hayfield, A.~Boley, L.~Mayer, R.~Ro{\v s}kar, and P.~Saha.
 \newblock The collapse of protoplanetary clumps formed through disc instability: 3d simulations of the pre-dissociation phase.
@@ -204,7 +213,9 @@ M.~Kuffmeier, F.~G. Goicovic, and C.~P. Dullemond.
 
 \bibitem[Kuffmeier et~al.(2026)Kuffmeier, Winter, Kuznetsova, Vioque, and Gupta]{Kuffmeier2026}
 M.~Kuffmeier, A.~Winter, A.~Kuznetsova, M.~Vioque, and A.~Gupta.
-\newblock Stellar age is not disk age, September 2026.
+\newblock Stellar age is not disk age.
+\newblock \penalty0 (arXiv:2609.17046), September 2026.
+\newblock \doi{10.48550/arXiv.2609.17046}.
 
 \bibitem[Lenzen et~al.(2003)Lenzen, Hartung, Brandner, Finger, Hubin, Lacombe, Lagrange, Lehnert, Moorwood, and Mouillet]{Lenzen2003}
 Rainer Lenzen, Markus Hartung, Wolfgang Brandner, Gert Finger, Norbert~N. Hubin, Francois Lacombe, Anne-Marie Lagrange, Matthew~D. Lehnert, Alan F.~M. Moorwood, and David Mouillet.
@@ -218,13 +229,6 @@ Cristiano Longarini and Giuseppe Lodato.
 \newblock \emph{Frontiers in Astronomy and Space Sciences}, 13:\penalty0 1911058, September 2026.
 \newblock ISSN 2296-987X.
 \newblock \doi{10.3389/fspas.2026.1911058}.
-
-\bibitem[Mabey et~al.(2019)Mabey, Albertazzi, Falize, Michel, Rigon, Van Box~Som, Pelka, Brack, Kroll, Filippov, Gregori, Kuramitsu, Lamb, Li, Ozaki, Pikuz, Sakawa, Tzeferacos, and Koenig]{Mabey2019}
-P.~Mabey, B.~Albertazzi, E.~Falize, {\relax Th}.~Michel, G.~Rigon, L.~Van Box~Som, A.~Pelka, F.-E. Brack, F.~Kroll, E.~Filippov, G.~Gregori, Y.~Kuramitsu, D.~Q. Lamb, C.~Li, N.~Ozaki, S.~Pikuz, Y.~Sakawa, P.~Tzeferacos, and M.~Koenig.
-\newblock Laboratory study of stationary accretion shock relevant to astrophysical systems.
-\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 8157, May 2019.
-\newblock ISSN 2045-2322.
-\newblock \doi{10.1038/s41598-019-44596-3}.
 
 \bibitem[Molli{\`e}re and Mordasini(2012)]{Molliere2012}
 P.~Molli{\`e}re and C.~Mordasini.
@@ -274,7 +278,9 @@ Frank~H. Shu, Fred~C. Adams, and Susana Lizano.
 
 \bibitem[Siess et~al.(2000)Siess, Dufour, and Forestini]{Siess2000}
 L.~Siess, E.~Dufour, and M.~Forestini.
-\newblock An internet server for update pre-main sequence tracks of low- and intermediate-mass stars, March 2000.
+\newblock An internet server for update pre-main sequence tracks of low- and intermediate-mass stars.
+\newblock \penalty0 (arXiv:astro-ph/0003477), March 2000.
+\newblock \doi{10.48550/arXiv.astro-ph/0003477}.
 
 \bibitem[Soderblom(2010)]{Soderblom2010}
 David~R. Soderblom.
